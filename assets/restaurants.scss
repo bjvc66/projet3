@@ -1,0 +1,352 @@
+.body{
+
+    width: 100%;
+    margin:0px ;
+    
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,900i');
+html, body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.btn {
+  padding: 1.5rem;
+  background: #15DEA5;
+  cursor: pointer;
+  border-radius: 100rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+
+.html{
+    width:100%;
+    margin:0px ;
+}
+.image-1{                                                                              
+    background-image:url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    background-size: cover;
+    background-position:center;
+    height:200px;
+    width: 400px;
+    border-radius:15px 15px 0 0 ;
+    
+}
+.image-2{                                                                              
+    background-image:url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+    background-size: cover;
+    background-position:center;
+    height:200px;
+    width: 400px;
+    border-radius:15px 15px 0 0 ;
+    
+}
+    .image-3{                                                                            
+        background-image:url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+        background-size: cover;
+        background-position:center;
+        height:200px;
+        width: 400px;
+        border-radius:15px 15px 0 0 ;
+        
+    }
+    .image-4{                                                                            
+        background-image:url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+        background-size: cover;
+        background-position:center;
+        height:200px;
+        width: 400px;
+        border-radius:15px 15px 0 0 ;
+        
+    }
+    .image-3{
+        margin-top:50px ;
+    }
+    .texte-restaurant-bloc-1{
+        
+        align-items:center;
+        background-color:white;
+        border-radius: 0 0 10px 10px;
+        height:70px ;
+        width: 400px;
+        margin-bottom: 100px;
+        background-color:yellowgreen ;
+    }
+    .texte-restaurant-bloc-2{
+        
+        align-items:center;
+        background-color:white;
+        border-radius: 0 0 10px 10px;
+        height:70px ;
+        width: 400px;
+        margin-bottom: 100px;
+        background-color:yellowgreen ;
+    }
+    .texte-restaurant-bloc-3{
+        
+        align-items:center;
+        background-color:white;
+        border-radius: 0 0 10px 10px;
+        height:70px ;
+        width:400px;
+        margin-bottom: 100px;
+        background-color:yellowgreen ;
+    }
+    .texte-restaurant-bloc-4{
+        
+        align-items:center;
+        background-color:white;
+        border-radius: 0 0 10px 10px;
+        height:70px ;
+        width: 400px;
+        margin-bottom: 50px;
+        background-color:yellowgreen ;
+    }
+   .ohmyfood-1{
+   
+    width:40%;
+    padding-left:5px ;
+    padding-top:5px ;
+   
+   } 
+   .logo-ohmyfood-1{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+   } 
+   .ohmyfood-2{
+    width:25% ;
+    color:white ;
+    
+}
+.loupe{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 10px; 
+    background-color: #C6CDD7;
+    text-align: center;
+    padding:0,5rem ;
+}
+   
+  
+   .pass{
+    background-color:ƒF2F2F2;
+    height:250px ;
+    margin-bottom:20px ;
+    
+   }
+   .search {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    height: 40px;
+    width: 180px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+    background-color:rosybrown ;
+   }
+   .button{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin-top:20px;
+   }
+   p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .toto{
+    & ol {
+        display: flex;
+         @media (max-width:800px) {
+           flex-direction: column; 
+        }
+         padding:1rem 2rem ;
+        gap:1rem;
+    }
+    & li {
+        border-radius:1rem ;
+        background-color:#F2F2F2;
+        padding:1rem 2rem;
+        
+        flex-grow: 1;
+        height:20px ;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow:0px 5px 5px 5px #D5D9E0 ;
+        
+    }
+   }
+    
+  
+  footer{
+    background-color:black;
+    color:white;
+    height:250px;
+   
+  }
+  h2{
+    padding-left:5%;
+  }
+  h3{
+    
+    justify-content: center;
+    align-items: center;
+  }
+ .ph-1{
+padding-left:5% ;
+ }
+ .ph-2{
+    padding-left:5% ;
+    padding-top:2% ;
+ }
+.ph-3{
+    padding-left:5% ;
+    padding-top:2% ;
+}
+.ph-4{
+    padding-left:5% ;
+    padding-top:2% ;
+}
+i fas{
+    margin-right:1rem;
+    
+}
+li ::marker{
+color: transparent;
+}
+.chiffre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: purple;
+    width:20px;
+    height:20px;
+    border-radius:50% ;
+    
+}
+.coeur{
+    justify-content: center;
+    align-items: center;
+    padding-right:20px ;
+    padding-top:20px  ;
+}
+.chiffre2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: purple;
+    width:20px;
+    height:20px;
+    border-radius:50% ;
+    
+}
+.chiffre3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: purple;
+    width:20px;
+    height:20px;
+    border-radius:50% ;
+    
+}
+.menu{
+    background-color:#F2F2F2 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.titi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tyty{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.tata{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.tutu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.log{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.cube-1{
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+@media(max-width:800px) {
+  flex-direction: column; 
+ 
+  
+}
+}
+.cube-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    @media(max-width:800px) {
+        flex-direction: column;  
+      }   
+    
+}
+i.fa{
+    padding:10px ;
+}
+.mot1{
+    padding-left:15px ;
+    padding-top: 15px; 
+}
+.mot2{
+    padding-left:15px ;
+    padding-top: 15px; 
+}
+.mot3{
+    padding-left:15px ;
+    padding-top: 15px; 
+}
+.mot4{
+    padding-left:15px ;
+    padding-top: 15px; 
+}
+
+li::marker{
+color:transparent;
+}
