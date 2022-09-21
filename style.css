@@ -21,17 +21,18 @@ body {
   background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
   background-size: cover;
   background-position: center;
-  height: 200px;
-  width: 400px;
+  height: 192px;
+  width: 100%;
   border-radius: 15px 15px 0 0;
+  position: relative;
 }
 
 .image-2 {
   background-image: url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
   background-size: cover;
   background-position: center;
-  height: 200px;
-  width: 400px;
+  height: 192px;
+  width: 100%;
   border-radius: 15px 15px 0 0;
 }
 
@@ -39,8 +40,8 @@ body {
   background-image: url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
   background-size: cover;
   background-position: center;
-  height: 200px;
-  width: 400px;
+  height: 192px;
+  width: 100%;
   border-radius: 15px 15px 0 0;
 }
 
@@ -48,8 +49,8 @@ body {
   background-image: url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
   background-size: cover;
   background-position: center;
-  height: 200px;
-  width: 400px;
+  height: 192px;
+  width: 100%;
   border-radius: 15px 15px 0 0;
 }
 
@@ -331,7 +332,7 @@ li ::marker {
   justify-content: space-around;
   align-items: center;
 }
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .cube-1 {
     flex-direction: column;
   }
@@ -342,7 +343,7 @@ li ::marker {
   justify-content: space-around;
   align-items: center;
 }
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .cube-2 {
     flex-direction: column;
   }
@@ -378,6 +379,17 @@ li::marker {
 
 h3 {
   margin-left: 10px;
+}
+
+span.new {
+  background-color: rgb(153, 226, 208);
+  color: rbg(27, 97, 80);
+  position: absolute;
+  border-radius: 0, 125rem;
+  top: 1rem;
+  left: 20rem;
+  padding: 0, 5rem;
+  border-radius: 0, 125rem;
 }
 
 body {
