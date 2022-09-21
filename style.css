@@ -1,31 +1,6 @@
 @charset "UTF-8";
 body {
-  background-color: pink;
-}
-
-.body {
-  width: 100%;
-  margin: 0px;
-  @import url("https://fonts.googleapis.com/css?family=Montserrat:100,900i");
-}
-.body html, .body body {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.container {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  font-family: "Raleway Dots", cursi "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .btn {
@@ -149,6 +124,15 @@ body {
   padding: 0, 5rem;
 }
 
+.text1 {
+  margin-top: 2rem;
+}
+
+.text2 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
 .pass {
   background-color: ƒF2F2F2;
   height: 250px;
@@ -178,12 +162,13 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0px;
 }
 
 .toto ol {
   display: flex;
   padding: 1rem 2rem;
-  gap: 1rem;
+  gap: 2rem;
 }
 @media (max-width: 800px) {
   .toto ol {
@@ -248,6 +233,21 @@ li ::marker {
   position: relative;
 }
 
+.riri {
+  position: relative;
+}
+
+.ruru {
+  position: relative;
+}
+
+.coeur {
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
 .chiffre {
   display: flex;
   justify-content: center;
@@ -262,19 +262,15 @@ li ::marker {
   border-radius: 50%;
 }
 
-.coeur {
-  justify-content: center;
-  align-items: center;
-  padding-right: 20px;
-  padding-top: 20px;
-}
-
 .chiffre2 {
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  background-color: purple;
+  background-color: #9356DC;
+  position: absolute;
+  left: -10px;
+  top: calc(50% - 10px);
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -285,7 +281,10 @@ li ::marker {
   justify-content: center;
   align-items: center;
   color: white;
-  background-color: purple;
+  background-color: #9356DC;
+  position: absolute;
+  left: -10px;
+  top: calc(50% - 10px);
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -375,6 +374,14 @@ i.fa {
 
 li::marker {
   color: transparent;
+}
+
+h3 {
+  margin-left: 10px;
+}
+
+body {
+  background-color: pink;
 }
 
 /*# sourceMappingURL=style.css.map */

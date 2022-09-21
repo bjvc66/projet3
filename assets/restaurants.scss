@@ -1,31 +1,6 @@
-.body{
-
-    width: 100%;
-    margin:0px ;
-    
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,900i');
-html, body {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  font-style: italic;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+body{
+    font-family:'Raleway Dots', cursi 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-}
-* {
-  box-sizing: border-box;
-}
-
-.container {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-
 .btn {
   padding: 1.5rem;
   background: #15DEA5;
@@ -34,7 +9,6 @@ html, body {
   font-size: 1.5rem;
   color: #fff;
 }
-
 
 .html{
     width:100%;
@@ -145,7 +119,15 @@ html, body {
     text-align: center;
     padding:0,5rem ;
 }
-   
+.text1{
+    
+    margin-top:2rem ;
+}
+ .text2{
+    margin-top:1rem;
+    margin-bottom:2rem ;
+    
+ }
   
    .pass{
     background-color:ƒF2F2F2;
@@ -163,6 +145,7 @@ html, body {
     cursor: pointer;
     border-radius: 10px 10px 10px 10px;
     background-color:rosybrown ;
+    
    }
    .button{
     display: flex;
@@ -174,6 +157,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin:0px;
    }
    .toto{
     & ol {
@@ -182,7 +166,7 @@ html, body {
            flex-direction: column; 
         }
          padding:1rem 2rem ;
-        gap:1rem;
+        gap:2rem;
     }
     & li {
         border-radius:1rem ;
@@ -239,6 +223,19 @@ color: transparent;
 .roro{
     position: relative;
 }
+.riri{
+    position:relative;
+    
+}
+.ruru{
+    position: relative;
+}
+.coeur{
+    justify-content: center;
+    align-items: center;
+    padding-right:20px ;
+    padding-top:20px  ;
+}
 .chiffre{
     display: flex;
     justify-content: center;
@@ -251,31 +248,29 @@ color: transparent;
     width:20px;
     height:20px;
     border-radius:50% ;
-    
-}
-.coeur{
-    justify-content: center;
-    align-items: center;
-    padding-right:20px ;
-    padding-top:20px  ;
 }
 .chiffre2{
     display: flex;
     justify-content: center;
     align-items: center;
     color:white;
-    background-color: purple;
+    background-color:$primaire;
+    position:absolute;
+    left:-10px;
+    top:calc(50% - 10px);
     width:20px;
     height:20px;
     border-radius:50% ;
-    
 }
 .chiffre3{
     display: flex;
     justify-content: center;
     align-items: center;
     color:white;
-    background-color: purple;
+    background-color:$primaire;
+    position: absolute;
+    left:-10px;
+    top:calc(50% - 10px);
     width:20px;
     height:20px;
     border-radius:50% ;
@@ -355,4 +350,7 @@ i.fa{
 
 li::marker{
 color:transparent;
+}
+h3{
+    margin-left:10px ;
 }
