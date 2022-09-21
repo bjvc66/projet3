@@ -1,6 +1,6 @@
 @charset "UTF-8";
-body {
-  font-family: "Raleway Dots", cursi "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+body text {
+  font-family: "Roboto", sans-serif;
 }
 
 .btn {
@@ -25,6 +25,7 @@ body {
   width: 100%;
   border-radius: 15px 15px 0 0;
   position: relative;
+  cursor: pointer;
 }
 
 .image-2 {
@@ -35,6 +36,7 @@ body {
   width: 100%;
   border-radius: 15px 15px 0 0;
   position: relative;
+  cursor: pointer;
 }
 
 .image-3 {
@@ -44,6 +46,7 @@ body {
   height: 192px;
   width: 100%;
   border-radius: 15px 15px 0 0;
+  cursor: pointer;
 }
 
 .image-4 {
@@ -53,6 +56,7 @@ body {
   height: 192px;
   width: 100%;
   border-radius: 15px 15px 0 0;
+  cursor: pointer;
 }
 
 .image-3 {
@@ -60,6 +64,7 @@ body {
 }
 
 .texte-restaurant-bloc-1 {
+  cursor: pointer;
   align-items: center;
   background-color: white;
   border-radius: 0 0 10px 10px;
@@ -70,6 +75,7 @@ body {
 }
 
 .texte-restaurant-bloc-2 {
+  cursor: pointer;
   align-items: center;
   background-color: white;
   border-radius: 0 0 10px 10px;
@@ -80,6 +86,7 @@ body {
 }
 
 .texte-restaurant-bloc-3 {
+  cursor: pointer;
   align-items: center;
   background-color: white;
   border-radius: 0 0 10px 10px;
@@ -90,6 +97,7 @@ body {
 }
 
 .texte-restaurant-bloc-4 {
+  cursor: pointer;
   align-items: center;
   background-color: white;
   border-radius: 0 0 10px 10px;
