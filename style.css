@@ -34,6 +34,7 @@ body {
   height: 192px;
   width: 100%;
   border-radius: 15px 15px 0 0;
+  position: relative;
 }
 
 .image-3 {
@@ -113,6 +114,7 @@ body {
 .ohmyfood-2 {
   width: 25%;
   color: white;
+  font-family: Shrikhand, "cursive";
 }
 
 .loupe {
@@ -382,6 +384,17 @@ h3 {
 }
 
 span.new {
+  background-color: rgb(153, 226, 208);
+  color: rbg(27, 97, 80);
+  position: absolute;
+  border-radius: 0, 125rem;
+  top: 1rem;
+  left: 20rem;
+  padding: 0, 5rem;
+  border-radius: 0, 125rem;
+}
+
+span.news {
   background-color: rgb(153, 226, 208);
   color: rbg(27, 97, 80);
   position: absolute;
