@@ -2,6 +2,7 @@ body{
 text{
     font-family: 'Roboto' , sans-serif;
 }
+margin:0px ;
 }
 .btn {
   padding: 1.5rem;
@@ -55,9 +56,8 @@ text{
         border-radius:15px 15px 0 0 ;
         cursor:pointer ;
     }
-    .image-3{
-        margin-top:50px ;
-    }
+   
+    
     .texte-restaurant-bloc-1{
         cursor:pointer ;
         align-items:center;
@@ -65,8 +65,8 @@ text{
         border-radius: 0 0 10px 10px;
         height:70px ;
         width: 400px;
-        margin-bottom: 100px;
         background-color:yellowgreen ;
+      
     }
     .texte-restaurant-bloc-2{
         cursor:pointer ;
@@ -75,8 +75,10 @@ text{
         border-radius: 0 0 10px 10px;
         height:70px ;
         width: 400px;
-        margin-bottom: 100px;
         background-color:yellowgreen ;
+        @media (max-width:800px) {
+            margin-bottom:20px;
+        }
     }
     .texte-restaurant-bloc-3{
         cursor:pointer ;
@@ -85,8 +87,10 @@ text{
         border-radius: 0 0 10px 10px;
         height:70px ;
         width:400px;
-        margin-bottom: 100px;
         background-color:yellowgreen ;
+        @media (max-width:800px) {
+            margin-bottom:20px;
+        }
     }
     .texte-restaurant-bloc-4{
         cursor:pointer ;
@@ -95,8 +99,8 @@ text{
         border-radius: 0 0 10px 10px;
         height:70px ;
         width: 400px;
-        margin-bottom: 50px;
         background-color:yellowgreen ;
+      
     }
    .ohmyfood-1{
    
@@ -137,9 +141,13 @@ text{
   
    .pass{
     background-color:ƒF2F2F2;
-    height:250px ;
+    height:200px ;
     margin-bottom:20px ;
+    padding:2rem;
     
+   }
+   .papa{
+    padding:0rem 1rem;
    }
    .search {
     display: flex;
@@ -158,6 +166,7 @@ text{
     justify-content: center;
     align-items:center ;
     margin-top:20px;
+    margin-bottom:5rem ;
    }
    p{
     display: flex;
@@ -171,7 +180,7 @@ text{
          @media (max-width:800px) {
            flex-direction: column; 
         }
-         padding:1rem 2rem ;
+         padding:1rem 0rem ;
         gap:2rem;
     }
     & li {
@@ -193,11 +202,12 @@ text{
   footer{
     background-color:black;
     color:white;
-    height:250px;
+    height:225px;
    
   }
   h2{
-    padding-left:5%;
+    padding-left:6%;
+    margin-top:0px ;
   }
   h3{
     
@@ -209,15 +219,16 @@ padding-left:5% ;
  }
  .ph-2{
     padding-left:5% ;
-    padding-top:2% ;
+    
  }
 .ph-3{
-    padding-left:5% ;
-    padding-top:2% ;
+    padding-left:6% ;
+    padding-top:10px ;
 }
 .ph-4{
-    padding-left:5% ;
-    padding-top:2% ;
+    padding-left:6%;
+    padding-top:10px ;
+    
 }
 i fas{
     margin-right:1rem;
@@ -323,10 +334,14 @@ color: transparent;
     justify-content: space-around;
     align-items: center;
 @media(max-width:850px) {
-  flex-direction: column; 
- 
-  
+  flex-direction: column;
+
+ }
+ @media (max-width:800px) {
+    margin-bottom:0px ;
 }
+ gap:1rem ;
+ margin-bottom:80px ;
 }
 .cube-2{
     display: flex;
@@ -335,7 +350,7 @@ color: transparent;
     @media(max-width:850px) {
         flex-direction: column;  
       }   
-    
+      margin-bottom:80px ; 
 }
 i.fa{
     padding:10px ;
@@ -364,22 +379,22 @@ h3{
     margin-left:10px ;
 }
 span.new{
-    background-color : rgb(153,226,208);
-    color:rbg(27,97,80);
+    background-color :$tertiaire;
+    color:blue;
     position:absolute;
    border-radius:0,125rem;
    top:1rem;
    left:20rem ;
-   padding:0,5rem ;
+   padding:7px;
    border-radius:0,125rem ;
 }
 span.news{
-    background-color : rgb(153,226,208);
-    color:rbg(27,97,80);
+    background-color :$tertiaire;
+    color:blue;
     position:absolute;
    border-radius:0,125rem;
    top:1rem;
    left:20rem ;
-   padding:0,5rem ;
+   padding:7px ;
    border-radius:0,125rem ;
 }   
