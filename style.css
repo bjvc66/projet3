@@ -186,7 +186,6 @@ body text {
 }
 
 p {
-  display: flex;
   justify-content: center;
   align-items: center;
   margin: 0px;
@@ -417,7 +416,7 @@ h3 {
 
 span.new {
   background-color: #99E2D0;
-  color: blue;
+  color: #3e9cbf;
   position: absolute;
   border-radius: 0, 125rem;
   top: 1rem;
@@ -428,7 +427,7 @@ span.new {
 
 span.news {
   background-color: #99E2D0;
-  color: blue;
+  color: #3e9cbf;
   position: absolute;
   border-radius: 0, 125rem;
   top: 1rem;
@@ -467,11 +466,24 @@ body {
 }
 
 h2 {
-  margin: 0px;
+  padding: 0px;
+}
+
+h3 {
+  position: relative;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 0.5rem;
+  font-weight: 400;
 }
 
 .coeurs {
   margin: 0px;
+}
+
+.entree-1 {
+  justify-content: space-between;
+  align-items: center;
 }
 
 section {
@@ -481,14 +493,6 @@ section {
 
 h4 {
   margin-bottom: 0px;
-}
-
-.entree-1 {
-  background-color: green;
-}
-
-.menu-prix-1 {
-  background-color: coral;
 }
 
 .globalmenu {

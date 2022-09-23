@@ -172,7 +172,7 @@ margin:0px ;
     margin-bottom:5rem ;
    }
    p{
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     margin:0px;
@@ -383,7 +383,7 @@ h3{
 }
 span.new{
     background-color :$tertiaire;
-    color:blue;
+    color:$blues;
     position:absolute;
    border-radius:0,125rem;
    top:1rem;
@@ -393,7 +393,7 @@ span.new{
 }
 span.news{
     background-color :$tertiaire;
-    color:blue;
+    color:$blues;
     position:absolute;
    border-radius:0,125rem;
    top:1rem;

@@ -24,24 +24,42 @@ body{
     padding: 1rem;
 }
 h2{
-    margin:0px;
+    padding:0px;
 }
+h3{
+    position:relative;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 0.5rem;
+    font-weight: 400;
+}
+
 .coeurs{
     margin:0px;
 }
+.entree-1{
+    
+    justify-content: space-between;
+    align-items:center ;
+}
+
+
 section{
    padding:1rem; 
    width: 300px;
    
 }
+
+
+
 h4{
     margin-bottom:0px ;
 }
 .entree-1{
-    background-color: green;
+    
 }
 .menu-prix-1{
-    background-color: coral;
+    
 }
 .globalmenu{
     display:grid;
