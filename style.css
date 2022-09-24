@@ -475,10 +475,36 @@ body {
 h3 {
   position: relative;
   text-transform: uppercase;
-  position: relative;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0, 25rem;
   font-weight: 400;
   margin-top: 0px;
+}
+
+.trait-1 {
+  content: "";
+  width: 3rem;
+  height: 0.25rem;
+  background-color: #99E2D0;
+  position: absolute;
+  margin-left: 1rem;
+}
+
+.trait-2 {
+  content: "";
+  width: 3rem;
+  height: 0.25rem;
+  background-color: #99E2D0;
+  position: absolute;
+  margin-left: 1rem;
+}
+
+.trait-3 {
+  content: "";
+  width: 3rem;
+  height: 0.25rem;
+  background-color: #99E2D0;
+  position: absolute;
+  margin-left: 1rem;
 }
 
 .coeurs {
@@ -487,7 +513,7 @@ h3 {
 
 section {
   width: 320px;
-  margin-left: 35px;
+  padding: 5px;
 }
 
 h4 {
@@ -498,6 +524,7 @@ h4 {
   height: 55px;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
+  margin-top: 3rem;
 }
 
 .entree-2 {
@@ -516,6 +543,7 @@ h4 {
   height: 55px;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
+  margin-top: 3rem;
 }
 
 .plat-2 {
@@ -534,6 +562,7 @@ h4 {
   height: 55px;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
+  margin-top: 3rem;
 }
 
 .dessert-2 {
@@ -552,63 +581,63 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 7rem;
 }
 
 .fixe-1 {
+  padding: 2px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 4rem;
 }
 
 .fixe-2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 12rem;
+  height: 26px;
 }
 
 .fixe-3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
 }
 
 .fixe-4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 1rem;
 }
 
 .fixe-5 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
 }
 
 .fixe-6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 7rem;
 }
 
 .fixe-7 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 12rem;
 }
 
 .fixe-8 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 4rem;
 }
 
 strong {
@@ -626,7 +655,7 @@ strong {
 
 .globalmenu {
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 1rem;
+  column-gap: 0, 75rem;
 }
 
 .btn2 {
@@ -648,21 +677,32 @@ strong {
   margin-left: 40%;
   margin-bottom: 20px;
 }
+@media (max-width: 500px) {
+  .btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 .commande {
   margin-top: 20px;
-}
-
-p {
-  padding-left: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 
 h4 {
-  padding-left: 1rem;
+  padding: 4px;
+  margin-left: 4px;
+}
+
+p {
+  padding: 4px;
+  margin-left: 4px;
 }
 
 p.prix {
-  margin-left: 30px;
+  padding: 8px;
 }
 
 @media (max-width: 800px) {
