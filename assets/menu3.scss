@@ -1,0 +1,281 @@
+body{
+    background-color: #F2F2F2;
+    margin:0px;
+    font-family: Roboto, sans-serif;
+    }
+   .logo{
+       background-color: #fff;
+       text-align:center ;
+       padding:2rem 1rem 1rem; 
+       position:relative;
+   }
+   .ohmyfood{
+       width:160px ;
+       position:relative ;
+     }
+     .gogo{
+         position:absolute;
+         left:50px;
+     }
+     
+   .image-menu-3{
+       background-image:url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg) ;
+       background-size:cover ;
+       background-position:center ;
+       width:100% ;
+       height:500px ;
+      
+   }
+   .flexo{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 1rem;
+       margin-top:-2rem ;
+       border-radius:20px 20px 0 0;
+       background-color:$fondgris;
+       margin-bottom:0px ;
+   }
+   .image-menu-1{
+       
+   }
+   h3{
+       position:relative;
+       text-transform: uppercase;
+       padding-bottom: 0,25rem;
+       font-weight: 400;
+       margin-top:0px ;
+   }
+   .trait-1{
+       content: "";
+       width: 3rem;
+       height: 0.25rem;
+       background-color:$tertiaire;
+       position: absolute;
+       margin-left:1rem ;
+   }
+   .trait-2{
+       content: "";
+       width: 3rem;
+       height: 0.25rem;
+       background-color:$tertiaire;
+       position: absolute;
+       margin-left:1rem; 
+   }
+   .trait-3{
+       content: "";
+       width: 3rem;
+       height: 0.25rem;
+       background-color:$tertiaire;
+       position: absolute;
+       margin-left:1rem; 
+   }
+   
+   
+   .coeurs{
+       margin:0px;
+   }
+   
+   
+   section{
+       
+      width: 320px;
+      padding:5px ;
+     
+      
+      
+   }
+   h4{
+   margin-bottom:0px; 
+   
+   }
+   .entree-1{
+       height:55px ;
+       background-color:white ;
+       border-radius:15px 15px 15px 15px ; 
+      margin-top:3rem ;
+      box-shadow:10px 5px 5px #a9af90;
+      
+   }
+   .entree-2{
+       height:55px ;
+       background-color:white ;
+       border-radius:15px 15px 15px 15px ; 
+       box-shadow:10px 5px 5px #a9af90;
+   }
+   .entree-3{
+       height:55px ;
+       background-color:white ;
+       border-radius:15px 15px 15px 15px ; 
+       box-shadow:10px 5px 5px #a9af90;
+   }
+   .plat-1{
+       height:55px ;
+       background-color:white ; 
+       border-radius:15px 15px 15px 15px ; 
+       margin-top:3rem ; 
+       box-shadow:10px 5px 5px #a9af90;
+   }
+   .plat-2{
+       height:55px ;
+       background-color:white ;
+       border-radius:15px 15px 15px 15px ; 
+       box-shadow:10px 5px 5px #a9af90;
+   }
+   .plat-3{
+       height:55px ;
+       background-color:white ;
+       border-radius:15px 15px 15px 15px ; 
+       box-shadow:10px 5px 5px #a9af90;
+   }
+   .dessert-1{
+       height:55px ;
+       background-color:white ;
+       border-radius:15px 15px 15px 15px ; 
+       margin-top: 3rem;
+       box-shadow:10px 5px 5px #a9af90; 
+   }
+   .dessert-2{
+       height:55px ;
+       background-color:white ;
+       border-radius:15px 15px 15px 15px ;
+       box-shadow:10px 5px 5px #a9af90; 
+   }
+   .dessert-3{
+       height:55px ;
+       background-color:white ;
+       border-radius:15px 15px 15px 15px ; 
+       box-shadow:10px 5px 5px #a9af90; 
+   }
+   
+   .fixe{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap:7rem;
+       
+       
+   }
+   .fixe-1{
+       padding:2px ;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap:4rem;
+       
+   }
+   .fixe-2{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap:12rem;
+       height:26px ; 
+   }
+   .fixe-3{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
+       
+   }
+   .fixe-4{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap:1rem
+       
+   }
+   .fixe-5{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
+       
+   }
+   .fixe-6{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap:7rem; 
+       
+   }
+   .fixe-7{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap:12rem;
+       
+            
+   }
+   .fixe-8{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap:4rem; 
+          
+   }
+   
+   
+   
+   .menu-info-1{
+       
+     justify-content: center;  
+     align-items: center;
+   }
+   .globalmenu{
+       display:grid;
+   }
+   .globalmenu{
+       grid-template-columns: repeat(3,1fr);
+       column-gap: 0,75rem;
+   }
+   .btn2{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      width:120px ;
+       border: 0;
+       padding: 0.75rem 1.5rem;
+       font-weight: 500;
+       font-size: 1.1rem;
+       border-radius: 100px;
+       color: #fff;
+       background-color: #686868;
+       background-image: linear-gradient(0deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
+       transition-duration: .25s;
+       box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+       cursor: pointer;
+       margin-left:40% ;
+       margin-bottom:20px ;
+       @media (max-width:500px) {
+         display: flex; 
+         justify-content: center; 
+         align-items: center;
+       }
+   }
+   .commande{
+     margin-top:20px ;
+     justify-content: center;
+     align-items: center;
+    
+   }
+   
+   h4{
+       padding:4px ;
+       margin-left:4px ;
+   }
+   p{
+       padding:4px;
+       margin-left:4px ;
+   }
+   p.prix{
+       padding: 8px;
+       
+      
+   }
+   .globalmenu{
+   @media (max-width:800px) {
+       display: flex;
+       flex-direction: column;  
+   }
+   }
