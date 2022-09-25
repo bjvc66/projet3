@@ -1,9 +1,7 @@
 @charset "UTF-8";
 body {
-  margin: 0px;
-}
-body text {
   font-family: "Roboto", sans-serif;
+  margin: 0px;
 }
 
 .btn {
@@ -18,6 +16,30 @@ body text {
 .html {
   width: 100%;
   margin: 0px;
+}
+
+.premier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deuxieme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.troisieme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quatrieme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .image-1 {
@@ -118,15 +140,15 @@ body text {
 }
 
 .ohmyfood-1 {
+  padding: 15px;
   width: 160px;
-  padding-top: 12px;
-  padding-bottom: 12px;
 }
 
 .logo-ohmyfood-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #fff;
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+  position: relative;
 }
 
 .ohmyfood-2 {
@@ -140,9 +162,9 @@ body text {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  background-color: #C6CDD7;
+  background-color: #F3F3F3;
   text-align: center;
-  padding: 0, 5rem;
+  padding: 2rem;
 }
 
 .text1 {
@@ -211,6 +233,15 @@ p {
   justify-content: space-around;
   align-items: center;
   box-shadow: 0px 5px 5px 5px #D5D9E0;
+}
+
+main {
+  margin-top: 30px;
+  background-color: #F3F3F3;
+}
+
+.mama {
+  font-weight: bolder;
 }
 
 footer {
@@ -525,6 +556,7 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   margin-top: 3rem;
+  box-shadow: 10px 5px 5px #a9af90;
 }
 
 .entree-2 {
@@ -638,10 +670,6 @@ h4 {
   justify-content: center;
   align-items: center;
   gap: 4rem;
-}
-
-strong {
-  padding: 0px 0px 0px 8px;
 }
 
 .menu-info-1 {

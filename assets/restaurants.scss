@@ -1,7 +1,7 @@
 body{
-text{
+
     font-family: 'Roboto' , sans-serif;
-}
+
 margin:0px ;
 }
 .btn {
@@ -16,6 +16,26 @@ margin:0px ;
 .html{
     width:100%;
     margin:0px ;
+}
+.premier{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.deuxieme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.troisieme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quatrieme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .image-1{                                                                              
     background-image:url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
@@ -108,14 +128,17 @@ margin:0px ;
    
    } 
    .ohmyfood-1{
-    width:160px;
-    padding-top:12px ;
-    padding-bottom: 12px;
+    
+   padding:15px ;
+   width:160px ;
+   
    }
+   
    .logo-ohmyfood-1{
-    display: flex;
-    justify-content: center;
-    align-items:center ;
+    background-color: #fff;
+    text-align:center ;
+    padding:2rem 1rem 1rem; 
+    position:relative;
    } 
    .ohmyfood-2{
     width:25% ;
@@ -128,9 +151,9 @@ margin:0px ;
     justify-content: center;
     align-items: center ;
     gap: 10px; 
-    background-color: #C6CDD7;
+    background-color: #F3F3F3;
     text-align: center;
-    padding:0,5rem ;
+    padding:2rem ;
 }
 .text1{
     
@@ -162,6 +185,7 @@ margin:0px ;
     cursor: pointer;
     border-radius: 10px 10px 10px 10px;
     background-color:rosybrown ;
+    
     
    }
    .button{
@@ -200,7 +224,13 @@ margin:0px ;
         
     }
    }
-    
+   main{
+    margin-top:30px ;
+    background-color:#F3F3F3 ;
+   } 
+   .mama{
+    font-weight: bolder;
+   }
   
   footer{
     background-color:$foot;
