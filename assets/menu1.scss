@@ -1,7 +1,7 @@
 
 
 body{
- background-color: green;
+ background-color: #F2F2F2;
  margin:0px;
  font-family: Roboto, sans-serif;
  }
@@ -12,9 +12,14 @@ body{
     position:relative;
 }
 .ohmyfood{
-  width:160px ; 
-}
-
+    width:160px ;
+    position:relative ;
+  }
+  .gogo{
+      position:absolute;
+      left:50px;
+  }
+  
 .image-menu-1{
     background-image:url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg) ;
     background-size:cover ;
@@ -98,43 +103,51 @@ margin-bottom:0px;
     height:55px ;
     background-color:white ;
     border-radius:15px 15px 15px 15px ; 
+    box-shadow:10px 5px 5px #a9af90;
 }
 .entree-3{
     height:55px ;
     background-color:white ;
     border-radius:15px 15px 15px 15px ; 
+    box-shadow:10px 5px 5px #a9af90;
 }
 .plat-1{
     height:55px ;
     background-color:white ; 
     border-radius:15px 15px 15px 15px ; 
     margin-top:3rem ; 
+    box-shadow:10px 5px 5px #a9af90;
 }
 .plat-2{
     height:55px ;
     background-color:white ;
     border-radius:15px 15px 15px 15px ; 
+    box-shadow:10px 5px 5px #a9af90;
 }
 .plat-3{
     height:55px ;
     background-color:white ;
     border-radius:15px 15px 15px 15px ; 
+    box-shadow:10px 5px 5px #a9af90;
 }
 .dessert-1{
     height:55px ;
     background-color:white ;
     border-radius:15px 15px 15px 15px ; 
     margin-top: 3rem;
+    box-shadow:10px 5px 5px #a9af90; 
 }
 .dessert-2{
     height:55px ;
     background-color:white ;
-    border-radius:15px 15px 15px 15px ; 
+    border-radius:15px 15px 15px 15px ;
+    box-shadow:10px 5px 5px #a9af90; 
 }
 .dessert-3{
     height:55px ;
     background-color:white ;
     border-radius:15px 15px 15px 15px ; 
+    box-shadow:10px 5px 5px #a9af90; 
 }
 
 .fixe{

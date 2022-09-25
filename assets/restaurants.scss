@@ -17,6 +17,9 @@ margin:0px ;
     width:100%;
     margin:0px ;
 }
+a{
+    text-decoration: none;
+}
 .premier{
 display: flex;
 justify-content: center;
@@ -81,21 +84,19 @@ align-items: center;
     .texte-restaurant-bloc-1{
         cursor:pointer ;
         align-items:center;
-        background-color:white;
         border-radius: 0 0 10px 10px;
         height:70px ;
         width: 400px;
-        background-color:yellowgreen ;
+        background-color: #fff;
       
     }
     .texte-restaurant-bloc-2{
         cursor:pointer ;
         align-items:center;
-        background-color:white;
         border-radius: 0 0 10px 10px;
         height:70px ;
         width: 400px;
-        background-color:yellowgreen ;
+        background-color:#fff;
         @media (max-width:800px) {
             margin-bottom:20px;
         }
@@ -103,11 +104,10 @@ align-items: center;
     .texte-restaurant-bloc-3{
         cursor:pointer ;
         align-items:center;
-        background-color:white;
         border-radius: 0 0 10px 10px;
         height:70px ;
         width:400px;
-        background-color:yellowgreen ;
+        background-color:#fff ;
         @media (max-width:800px) {
             margin-bottom:20px;
         }
@@ -115,11 +115,10 @@ align-items: center;
     .texte-restaurant-bloc-4{
         cursor:pointer ;
         align-items:center;
-        background-color:white;
         border-radius: 0 0 10px 10px;
         height:70px ;
         width: 400px;
-        background-color:yellowgreen ;
+        background-color:#fff;
       
     }
    .ohmyfood-1{
@@ -176,9 +175,9 @@ align-items: center;
     padding:0rem 1rem;
    }
    .search {
-    display: flex;
-    justify-content: center;
-    align-items:center ;
+    
+    justify-content:center;
+    text-align:center ;
     height: 40px;
     width: 180px;
     color: white;
@@ -391,18 +390,23 @@ i.fa{
 .mot1{
     padding-left:15px ;
     padding-top: 15px; 
+    color:black ;
+    
 }
 .mot2{
     padding-left:15px ;
     padding-top: 15px; 
+    color:black ;
 }
 .mot3{
     padding-left:15px ;
-    padding-top: 15px; 
+    padding-top: 15px;
+    color:black ;
 }
 .mot4{
     padding-left:15px ;
-    padding-top: 15px; 
+    padding-top: 15px;
+    color:black;
 }
 
 li::marker{
