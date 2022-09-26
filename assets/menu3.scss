@@ -19,14 +19,14 @@ body{
      }
      
    .image-menu-3{
-       background-image:url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg) ;
+       background-image:url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg) ;
        background-size:cover ;
        background-position:center ;
        width:100% ;
        height:500px ;
       
    }
-   .flexo{
+   .flexo-3{
        display: flex;
        justify-content: space-between;
        align-items: center;
@@ -89,7 +89,7 @@ body{
    margin-bottom:0px; 
    
    }
-   .entree-1{
+   .menu3__entree-1{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
@@ -97,58 +97,58 @@ body{
       box-shadow:10px 5px 5px #a9af90;
       
    }
-   .entree-2{
+   .menu3__entree-2{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
        box-shadow:10px 5px 5px #a9af90;
    }
-   .entree-3{
+   .menu3__entree-3{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
        box-shadow:10px 5px 5px #a9af90;
    }
-   .plat-1{
+   .menu3__plat-1{
        height:55px ;
        background-color:white ; 
        border-radius:15px 15px 15px 15px ; 
        margin-top:3rem ; 
        box-shadow:10px 5px 5px #a9af90;
    }
-   .plat-2{
+   .menu3__plat-2{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
        box-shadow:10px 5px 5px #a9af90;
    }
-   .plat-3{
+   .menu3__plat-3{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
        box-shadow:10px 5px 5px #a9af90;
    }
-   .dessert-1{
+   .menu3__dessert-1{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
        margin-top: 3rem;
        box-shadow:10px 5px 5px #a9af90; 
    }
-   .dessert-2{
+   .menu3__dessert-2{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ;
        box-shadow:10px 5px 5px #a9af90; 
    }
-   .dessert-3{
+   .menu3__dessert-3{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
        box-shadow:10px 5px 5px #a9af90; 
    }
    
-   .fixe{
+   .menu3__fixe{
        display: flex;
        justify-content: center;
        align-items: center;
@@ -156,7 +156,7 @@ body{
        
        
    }
-   .fixe-1{
+   .menu3__fixe-1{
        padding:2px ;
        display: flex;
        justify-content: center;
@@ -164,42 +164,42 @@ body{
        gap:4rem;
        
    }
-   .fixe-2{
+   .menu3__fixe-2{
        display: flex;
        justify-content: center;
        align-items: center;
        gap:12rem;
        height:26px ; 
    }
-   .fixe-3{
+   .menu3__fixe-3{
        display: flex;
        justify-content: center;
        align-items: center;
        
        
    }
-   .fixe-4{
+   .menu3__fixe-4{
        display: flex;
        justify-content: center;
        align-items: center;
        gap:1rem
        
    }
-   .fixe-5{
+   .menu3__fixe-5{
        display: flex;
        justify-content: center;
        align-items: center;
        
        
    }
-   .fixe-6{
+   .menu3__fixe-6{
        display: flex;
        justify-content: center;
        align-items: center;
        gap:7rem; 
        
    }
-   .fixe-7{
+   .menu3__fixe-7{
        display: flex;
        justify-content: center;
        align-items: center;
@@ -207,7 +207,7 @@ body{
        
             
    }
-   .fixe-8{
+   .menu3__fixe-8{
        display: flex;
        justify-content: center;
        align-items: center;
@@ -222,10 +222,10 @@ body{
      justify-content: center;  
      align-items: center;
    }
-   .globalmenu{
+   .globalmenu-3{
        display:grid;
    }
-   .globalmenu{
+   .globalmenu-3{
        grid-template-columns: repeat(3,1fr);
        column-gap: 0,75rem;
    }
@@ -273,7 +273,7 @@ body{
        
       
    }
-   .globalmenu{
+   .globalmenu-3{
    @media (max-width:800px) {
        display: flex;
        flex-direction: column;  
