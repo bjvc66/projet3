@@ -198,7 +198,7 @@ margin-bottom:0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:7rem; 
+    gap:12rem; 
     
 }
 .menu1__fixe-7{
@@ -213,17 +213,26 @@ margin-bottom:0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:4rem; 
+    gap:1rem; 
        
 }
-
-
-
 .menu-info-1{
+    
+    justify-content: center;  
+    align-items: center;
+  }
+
+
+.menu-info-2{
     
   justify-content: center;  
   align-items: center;
 }
+.menu-info-3{
+    
+    justify-content: center;  
+    align-items: center;
+  }
 .globalmenu-1{
     display:grid;
 }
