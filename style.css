@@ -638,14 +638,14 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .menu1__fixe-2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 12rem;
+  gap: 2rem;
   height: 26px;
 }
 
@@ -659,13 +659,14 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .menu1__fixe-5 {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10rem;
 }
 
 .menu1__fixe-6 {
@@ -679,7 +680,7 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
+  gap: 1rem;
 }
 
 .menu1__fixe-8 {
@@ -744,10 +745,6 @@ h4 {
 p {
   padding: 4px;
   margin-left: 4px;
-}
-
-p.prix {
-  padding: 8px;
 }
 
 @media (max-width: 800px) {
