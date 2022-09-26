@@ -501,7 +501,7 @@ body {
   height: 500px;
 }
 
-.flexo {
+.flexo-1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -560,7 +560,7 @@ h4 {
   margin-bottom: 0px;
 }
 
-.entree-1 {
+.menu1__entree-1 {
   height: 55px;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
@@ -568,43 +568,21 @@ h4 {
   box-shadow: 10px 5px 5px #a9af90;
 }
 
-.entree-2 {
+.menu1__entree-2 {
   height: 55px;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
 }
 
-.entree-3 {
+.menu1__entree-3 {
   height: 55px;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
 }
 
-.plat-1 {
-  height: 55px;
-  background-color: white;
-  border-radius: 15px 15px 15px 15px;
-  margin-top: 3rem;
-  box-shadow: 10px 5px 5px #a9af90;
-}
-
-.plat-2 {
-  height: 55px;
-  background-color: white;
-  border-radius: 15px 15px 15px 15px;
-  box-shadow: 10px 5px 5px #a9af90;
-}
-
-.plat-3 {
-  height: 55px;
-  background-color: white;
-  border-radius: 15px 15px 15px 15px;
-  box-shadow: 10px 5px 5px #a9af90;
-}
-
-.dessert-1 {
+.menu1__plat-1 {
   height: 55px;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
@@ -612,28 +590,50 @@ h4 {
   box-shadow: 10px 5px 5px #a9af90;
 }
 
-.dessert-2 {
+.menu1__plat-2 {
   height: 55px;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
 }
 
-.dessert-3 {
+.menu1__plat-3 {
   height: 55px;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
 }
 
-.fixe {
+.menu1__dessert-1 {
+  height: 55px;
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  margin-top: 3rem;
+  box-shadow: 10px 5px 5px #a9af90;
+}
+
+.menu1__dessert-2 {
+  height: 55px;
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 10px 5px 5px #a9af90;
+}
+
+.menu1__dessert-3 {
+  height: 55px;
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 10px 5px 5px #a9af90;
+}
+
+.menu1__fixe {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 7rem;
 }
 
-.fixe-1 {
+.menu1__fixe-1 {
   padding: 2px;
   display: flex;
   justify-content: center;
@@ -641,7 +641,7 @@ h4 {
   gap: 4rem;
 }
 
-.fixe-2 {
+.menu1__fixe-2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -649,40 +649,40 @@ h4 {
   height: 26px;
 }
 
-.fixe-3 {
+.menu1__fixe-3 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.fixe-4 {
+.menu1__fixe-4 {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
 }
 
-.fixe-5 {
+.menu1__fixe-5 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.fixe-6 {
+.menu1__fixe-6 {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 7rem;
 }
 
-.fixe-7 {
+.menu1__fixe-7 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 12rem;
+  gap: 4rem;
 }
 
-.fixe-8 {
+.menu1__fixe-8 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -694,11 +694,11 @@ h4 {
   align-items: center;
 }
 
-.globalmenu {
+.globalmenu-1 {
   display: grid;
 }
 
-.globalmenu {
+.globalmenu-1 {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 0, 75rem;
 }
@@ -751,7 +751,7 @@ p.prix {
 }
 
 @media (max-width: 800px) {
-  .globalmenu {
+  .globalmenu-1 {
     display: flex;
     flex-direction: column;
   }
