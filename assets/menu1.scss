@@ -78,7 +78,9 @@ h3{
     margin:0px;
     
 }
-
+h2.palette{
+    font-family:Shrikhand;
+}
 
 section{
     
@@ -289,11 +291,13 @@ p{
     padding:4px;
     margin-left:4px ;
 }
-p.prix{
-    
+
+ a.mail{
+    color:white;
+ }   
     
    
-}
+
 .globalmenu-1{
 @media (max-width:800px) {
     display: flex;

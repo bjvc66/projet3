@@ -275,6 +275,7 @@ h3 {
 .ph-4 {
   padding-left: 6%;
   padding-top: 10px;
+  cursor: pointer;
 }
 
 i fas {
@@ -551,6 +552,10 @@ h3 {
   margin: 0px;
 }
 
+h2.palette {
+  font-family: Shrikhand;
+}
+
 section {
   width: 320px;
   padding: 5px;
@@ -766,6 +771,10 @@ p {
   margin-left: 4px;
 }
 
+a.mail {
+  color: white;
+}
+
 @media (max-width: 800px) {
   .globalmenu-1 {
     display: flex;
@@ -786,10 +795,14 @@ body {
   position: relative;
 }
 
+a.mail {
+  color: white;
+}
+
 .ohmyfood {
   width: 160px;
   position: relative;
-  font-family: "shrikhand", cursive;
+  font-family: Shrikhand;
 }
 
 .gogo {
@@ -1093,6 +1106,10 @@ body {
 .gogo {
   position: absolute;
   left: 50px;
+}
+
+a.mail {
+  color: white;
 }
 
 .image-menu-3 {
@@ -1639,6 +1656,10 @@ p {
 
 p.prix {
   padding: 8px;
+}
+
+a.mail {
+  color: white;
 }
 
 @media (max-width: 800px) {
