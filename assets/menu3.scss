@@ -20,7 +20,27 @@ body{
      a.mail{
         color:white;
      }   
-     
+     .coeur1{
+        position:absolute;
+        justify-content: center;
+        align-items: center;
+        padding-right:20px ;
+        padding-top:20px;
+    }
+    .coeur2{
+        z-index:1;
+        color:white;
+        justify-content: center;
+        align-items: center;
+        padding-right:20px ;
+        padding-top:20px;
+       
+    }
+    .coeur:hover{
+        .coeur2{
+            color:#ff7cf8;
+        }
+    }
    .image-menu-3{
        background-image:url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg) ;
        background-size:cover ;

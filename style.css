@@ -13,6 +13,13 @@ body {
   color: #fff;
 }
 
+.logo-ohmyfood-1 {
+  padding: 1rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 1000;
+}
+
 .html {
   width: 100%;
   margin: 0px;
@@ -20,6 +27,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+a.mail {
+  color: white;
 }
 
 .premier {
@@ -89,7 +100,6 @@ a {
 }
 
 .texte-restaurant-bloc-1 {
-  cursor: pointer;
   align-items: center;
   border-radius: 0 0 10px 10px;
   height: 70px;
@@ -298,11 +308,25 @@ li ::marker {
   position: relative;
 }
 
-.coeur {
+.coeur1 {
+  position: absolute;
   justify-content: center;
   align-items: center;
   padding-right: 20px;
   padding-top: 20px;
+}
+
+.coeur2 {
+  z-index: 1;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.coeur:hover .coeur2 {
+  color: #ff7cf8;
 }
 
 .chiffre {
@@ -761,6 +785,27 @@ h4 {
   align-items: center;
 }
 
+.coeur1 {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.coeur2 {
+  z-index: 1;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.coeur:hover .coeur2 {
+  color: #ff7cf8;
+}
+
 h4 {
   padding: 4px;
   margin-left: 4px;
@@ -866,6 +911,27 @@ h3 {
 
 .coeurs {
   margin: 0px;
+}
+
+.coeur1 {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.coeur2 {
+  z-index: 1;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.coeur:hover .coeur2 {
+  color: #ff7cf8;
 }
 
 section {
@@ -1110,6 +1176,27 @@ body {
 
 a.mail {
   color: white;
+}
+
+.coeur1 {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.coeur2 {
+  z-index: 1;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.coeur:hover .coeur2 {
+  color: #ff7cf8;
 }
 
 .image-menu-3 {

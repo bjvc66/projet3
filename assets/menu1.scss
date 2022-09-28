@@ -276,13 +276,36 @@ margin-bottom:0px;
       align-items: center;
     }
 }
+
+    
+    
 .commande{
   margin-top:20px ;
   justify-content: center;
   align-items: center;
  
 }
-
+.coeur1{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    padding-right:20px ;
+    padding-top:20px;
+}
+.coeur2{
+    z-index:1;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    padding-right:20px ;
+    padding-top:20px;
+   
+}
+.coeur:hover{
+    .coeur2{
+        color:#ff7cf8;
+    }
+}
 h4{
     padding:4px ;
     margin-left:4px ;
@@ -295,7 +318,9 @@ p{
  a.mail{
     color:white;
  }   
-    
+ 
+
+
    
 
 .globalmenu-1{
