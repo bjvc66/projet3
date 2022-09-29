@@ -102,8 +102,8 @@ body{
    
    section{
       
-      width: 320px;
-      padding:5px ;
+      width: 100%;
+      
      
       
       
@@ -117,51 +117,79 @@ body{
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
       margin-top:3rem ;
+      margin-left:1rem ;
+      margin-right:1rem ;
       box-shadow:10px 5px 5px #a9af90;
-      
+      cursor:pointer;
    }
    .menu2__entree-2{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
        box-shadow:10px 5px 5px #a9af90;
+       margin-top:3rem ;
+       margin-left:1rem ;
+       margin-right:1rem ;
+       cursor:pointer;
    }
    .menu2__entree-3{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
        box-shadow:10px 5px 5px #a9af90;
+       margin-top:3rem ;
+       margin-left:1rem ;
+       margin-right:1rem ;
+       cursor: pointer;
    }
    .menu2__entree-4{
     height:55px ;
     background-color:white ;
     border-radius:15px 15px 15px 15px ; 
     box-shadow:10px 5px 5px #a9af90;
+    margin-top:3rem ;
+    margin-left:1rem ;
+    margin-right:1rem ;
+    cursor:pointer;
    }
    .menu2__plat-1{
        height:55px ;
        background-color:white ; 
        border-radius:15px 15px 15px 15px ; 
-       margin-top:3rem ; 
        box-shadow:10px 5px 5px #a9af90;
+       margin-top:3rem ;
+       margin-left:1rem ;
+       margin-right:1rem ;
+       cursor:pointer;
    }
    .menu2__plat-2{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
        box-shadow:10px 5px 5px #a9af90;
+       margin-top:3rem ;
+       margin-left:1rem ;
+       margin-right:1rem ;
+       cursor:pointer;
    }
    .menu2__plat-3{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
        box-shadow:10px 5px 5px #a9af90;
+       margin-top:3rem ;
+       margin-left:1rem ;
+       margin-right:1rem ;
+       cursor:pointer;
    }
    .menu2__dessert-1{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
        margin-top: 3rem;
+       margin-left:1rem ;
+       margin-right:1rem ;
+       cursor:pointer;
        box-shadow:10px 5px 5px #a9af90; 
    }
    .menu2__dessert-2{
@@ -169,17 +197,25 @@ body{
        background-color:white ;
        border-radius:15px 15px 15px 15px ;
        box-shadow:10px 5px 5px #a9af90; 
+       margin-top: 3rem;
+       margin-left:1rem ;
+       margin-right:1rem ;
+       cursor:pointer;
    }
    .menu2__dessert-3{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
        box-shadow:10px 5px 5px #a9af90; 
+       margin-top: 3rem;
+       margin-left:1rem ;
+       margin-right:1rem ;
+       cursor:pointer;
    }
    
    .menu2__fixe{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
        gap:2rem;
        
@@ -188,64 +224,64 @@ body{
    .menu2__fixe-1{
        padding:2px ;
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
        gap:2rem;
        
    }
    .menu2__fixe-2{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
        gap:2rem;
        
    }
    .menu2__fixe-3{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
        
        
    }
    .menu2__fixe-4{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
        gap:1rem
        
    }
    .menu2__fixe-5{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
        gap:4rem;
        
    }
    .menu2__fixe-6{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
        gap:1rem; 
        
    }
    .menu2__fixe-7{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
-       gap:2rem;
+       gap:1rem;
        
             
    }
    .menu2__fixe-8{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
-       gap:6rem; 
+       gap:3rem; 
           
    }
    .menu2__fixe-9{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     gap:10rem; 
    }
@@ -305,7 +341,7 @@ body{
        
       
    }
-   .globalmenu{
+   .globalmenu-2{
    @media (max-width:800px) {
        display: flex;
        flex-direction: column;  

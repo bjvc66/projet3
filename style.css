@@ -143,6 +143,11 @@ a.mail {
   width: 400px;
   background-color: #fff;
 }
+@media (max-width: 800px) {
+  .texte-restaurant-bloc-4 {
+    margin-bottom: 20px;
+  }
+}
 
 .ohmyfood-1 {
   padding-left: 5px;
@@ -581,8 +586,7 @@ h2.palette {
 }
 
 section {
-  width: 320px;
-  padding: 5px;
+  width: 100%;
 }
 
 h4 {
@@ -594,6 +598,8 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   box-shadow: 10px 5px 5px #a9af90;
   cursor: pointer;
 }
@@ -604,6 +610,9 @@ h4 {
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
   cursor: pointer;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .menu1__entree-3 {
@@ -612,15 +621,20 @@ h4 {
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
   cursor: pointer;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .menu1__plat-1 {
   height: 55px;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
-  margin-top: 3rem;
   box-shadow: 10px 5px 5px #a9af90;
   cursor: pointer;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .menu1__plat-2 {
@@ -629,6 +643,9 @@ h4 {
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
   cursor: pointer;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .menu1__plat-3 {
@@ -637,15 +654,20 @@ h4 {
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
   cursor: pointer;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .menu1__dessert-1 {
   height: 55px;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
-  margin-top: 3rem;
   box-shadow: 10px 5px 5px #a9af90;
   cursor: pointer;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .menu1__dessert-2 {
@@ -654,6 +676,9 @@ h4 {
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
   cursor: pointer;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .menu1__dessert-3 {
@@ -662,68 +687,71 @@ h4 {
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
   cursor: pointer;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .menu1__fixe {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 7rem;
+  gap: 4rem;
 }
 
 .menu1__fixe-1 {
   padding: 2px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 2rem;
 }
 
 .menu1__fixe-2 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   height: 26px;
 }
 
 .menu1__fixe-3 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
 .menu1__fixe-4 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 2rem;
 }
 
 .menu1__fixe-5 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 10rem;
 }
 
 .menu1__fixe-6 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 12rem;
 }
 
 .menu1__fixe-7 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 1rem;
 }
 
 .menu1__fixe-8 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 1rem;
 }
@@ -935,8 +963,7 @@ h3 {
 }
 
 section {
-  width: 320px;
-  padding: 5px;
+  width: 100%;
 }
 
 h4 {
@@ -948,7 +975,10 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   box-shadow: 10px 5px 5px #a9af90;
+  cursor: pointer;
 }
 
 .menu2__entree-2 {
@@ -956,6 +986,10 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu2__entree-3 {
@@ -963,6 +997,10 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu2__entree-4 {
@@ -970,14 +1008,21 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu2__plat-1 {
   height: 55px;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
-  margin-top: 3rem;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu2__plat-2 {
@@ -985,6 +1030,10 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu2__plat-3 {
@@ -992,6 +1041,10 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu2__dessert-1 {
@@ -999,6 +1052,9 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
   box-shadow: 10px 5px 5px #a9af90;
 }
 
@@ -1007,6 +1063,10 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu2__dessert-3 {
@@ -1014,11 +1074,15 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu2__fixe {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 2rem;
 }
@@ -1026,62 +1090,62 @@ h4 {
 .menu2__fixe-1 {
   padding: 2px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 2rem;
 }
 
 .menu2__fixe-2 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 2rem;
 }
 
 .menu2__fixe-3 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
 .menu2__fixe-4 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 1rem;
 }
 
 .menu2__fixe-5 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 4rem;
 }
 
 .menu2__fixe-6 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 1rem;
 }
 
 .menu2__fixe-7 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .menu2__fixe-8 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 6rem;
+  gap: 3rem;
 }
 
 .menu2__fixe-9 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 10rem;
 }
@@ -1145,7 +1209,7 @@ p.prix {
 }
 
 @media (max-width: 800px) {
-  .globalmenu {
+  .globalmenu-2 {
     display: flex;
     flex-direction: column;
   }
@@ -1258,8 +1322,7 @@ h3 {
 }
 
 section {
-  width: 320px;
-  padding: 5px;
+  width: 100%;
 }
 
 h4 {
@@ -1271,6 +1334,9 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
   box-shadow: 10px 5px 5px #a9af90;
 }
 
@@ -1279,6 +1345,10 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu3__entree-3 {
@@ -1286,14 +1356,21 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu3__plat-1 {
   height: 55px;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
-  margin-top: 3rem;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu3__plat-2 {
@@ -1301,6 +1378,10 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu3__plat-3 {
@@ -1308,14 +1389,21 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu3__dessert-1 {
   height: 55px;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
-  margin-top: 3rem;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu3__dessert-2 {
@@ -1323,6 +1411,10 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu3__dessert-3 {
@@ -1330,11 +1422,15 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu3__fixe {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 7rem;
 }
@@ -1342,14 +1438,14 @@ h4 {
 .menu3__fixe-1 {
   padding: 2px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 4rem;
+  gap: 1rem;
 }
 
 .menu3__fixe-2 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 12rem;
   height: 26px;
@@ -1357,40 +1453,40 @@ h4 {
 
 .menu3__fixe-3 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
 .menu3__fixe-4 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 1rem;
 }
 
 .menu3__fixe-5 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
 .menu3__fixe-6 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 7rem;
+  gap: 4rem;
 }
 
 .menu3__fixe-7 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 12rem;
 }
 
 .menu3__fixe-8 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 4rem;
 }
@@ -1545,8 +1641,7 @@ h3 {
 }
 
 section {
-  width: 320px;
-  padding: 5px;
+  width: 100%;
 }
 
 h4 {
@@ -1557,8 +1652,11 @@ h4 {
   height: 55px;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
-  margin-top: 3rem;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu4__entree-2 {
@@ -1566,6 +1664,10 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu4__entree-3 {
@@ -1573,14 +1675,21 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu4__plat-1 {
   height: 55px;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
-  margin-top: 3rem;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu4__plat-2 {
@@ -1588,6 +1697,10 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu4__plat-3 {
@@ -1595,14 +1708,21 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu4__dessert-1 {
   height: 55px;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
-  margin-top: 3rem;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu4__dessert-2 {
@@ -1610,6 +1730,10 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu4__dessert-3 {
@@ -1617,11 +1741,15 @@ h4 {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .menu4__fixe {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 7rem;
 }
@@ -1629,59 +1757,59 @@ h4 {
 .menu4__fixe-1 {
   padding: 2px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .menu4__fixe-2 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 12rem;
+  gap: 7rem;
   height: 26px;
 }
 
 .menu4__fixe-3 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 5rem;
 }
 
 .menu4__fixe-4 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 3rem;
 }
 
 .menu4__fixe-5 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 4rem;
 }
 
 .menu4__fixe-6 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 12rem;
 }
 
 .menu4__fixe-7 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 12rem;
 }
 
 .menu4__fixe-8 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 10rem;
+  gap: 5rem;
 }
 
 .menu-info-1 {

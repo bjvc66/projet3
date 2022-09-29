@@ -122,13 +122,16 @@ align-items: center;
         }
     }
     .texte-restaurant-bloc-4{
+        
         cursor: pointer;
         align-items:center;
         border-radius: 0 0 10px 10px;
         height:70px ;
         width: 400px;
         background-color:#fff;
-      
+        @media (max-width:800px) {
+            margin-bottom:20px;
+        }
     }
    .ohmyfood-1{
     padding-left:5px ;
@@ -395,6 +398,7 @@ color: transparent;
     align-items: center;
 @media(max-width:850px) {
   flex-direction: column;
+  
 
  }
  @media (max-width:800px) {
@@ -463,3 +467,6 @@ span.news{
    padding:7px ;
    border-radius:0,125rem ;
 }   
+
+
+ 

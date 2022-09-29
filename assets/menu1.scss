@@ -38,9 +38,8 @@ body{
     background-color:$fondgris;
     margin-bottom:0px ;
 }
-.image-menu-1{
-    
-}
+
+
 h3{
     position:relative;
     text-transform: uppercase;
@@ -84,8 +83,8 @@ h2.palette{
 
 section{
     
-   width: 320px;
-   padding:5px ;
+   width:100%;
+   
   
    
    
@@ -98,7 +97,9 @@ margin-bottom:0px;
     height:55px ;
     background-color:white ;
     border-radius:15px 15px 15px 15px ; 
-   margin-top:3rem ;
+    margin-top:3rem;
+    margin-left:1rem ;
+    margin-right:1rem;
    box-shadow:10px 5px 5px #a9af90;
    cursor: pointer;
    
@@ -109,6 +110,9 @@ margin-bottom:0px;
     border-radius:15px 15px 15px 15px ; 
     box-shadow:10px 5px 5px #a9af90;
     cursor: pointer;
+    margin-top:3rem;
+    margin-left:1rem ;
+    margin-right:1rem;
 }
 .menu1__entree-3{
     height:55px ;
@@ -116,14 +120,19 @@ margin-bottom:0px;
     border-radius:15px 15px 15px 15px ; 
     box-shadow:10px 5px 5px #a9af90;
     cursor: pointer;
+    margin-top:3rem;
+    margin-left:1rem ;
+    margin-right:1rem;
 }
 .menu1__plat-1{
     height:55px ;
     background-color:white ; 
     border-radius:15px 15px 15px 15px ; 
-    margin-top:3rem ; 
     box-shadow:10px 5px 5px #a9af90;
     cursor: pointer;
+    margin-top:3rem;
+    margin-left:1rem ;
+    margin-right:1rem;
 }
 .menu1__plat-2{
     height:55px ;
@@ -131,6 +140,9 @@ margin-bottom:0px;
     border-radius:15px 15px 15px 15px ; 
     box-shadow:10px 5px 5px #a9af90;
     cursor: pointer;
+    margin-top:3rem;
+    margin-left:1rem ;
+    margin-right:1rem;
 }
 .menu1__plat-3{
     height:55px ;
@@ -138,14 +150,19 @@ margin-bottom:0px;
     border-radius:15px 15px 15px 15px ; 
     box-shadow:10px 5px 5px #a9af90;
     cursor: pointer;
+    margin-top:3rem;
+    margin-left:1rem ;
+    margin-right:1rem;
 }
 .menu1__dessert-1{
     height:55px ;
     background-color:white ;
     border-radius:15px 15px 15px 15px ; 
-    margin-top: 3rem;
     box-shadow:10px 5px 5px #a9af90;
     cursor: pointer; 
+    margin-top:3rem;
+    margin-left:1rem ;
+    margin-right:1rem;
 }
 .menu1__dessert-2{
     height:55px ;
@@ -153,6 +170,9 @@ margin-bottom:0px;
     border-radius:15px 15px 15px 15px ;
     box-shadow:10px 5px 5px #a9af90; 
     cursor: pointer;
+    margin-top:3rem;
+    margin-left:1rem ;
+    margin-right:1rem;
 }
 .menu1__dessert-3{
     height:55px ;
@@ -160,62 +180,65 @@ margin-bottom:0px;
     border-radius:15px 15px 15px 15px ; 
     box-shadow:10px 5px 5px #a9af90; 
     cursor: pointer;
+    margin-top:3rem;
+    margin-left:1rem ;
+    margin-right:1rem;
 }
 
 .menu1__fixe{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap:7rem;
+    gap:4rem;
     
     
 }
 .menu1__fixe-1{
     padding:2px ;
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     gap:2rem;
     
 }
 .menu1__fixe-2{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
-    gap:2rem;
+    gap:1rem;
     height:26px ; 
 }
 .menu1__fixe-3{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     
     
 }
 .menu1__fixe-4{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     gap:2rem
     
 }
 .menu1__fixe-5{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     gap:10rem;
     
 }
 .menu1__fixe-6{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     gap:12rem; 
     
 }
 .menu1__fixe-7{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     gap:1rem;
     
@@ -223,7 +246,7 @@ margin-bottom:0px;
 }
 .menu1__fixe-8{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     gap:1rem; 
        
@@ -326,6 +349,7 @@ p{
 .globalmenu-1{
 @media (max-width:800px) {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column; 
+     
 }
 }

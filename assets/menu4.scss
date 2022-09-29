@@ -78,8 +78,8 @@ body{
    
    section{
        
-      width: 320px;
-      padding:5px ;
+      width: 100%;
+      
      
       
       
@@ -91,9 +91,13 @@ body{
    .menu4__entree-1{
        height:55px ;
        background-color:white ;
-       border-radius:15px 15px 15px 15px ; 
+       border-radius:15px 15px 15px 15px ;
+       box-shadow:10px 5px 5px #a9af90;
       margin-top:3rem ;
-      box-shadow:10px 5px 5px #a9af90;
+      margin-left:1rem ;
+      margin-right:1rem ;
+      cursor:pointer;
+      
       
    }
    .menu4__entree-2{
@@ -101,55 +105,85 @@ body{
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
        box-shadow:10px 5px 5px #a9af90;
+       margin-top:3rem ;
+       margin-left:1rem ;
+       margin-right:1rem ;
+       cursor:pointer;
    }
    .menu4__entree-3{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
        box-shadow:10px 5px 5px #a9af90;
+       margin-top:3rem ;
+       margin-left:1rem ;
+       margin-right:1rem ;
+       cursor:pointer;
    }
    .menu4__plat-1{
        height:55px ;
        background-color:white ; 
        border-radius:15px 15px 15px 15px ; 
-       margin-top:3rem ; 
-       box-shadow:10px 5px 5px #a9af90;
+        box-shadow:10px 5px 5px #a9af90;
+        margin-top:3rem ;
+        margin-left:1rem ;
+        margin-right:1rem ;
+        cursor:pointer;
    }
    .menu4__plat-2{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
        box-shadow:10px 5px 5px #a9af90;
+       margin-top:3rem ;
+       margin-left:1rem ;
+       margin-right:1rem ;
+       cursor:pointer;
    }
    .menu4__plat-3{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
        box-shadow:10px 5px 5px #a9af90;
+       margin-top:3rem ;
+       margin-left:1rem ;
+       margin-right:1rem ;
+       cursor:pointer;
    }
    .menu4__dessert-1{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
-       margin-top: 3rem;
        box-shadow:10px 5px 5px #a9af90; 
+       margin-top:3rem ;
+       margin-left:1rem ;
+       margin-right:1rem ;
+       cursor:pointer;
    }
    .menu4__dessert-2{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ;
-       box-shadow:10px 5px 5px #a9af90; 
+       box-shadow:10px 5px 5px #a9af90;
+       margin-top:3rem ;
+       margin-left:1rem ;
+       margin-right:1rem ;
+       cursor:pointer; 
    }
    .menu4__dessert-3{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
-       box-shadow:10px 5px 5px #a9af90; 
+       box-shadow:10px 5px 5px #a9af90;
+       margin-top:3rem ;
+       margin-left:1rem ;
+       margin-right:1rem ;
+       cursor:pointer;  
    }
    
    .menu4__fixe{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
        gap:7rem;
        
@@ -158,49 +192,49 @@ body{
    .menu4__fixe-1{
        padding:2px ;
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
-       gap:2rem;
+       gap:1rem;
        
    }
    .menu4__fixe-2{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
-       gap:12rem;
+       gap:7rem;
        height:26px ; 
    }
    .menu4__fixe-3{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
        gap:5rem
        
    }
    .menu4__fixe-4{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
        gap:3rem
        
    }
    .menu4__fixe-5{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
        gap:4rem;
        
    }
    .menu4__fixe-6{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
        gap:12rem; 
        
    }
    .menu4__fixe-7{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
        gap:12rem;
        
@@ -208,9 +242,9 @@ body{
    }
    .menu4__fixe-8{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
-       gap:10rem; 
+       gap:5rem; 
           
    }
    

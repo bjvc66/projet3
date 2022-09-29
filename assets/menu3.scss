@@ -59,9 +59,9 @@ body{
        background-color:$fondgris;
        margin-bottom:0px ;
    }
-   .image-menu-1{
+   
        
-   }
+   
    h3{
        position:relative;
        text-transform: uppercase;
@@ -93,21 +93,12 @@ body{
        position: absolute;
        margin-left:1rem; 
    }
-   
-   
    .coeurs{
        margin:0px;
    }
-   
-   
    section{
-       
-      width: 320px;
-      padding:5px ;
-     
-      
-      
-   }
+       width:100%;
+    }
    h4{
    margin-bottom:0px; 
    
@@ -117,63 +108,96 @@ body{
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
       margin-top:3rem ;
+      margin-left:1rem;
+      margin-right:1rem ;
+      cursor:pointer;
       box-shadow:10px 5px 5px #a9af90;
-      
+     
    }
    .menu3__entree-2{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
        box-shadow:10px 5px 5px #a9af90;
+       margin-top:3rem ;
+       margin-left:1rem;
+       margin-right:1rem ;
+       cursor:pointer;
    }
    .menu3__entree-3{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
        box-shadow:10px 5px 5px #a9af90;
+       margin-top:3rem ;
+       margin-left:1rem;
+       margin-right:1rem ;
+       cursor:pointer;
    }
    .menu3__plat-1{
        height:55px ;
        background-color:white ; 
        border-radius:15px 15px 15px 15px ; 
-       margin-top:3rem ; 
-       box-shadow:10px 5px 5px #a9af90;
+        box-shadow:10px 5px 5px #a9af90;
+        margin-top:3rem ;
+        margin-left:1rem;
+        margin-right:1rem ;
+        cursor:pointer;
    }
    .menu3__plat-2{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
        box-shadow:10px 5px 5px #a9af90;
+       margin-top:3rem ;
+        margin-left:1rem;
+        margin-right:1rem ;
+        cursor:pointer;
    }
    .menu3__plat-3{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
        box-shadow:10px 5px 5px #a9af90;
+       margin-top:3rem ;
+       margin-left:1rem;
+       margin-right:1rem ;
+       cursor:pointer;
    }
    .menu3__dessert-1{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
-       margin-top: 3rem;
-       box-shadow:10px 5px 5px #a9af90; 
+       box-shadow:10px 5px 5px #a9af90;
+       margin-top:3rem ;
+       margin-left:1rem;
+       margin-right:1rem ;
+       cursor:pointer;
    }
    .menu3__dessert-2{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ;
        box-shadow:10px 5px 5px #a9af90; 
+       margin-top:3rem ;
+       margin-left:1rem;
+       margin-right:1rem ;
+       cursor:pointer;
    }
    .menu3__dessert-3{
        height:55px ;
        background-color:white ;
        border-radius:15px 15px 15px 15px ; 
-       box-shadow:10px 5px 5px #a9af90; 
+       box-shadow:10px 5px 5px #a9af90;
+       margin-top:3rem ;
+       margin-left:1rem;
+       margin-right:1rem ;
+       cursor:pointer; 
    }
    
    .menu3__fixe{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
        gap:7rem;
        
@@ -182,49 +206,49 @@ body{
    .menu3__fixe-1{
        padding:2px ;
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
-       gap:4rem;
+       gap:1rem;
        
    }
    .menu3__fixe-2{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
        gap:12rem;
        height:26px ; 
    }
    .menu3__fixe-3{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
        
        
    }
    .menu3__fixe-4{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
        gap:1rem
        
    }
    .menu3__fixe-5{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
        
        
    }
    .menu3__fixe-6{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
-       gap:7rem; 
+       gap:4rem; 
        
    }
    .menu3__fixe-7{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
        gap:12rem;
        
@@ -232,7 +256,7 @@ body{
    }
    .menu3__fixe-8{
        display: flex;
-       justify-content: center;
+       justify-content:space-between;
        align-items: center;
        gap:4rem; 
           
