@@ -121,6 +121,12 @@ body{
       margin-right:1rem ;
       box-shadow:10px 5px 5px #a9af90;
       cursor:pointer;
+      overflow: hidden;
+      &:hover{
+        .true{
+            margin-right:0px;
+        }
+      }
    }
    .menu2__entree-2{
        height:55px ;
@@ -131,7 +137,13 @@ body{
        margin-left:1rem ;
        margin-right:1rem ;
        cursor:pointer;
+       overflow: hidden;
+       &:hover{
+         .true{
+             margin-right:0px;
+         }
    }
+}
    .menu2__entree-3{
        height:55px ;
        background-color:white ;
@@ -141,6 +153,12 @@ body{
        margin-left:1rem ;
        margin-right:1rem ;
        cursor: pointer;
+       overflow: hidden;
+       &:hover{
+         .true{
+             margin-right:0px;
+         }
+   }
    }
    .menu2__entree-4{
     height:55px ;
@@ -151,6 +169,12 @@ body{
     margin-left:1rem ;
     margin-right:1rem ;
     cursor:pointer;
+    overflow: hidden;
+    &:hover{
+      .true{
+          margin-right:0px;
+      }
+}
    }
    .menu2__plat-1{
        height:55px ;
@@ -161,6 +185,12 @@ body{
        margin-left:1rem ;
        margin-right:1rem ;
        cursor:pointer;
+       overflow: hidden;
+       &:hover{
+         .true{
+             margin-right:0px;
+         }
+   }
    }
    .menu2__plat-2{
        height:55px ;
@@ -171,6 +201,12 @@ body{
        margin-left:1rem ;
        margin-right:1rem ;
        cursor:pointer;
+       overflow: hidden;
+       &:hover{
+         .true{
+             margin-right:0px;
+         }
+   }
    }
    .menu2__plat-3{
        height:55px ;
@@ -181,6 +217,12 @@ body{
        margin-left:1rem ;
        margin-right:1rem ;
        cursor:pointer;
+       overflow: hidden;
+       &:hover{
+         .true{
+             margin-right:0px;
+         }
+   }
    }
    .menu2__dessert-1{
        height:55px ;
@@ -191,6 +233,12 @@ body{
        margin-right:1rem ;
        cursor:pointer;
        box-shadow:10px 5px 5px #a9af90; 
+       overflow: hidden;
+       &:hover{
+         .true{
+             margin-right:0px;
+         }
+   }
    }
    .menu2__dessert-2{
        height:55px ;
@@ -201,6 +249,12 @@ body{
        margin-left:1rem ;
        margin-right:1rem ;
        cursor:pointer;
+       overflow: hidden;
+       &:hover{
+         .true{
+             margin-right:0px;
+         }
+   }
    }
    .menu2__dessert-3{
        height:55px ;
@@ -211,6 +265,12 @@ body{
        margin-left:1rem ;
        margin-right:1rem ;
        cursor:pointer;
+       overflow: hidden;
+       &:hover{
+         .true{
+             margin-right:0px;
+         }
+   }
    }
    
    .menu2__fixe{
@@ -218,7 +278,7 @@ body{
        justify-content:space-between;
        align-items: center;
        gap:2rem;
-       
+       height:55px ;
        
    }
    .menu2__fixe-1{
@@ -227,49 +287,49 @@ body{
        justify-content:space-between;
        align-items: center;
        gap:2rem;
-       
+       height:55px ;
    }
    .menu2__fixe-2{
        display: flex;
        justify-content:space-between;
        align-items: center;
        gap:2rem;
-       
+       height:55px ;
    }
    .menu2__fixe-3{
        display: flex;
        justify-content:space-between;
        align-items: center;
-       
-       
+       height:55px ;
+       gap:1rem;
    }
    .menu2__fixe-4{
        display: flex;
        justify-content:space-between;
        align-items: center;
-       gap:1rem
-       
+       gap:1rem;
+       height:55px ;
    }
    .menu2__fixe-5{
        display: flex;
        justify-content:space-between;
        align-items: center;
        gap:4rem;
-       
+       height:55px ;
    }
    .menu2__fixe-6{
        display: flex;
        justify-content:space-between;
        align-items: center;
        gap:1rem; 
-       
+       height:55px ; 
    }
    .menu2__fixe-7{
        display: flex;
        justify-content:space-between;
        align-items: center;
        gap:1rem;
-       
+       height:55px ; 
             
    }
    .menu2__fixe-8{
@@ -277,13 +337,14 @@ body{
        justify-content:space-between;
        align-items: center;
        gap:3rem; 
-          
+       height:55px ;   
    }
    .menu2__fixe-9{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    gap:10rem; 
+    gap:10rem;
+    height:55px ;   
    }
    
    .menu-info-1{
@@ -347,3 +408,35 @@ body{
        flex-direction: column;  
    }
    }
+   .price{
+    font-weight: 900;
+    background-color:white ;
+    height:55px;
+    width: 55px;
+    display:flex;
+    align-items: flex-end;
+    justify-content:center;
+    
+    }
+    .true{
+    background-color:$tertiaire ;
+    width:55px ;
+    height:55px;
+    display: grid;
+    place-items:center ;
+    border-radius:0 1rem 1rem 0 ;
+    margin-right: -55px;
+    transition: 1s;
+    }
+    .prix{
+        display:flex ;
+        justify-content: end;
+    }
+    .piment{
+        margin-bottom: 1rem;
+    }
+    .fa-circle-check{
+        background-color: white;
+        border-radius:50% ;
+        color:$tertiaire;
+    }

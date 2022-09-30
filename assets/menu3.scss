@@ -69,6 +69,15 @@ body{
        font-weight: 400;
        margin-top:0px ;
    }
+h3.entree{
+    margin-top:20px ;
+}
+   h3.plat{
+margin-top: 20px;
+   }
+   h3.dessert{
+margin-top:20px ;
+   }
    .trait-1{
        content: "";
        width: 3rem;
@@ -112,7 +121,12 @@ body{
       margin-right:1rem ;
       cursor:pointer;
       box-shadow:10px 5px 5px #a9af90;
-     
+      overflow: hidden;
+      &:hover{
+        .true{
+            margin-right:0px;
+        }
+      }
    }
    .menu3__entree-2{
        height:55px ;
@@ -123,6 +137,12 @@ body{
        margin-left:1rem;
        margin-right:1rem ;
        cursor:pointer;
+       overflow: hidden;
+      &:hover{
+        .true{
+            margin-right:0px;
+        }
+      }
    }
    .menu3__entree-3{
        height:55px ;
@@ -133,6 +153,12 @@ body{
        margin-left:1rem;
        margin-right:1rem ;
        cursor:pointer;
+       overflow: hidden;
+       &:hover{
+         .true{
+             margin-right:0px;
+         }
+       }
    }
    .menu3__plat-1{
        height:55px ;
@@ -143,6 +169,12 @@ body{
         margin-left:1rem;
         margin-right:1rem ;
         cursor:pointer;
+        overflow: hidden;
+        &:hover{
+          .true{
+              margin-right:0px;
+          }
+        }
    }
    .menu3__plat-2{
        height:55px ;
@@ -153,6 +185,12 @@ body{
         margin-left:1rem;
         margin-right:1rem ;
         cursor:pointer;
+        overflow: hidden;
+        &:hover{
+            .true{
+                margin-right:0px;
+            }
+          }
    }
    .menu3__plat-3{
        height:55px ;
@@ -163,6 +201,12 @@ body{
        margin-left:1rem;
        margin-right:1rem ;
        cursor:pointer;
+       overflow: hidden;
+       &:hover{
+        .true{
+            margin-right:0px;
+        }
+      }
    }
    .menu3__dessert-1{
        height:55px ;
@@ -173,6 +217,12 @@ body{
        margin-left:1rem;
        margin-right:1rem ;
        cursor:pointer;
+       overflow: hidden;
+       &:hover{
+        .true{
+            margin-right:0px;
+        }
+      }
    }
    .menu3__dessert-2{
        height:55px ;
@@ -182,7 +232,13 @@ body{
        margin-top:3rem ;
        margin-left:1rem;
        margin-right:1rem ;
+       overflow: hidden;
        cursor:pointer;
+       &:hover{
+        .true{
+            margin-right:0px;
+        }
+      }
    }
    .menu3__dessert-3{
        height:55px ;
@@ -192,15 +248,21 @@ body{
        margin-top:3rem ;
        margin-left:1rem;
        margin-right:1rem ;
-       cursor:pointer; 
+       cursor:pointer;
+       overflow: hidden;
+       &:hover{
+        .true{
+            margin-right:0px;
+        }
+      } 
    }
    
    .menu3__fixe{
        display: flex;
        justify-content:space-between;
        align-items: center;
-       gap:7rem;
-       
+       gap:2rem;
+       height:55px ;
        
    }
    .menu3__fixe-1{
@@ -209,34 +271,34 @@ body{
        justify-content:space-between;
        align-items: center;
        gap:1rem;
-       
+       height:55px ;
    }
    .menu3__fixe-2{
        display: flex;
        justify-content:space-between;
        align-items: center;
        gap:12rem;
-       height:26px ; 
+       height:55px ; 
    }
    .menu3__fixe-3{
        display: flex;
        justify-content:space-between;
        align-items: center;
-       
+       height:55px ;
        
    }
    .menu3__fixe-4{
        display: flex;
        justify-content:space-between;
        align-items: center;
-       gap:1rem
-       
+       gap:1rem;
+       height:55px ;
    }
    .menu3__fixe-5{
        display: flex;
        justify-content:space-between;
        align-items: center;
-       
+       height:55px ;
        
    }
    .menu3__fixe-6{
@@ -244,14 +306,14 @@ body{
        justify-content:space-between;
        align-items: center;
        gap:4rem; 
-       
+       height:55px ;
    }
    .menu3__fixe-7{
        display: flex;
        justify-content:space-between;
        align-items: center;
-       gap:12rem;
-       
+       gap:5rem;
+       height:55px ;
             
    }
    .menu3__fixe-8{
@@ -259,7 +321,7 @@ body{
        justify-content:space-between;
        align-items: center;
        gap:4rem; 
-          
+       height:55px ;   
    }
    
    
@@ -326,3 +388,35 @@ body{
        flex-direction: column;  
    }
    }
+   .price{
+    font-weight: 900;
+    background-color:white ;
+    height:55px;
+    width: 55px;
+    display:flex;
+    align-items: flex-end;
+    justify-content:center;
+    
+    }
+    .true{
+    background-color:$tertiaire ;
+    width:55px ;
+    height:55px;
+    display: grid;
+    place-items:center ;
+    border-radius:0 1rem 1rem 0 ;
+    margin-right: -55px;
+    transition: 1s;
+    }
+    .prix{
+        display:flex ;
+        justify-content: end;
+    }
+    .piment{
+        margin-bottom: 1rem;
+    }
+    .fa-circle-check{
+        background-color: white;
+        border-radius:50% ;
+        color:$tertiaire;
+    }

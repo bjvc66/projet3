@@ -47,6 +47,15 @@ h3{
     font-weight: 400;
     margin-top:0px ;
 }
+h3.menu1-entree{
+    margin-top:20px ;
+}
+h3.menu1-plat{
+    margin-top:20px ;
+}
+h3.menu1-dessert{
+    margin-top:20px ;
+}
 .trait-1{
     content: "";
     width: 3rem;
@@ -118,6 +127,12 @@ margin-bottom:0px;
     margin-top:3rem;
     margin-left:1rem ;
     margin-right:1rem;
+    overflow: hidden;
+    &:hover{
+      .true{
+          margin-right:0px;
+      }
+    }
 }
 .menu1__entree-3{
     height:55px ;
@@ -128,6 +143,12 @@ margin-bottom:0px;
     margin-top:3rem;
     margin-left:1rem ;
     margin-right:1rem;
+    overflow: hidden;
+    &:hover{
+      .true{
+          margin-right:0px;
+      }
+    }
 }
 .menu1__plat-1{
     height:55px ;
@@ -138,6 +159,12 @@ margin-bottom:0px;
     margin-top:3rem;
     margin-left:1rem ;
     margin-right:1rem;
+    overflow: hidden;
+    &:hover{
+      .true{
+          margin-right:0px;
+      }
+    }
 }
 .menu1__plat-2{
     height:55px ;
@@ -148,6 +175,12 @@ margin-bottom:0px;
     margin-top:3rem;
     margin-left:1rem ;
     margin-right:1rem;
+    overflow: hidden;
+    &:hover{
+      .true{
+          margin-right:0px;
+      }
+    }
 }
 .menu1__plat-3{
     height:55px ;
@@ -158,6 +191,12 @@ margin-bottom:0px;
     margin-top:3rem;
     margin-left:1rem ;
     margin-right:1rem;
+    overflow: hidden;
+    &:hover{
+      .true{
+          margin-right:0px;
+      }
+    }
 }
 .menu1__dessert-1{
     height:55px ;
@@ -168,6 +207,12 @@ margin-bottom:0px;
     margin-top:3rem;
     margin-left:1rem ;
     margin-right:1rem;
+    overflow: hidden;
+    &:hover{
+      .true{
+          margin-right:0px;
+      }
+    }
 }
 .menu1__dessert-2{
     height:55px ;
@@ -178,6 +223,12 @@ margin-bottom:0px;
     margin-top:3rem;
     margin-left:1rem ;
     margin-right:1rem;
+    overflow: hidden;
+    &:hover{
+      .true{
+          margin-right:0px;
+      }
+    }
 }
 .menu1__dessert-3{
     height:55px ;
@@ -188,9 +239,16 @@ margin-bottom:0px;
     margin-top:3rem;
     margin-left:1rem ;
     margin-right:1rem;
+    overflow: hidden;
+    &:hover{
+      .true{
+          margin-right:0px;
+      }
+    }
 }
 
 .menu1__fixe{
+    padding:2px ;
     display:flex ;
     justify-content: space-between;
     align-items: center;
@@ -199,25 +257,27 @@ margin-bottom:0px;
     
     
 }
+
 .menu1__fixe-1{
-    padding:2px ;
+    
     display: flex;
     justify-content:space-between;
     align-items: center;
     gap:2rem;
-    
+    height:55px ;
 }
 .menu1__fixe-2{
     display: flex;
     justify-content:space-between;
     align-items: center;
     gap:1rem;
-    height:26px ; 
+    height:55px ;
 }
 .menu1__fixe-3{
     display: flex;
     justify-content:space-between;
     align-items: center;
+    height:55px ;
     
     
 }
@@ -225,29 +285,30 @@ margin-bottom:0px;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    gap:2rem
-    
+    gap:2rem;
+    height:55px ;
 }
 .menu1__fixe-5{
     display: flex;
     justify-content:space-between;
     align-items: center;
     gap:10rem;
-    
+    height:55px ;
 }
 .menu1__fixe-6{
     display: flex;
     justify-content:space-between;
     align-items: center;
     gap:12rem; 
-    
+    height:55px ;
 }
+
 .menu1__fixe-7{
     display: flex;
     justify-content:space-between;
     align-items: center;
     gap:1rem;
-    
+    height:55px ;
          
 }
 .menu1__fixe-8{
@@ -255,7 +316,7 @@ margin-bottom:0px;
     justify-content:space-between;
     align-items: center;
     gap:1rem; 
-       
+    height:55px ;   
 }
 .menu-info-1{
     
@@ -333,6 +394,7 @@ margin-bottom:0px;
 .coeur:hover{
     .coeur2{
         color:#ff7cf8;
+        transition:1s ;
     }
 }
 h4{
@@ -367,7 +429,7 @@ width: 55px;
 display:flex;
 align-items: flex-end;
 justify-content:center;
-margin-bottom:2px;
+
 }
 .true{
 background-color:$tertiaire ;
@@ -375,7 +437,6 @@ width:55px ;
 height:55px;
 display: grid;
 place-items:center ;
-margin-bottom:0px ;
 border-radius:0 1rem 1rem 0 ;
 margin-right: -55px;
 transition: 1s;
@@ -386,4 +447,9 @@ transition: 1s;
 }
 .piment{
     margin-bottom: 1rem;
+}
+.fa-circle-check{
+    background-color: white;
+    border-radius:50% ;
+    color:$tertiaire;
 }

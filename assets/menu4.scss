@@ -315,3 +315,35 @@ body{
        flex-direction: column;  
    }
    }
+   .price{
+    font-weight: 900;
+    background-color:white ;
+    height:55px;
+    width: 55px;
+    display:flex;
+    align-items: flex-end;
+    justify-content:center;
+    
+    }
+    .true{
+    background-color:$tertiaire ;
+    width:55px ;
+    height:55px;
+    display: grid;
+    place-items:center ;
+    border-radius:0 1rem 1rem 0 ;
+    margin-right: -55px;
+    transition: 1s;
+    }
+    .prix{
+        display:flex ;
+        justify-content: end;
+    }
+    .piment{
+        margin-bottom: 1rem;
+    }
+    .fa-circle-check{
+        background-color: white;
+        border-radius:50% ;
+        color:$tertiaire;
+    }
