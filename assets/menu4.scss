@@ -97,7 +97,7 @@ body{
       margin-left:1rem ;
       margin-right:1rem ;
       cursor:pointer;
-      
+     
       
    }
    .menu4__entree-2{
@@ -185,8 +185,13 @@ body{
        display: flex;
        justify-content:space-between;
        align-items: center;
-       gap:7rem;
-       
+       gap:2rem;
+       overflow: hidden;
+       &:hover{
+         .true{
+             margin-right:0px;
+         }
+       }
        
    }
    .menu4__fixe-1{
