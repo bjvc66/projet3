@@ -6,17 +6,18 @@ body{
    .logo{
        background-color: #fff;
        text-align:center ;
-       padding:2rem 1rem 1rem; 
+       padding:2rem 1rem 1rem;
        position:relative;
    }
+   .gogo{
+    position:absolute;
+    left:50px;
+}
    .ohmyfood{
        width:160px ;
        position:relative ;
      }
-     .gogo{
-         position:absolute;
-         left:50px;
-     }
+     
      a.mail{
         color:white;
      }   
