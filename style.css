@@ -1,5 +1,6 @@
 @charset "UTF-8";
 body {
+  background-color: #15DEA5;
   font-family: "Roboto", sans-serif;
   margin: 0px;
 }
@@ -500,6 +501,36 @@ span.news {
   border-radius: 0, 125rem;
 }
 
+.move {
+  position: fixed;
+  display: grid;
+  place-items: center;
+  background-color: #FFF;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  inset: 0rem;
+  z-index: 1;
+  opacity: 0, 9;
+}
+
+@keyframes dissapears {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+.move {
+  animation: dissapears 200ms;
+  animation-fill-mode: forwards;
+  transform-origin: top;
+  animation-delay: 5s;
+}
+
 body {
   background-color: #F2F2F2;
   margin: 0px;
@@ -595,10 +626,6 @@ h3.menu1-dessert {
 
 h2.palette {
   font-family: Shrikhand;
-}
-
-section {
-  width: 100%;
 }
 
 h4 {
@@ -745,7 +772,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
   height: 55px;
 }
 
@@ -753,7 +779,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
   height: 55px;
 }
 
@@ -761,7 +786,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
   height: 55px;
 }
 
@@ -776,7 +800,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
   height: 55px;
 }
 
@@ -784,7 +807,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10rem;
   height: 55px;
 }
 
@@ -792,7 +814,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 12rem;
   height: 55px;
 }
 
@@ -800,7 +821,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
   height: 55px;
 }
 
@@ -808,7 +828,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
   height: 55px;
 }
 
@@ -848,8 +867,12 @@ h4 {
   padding: 0.75rem 1.5rem;
   border-radius: 100px;
   cursor: pointer;
-  /*transition-duration: .25s;
-  box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);*/
+  filter: brightness(1);
+}
+.btn2:hover {
+  transition-duration: 0.25s;
+  filter: brightness(1.75);
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
 }
 
 .commander {
@@ -937,6 +960,46 @@ a.mail {
   color: #99E2D0;
 }
 
+section {
+  animation: appear 3s;
+  opacity: 0;
+  width: 100%;
+  animation-fill-mode: forwards;
+}
+
+section:first-child {
+  animation-delay: 2s;
+}
+
+section:nth-child(2) {
+  animation-delay: 4s;
+}
+
+section:last-child {
+  animation-delay: 6s;
+}
+
+@keyframes appear {
+  0% {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/*
+@keyframes appear{
+    0%{
+        transform:scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+fin a voir lequel garder
+*/
 body {
   background-color: #F2F2F2;
   margin: 0px;
@@ -990,6 +1053,18 @@ h3 {
   padding-bottom: 0, 25rem;
   font-weight: 400;
   margin-top: 0px;
+}
+
+h3.menu2-entree {
+  margin-top: 20px;
+}
+
+h3.menu2-plat {
+  margin-top: 20px;
+}
+
+h3.menu2-dessert {
+  margin-top: 20px;
 }
 
 .trait-1 {
@@ -1206,7 +1281,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
   height: 55px;
 }
 
@@ -1215,7 +1289,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
   height: 55px;
 }
 
@@ -1223,7 +1296,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
   height: 55px;
 }
 
@@ -1232,14 +1304,12 @@ h4 {
   justify-content: space-between;
   align-items: center;
   height: 55px;
-  gap: 1rem;
 }
 
 .menu2__fixe-4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
   height: 55px;
 }
 
@@ -1247,7 +1317,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 4rem;
   height: 55px;
 }
 
@@ -1255,7 +1324,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
   height: 55px;
 }
 
@@ -1263,7 +1331,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
   height: 55px;
 }
 
@@ -1271,7 +1338,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 3rem;
   height: 55px;
 }
 
@@ -1279,7 +1345,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10rem;
   height: 55px;
 }
 
@@ -1386,14 +1451,14 @@ body {
   position: relative;
 }
 
-.ohmyfood {
-  width: 160px;
-  position: relative;
-}
-
 .gogo {
   position: absolute;
   left: 50px;
+}
+
+.ohmyfood {
+  width: 160px;
+  position: relative;
 }
 
 a.mail {
@@ -1448,15 +1513,15 @@ h3 {
   margin-top: 0px;
 }
 
-h3.entree {
+h3.menu3-entree {
   margin-top: 20px;
 }
 
-h3.plat {
+h3.menu3-plat {
   margin-top: 20px;
 }
 
-h3.dessert {
+h3.menu3-dessert {
   margin-top: 20px;
 }
 
@@ -1638,7 +1703,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
   height: 55px;
 }
 
@@ -1647,7 +1711,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
   height: 55px;
 }
 
@@ -1655,7 +1718,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 12rem;
   height: 55px;
 }
 
@@ -1670,7 +1732,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
   height: 55px;
 }
 
@@ -1685,7 +1746,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 4rem;
   height: 55px;
 }
 
@@ -1693,7 +1753,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 5rem;
   height: 55px;
 }
 
@@ -1701,7 +1760,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 4rem;
   height: 55px;
 }
 
@@ -1848,6 +1906,18 @@ h3 {
   margin-top: 0px;
 }
 
+h3.menu4-entree {
+  margin-top: 20px;
+}
+
+h3.menu4-plat {
+  margin-top: 20px;
+}
+
+h3.menu4-dessert {
+  margin-top: 20px;
+}
+
 .trait-1 {
   content: "";
   width: 3rem;
@@ -1990,7 +2060,10 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 7rem;
+  overflow: hidden;
+}
+.menu4__fixe:hover .true {
+  margin-right: 0px;
 }
 
 .menu4__fixe-1 {
@@ -1998,14 +2071,12 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
 }
 
 .menu4__fixe-2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 7rem;
   height: 26px;
 }
 
@@ -2013,42 +2084,36 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 5rem;
 }
 
 .menu4__fixe-4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 3rem;
 }
 
 .menu4__fixe-5 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 4rem;
 }
 
 .menu4__fixe-6 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 12rem;
 }
 
 .menu4__fixe-7 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 12rem;
 }
 
 .menu4__fixe-8 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 5rem;
 }
 
 .menu-info-1 {

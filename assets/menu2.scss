@@ -49,6 +49,15 @@ body{
        font-weight: 400;
        margin-top:0px ;
    }
+   h3.menu2-entree{
+margin-top:20px ;
+   }
+   h3.menu2-plat{
+    margin-top:20px ;
+   }
+   h3.menu2-dessert{
+    margin-top:20px ;
+   }
    .trait-1{
        content: "";
        width: 3rem;
@@ -277,8 +286,7 @@ body{
        display: flex;
        justify-content:space-between;
        align-items: center;
-       gap:2rem;
-       height:55px ;
+        height:55px ;
        
    }
    .menu2__fixe-1{
@@ -286,14 +294,12 @@ body{
        display: flex;
        justify-content:space-between;
        align-items: center;
-       gap:2rem;
        height:55px ;
    }
    .menu2__fixe-2{
        display: flex;
        justify-content:space-between;
        align-items: center;
-       gap:2rem;
        height:55px ;
    }
    .menu2__fixe-3{
@@ -301,34 +307,30 @@ body{
        justify-content:space-between;
        align-items: center;
        height:55px ;
-       gap:1rem;
+       
    }
    .menu2__fixe-4{
        display: flex;
        justify-content:space-between;
        align-items: center;
-       gap:1rem;
        height:55px ;
    }
    .menu2__fixe-5{
        display: flex;
        justify-content:space-between;
        align-items: center;
-       gap:4rem;
        height:55px ;
    }
    .menu2__fixe-6{
        display: flex;
        justify-content:space-between;
        align-items: center;
-       gap:1rem; 
        height:55px ; 
    }
    .menu2__fixe-7{
        display: flex;
        justify-content:space-between;
        align-items: center;
-       gap:1rem;
        height:55px ; 
             
    }
@@ -336,14 +338,12 @@ body{
        display: flex;
        justify-content:space-between;
        align-items: center;
-       gap:3rem; 
-       height:55px ;   
+        height:55px ;   
    }
    .menu2__fixe-9{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    gap:5rem;
     height:55px ;   
    }
    

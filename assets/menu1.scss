@@ -1,5 +1,4 @@
 
-
 body{
  background-color: #F2F2F2;
  margin:0px;
@@ -90,14 +89,6 @@ h2.palette{
     font-family:Shrikhand;
 }
 
-section{
-    
-   width:100%;
-   
-  
-   
-   
-}
 h4{
 margin-bottom:0px; 
 
@@ -252,7 +243,6 @@ margin-bottom:0px;
     display:flex ;
     justify-content: space-between;
     align-items: center;
-    gap:1rem;
     height:55px ;
     
     
@@ -263,14 +253,12 @@ margin-bottom:0px;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    gap:2rem;
     height:55px ;
 }
 .menu1__fixe-2{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    gap:1rem;
     height:55px ;
 }
 .menu1__fixe-3{
@@ -285,21 +273,18 @@ margin-bottom:0px;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    gap:2rem;
     height:55px ;
 }
 .menu1__fixe-5{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    gap:10rem;
     height:55px ;
 }
 .menu1__fixe-6{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    gap:12rem; 
     height:55px ;
 }
 
@@ -307,7 +292,6 @@ margin-bottom:0px;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    gap:1rem;
     height:55px ;
          
 }
@@ -315,7 +299,6 @@ margin-bottom:0px;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    gap:1rem; 
     height:55px ;   
 }
 .menu-info-1{
@@ -355,8 +338,14 @@ margin-bottom:0px;
    padding: 0.75rem 1.5rem;
    border-radius:100px;
    cursor:pointer;
-   /*transition-duration: .25s;
-   box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);*/
+   filter:brightness(1);
+   &:hover{
+    transition-duration: .25s;
+    filter:brightness(1.75);
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+   }
+   
+   
 }
 .commander{
   margin-top:25px ;
@@ -442,3 +431,43 @@ transition: 1s;
     border-radius:50% ;
     color:$tertiaire;
 }
+
+section{
+    animation:appear 3s;
+    opacity: 0;
+   width:100%;
+   animation-fill-mode: forwards;
+}
+section:first-child{
+    animation-delay:2s ;
+}
+section:nth-child(2){
+    animation-delay:4s ;
+
+}
+section:last-child{
+    animation-delay:6s ;
+}
+@keyframes appear{
+0%{
+    transform: translateY(50%);
+    opacity: 0;
+}
+100%{
+    transform: translateY(0);
+    opacity:1;
+}
+
+
+}
+/*
+@keyframes appear{
+    0%{
+        transform:scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+fin a voir lequel garder
+*/

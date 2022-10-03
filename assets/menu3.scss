@@ -70,13 +70,13 @@ body{
        font-weight: 400;
        margin-top:0px ;
    }
-h3.entree{
+h3.menu3-entree{
     margin-top:20px ;
 }
-   h3.plat{
+   h3.menu3-plat{
 margin-top: 20px;
    }
-   h3.dessert{
+   h3.menu3-dessert{
 margin-top:20px ;
    }
    .trait-1{
@@ -262,7 +262,6 @@ margin-top:20px ;
        display: flex;
        justify-content:space-between;
        align-items: center;
-       gap:2rem;
        height:55px ;
        
    }
@@ -271,14 +270,12 @@ margin-top:20px ;
        display: flex;
        justify-content:space-between;
        align-items: center;
-       gap:1rem;
        height:55px ;
    }
    .menu3__fixe-2{
        display: flex;
        justify-content:space-between;
        align-items: center;
-       gap:12rem;
        height:55px ; 
    }
    .menu3__fixe-3{
@@ -292,7 +289,6 @@ margin-top:20px ;
        display: flex;
        justify-content:space-between;
        align-items: center;
-       gap:1rem;
        height:55px ;
    }
    .menu3__fixe-5{
@@ -306,14 +302,12 @@ margin-top:20px ;
        display: flex;
        justify-content:space-between;
        align-items: center;
-       gap:4rem; 
-       height:55px ;
+        height:55px ;
    }
    .menu3__fixe-7{
        display: flex;
        justify-content:space-between;
        align-items: center;
-       gap:5rem;
        height:55px ;
             
    }
@@ -321,8 +315,7 @@ margin-top:20px ;
        display: flex;
        justify-content:space-between;
        align-items: center;
-       gap:4rem; 
-       height:55px ;   
+        height:55px ;   
    }
    
    

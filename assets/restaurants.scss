@@ -1,5 +1,5 @@
 body{
-
+background-color: #15DEA5;
     font-family: 'Roboto' , sans-serif;
 
 margin:0px ;
@@ -467,6 +467,38 @@ span.news{
    padding:7px ;
    border-radius:0,125rem ;
 }   
+
+
+.move{
+    position:fixed;
+    display:grid;
+    place-items:center;
+    background-color:#FFF;
+    height:100vh;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    inset:0rem;
+    z-index:1;
+    opacity:0,9;
+}
+
+@keyframes dissapears{
+    0% {
+        transform:scale(1);
+    }
+    100%{
+        transform:scale(0);
+    }
+}
+
+.move{
+    animation:dissapears 200ms;
+    animation-fill-mode:forwards;
+    transform-origin:top ;
+    animation-delay:5s;
+}
 
 
  
