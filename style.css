@@ -263,12 +263,8 @@ main {
   background-color: #F3F3F3;
 }
 
-.mama {
-  font-weight: bolder;
-}
-
 footer {
-  background-color: #5f574e;
+  background-color: #303030;
   color: white;
   height: 225px;
 }
@@ -443,7 +439,7 @@ li ::marker {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 80px;
+  margin-bottom: 10px;
 }
 @media (max-width: 850px) {
   .cube-2 {
