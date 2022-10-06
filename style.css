@@ -535,6 +535,10 @@ span.news {
   animation-delay: 5s;
 }
 
+.fa-3x {
+  color: #9356DC;
+}
+
 body {
   background-color: #F2F2F2;
   margin: 0px;
