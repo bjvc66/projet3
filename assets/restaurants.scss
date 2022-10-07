@@ -2,8 +2,8 @@ body{
 background-color: #15DEA5;
     font-family: 'Roboto' , sans-serif;
 
-margin:0px ;
 }
+
 .btn {
   padding: 1.5rem;
   background: #15DEA5;
@@ -28,16 +28,13 @@ a{
 a.mail{
     color:white;
  }   
-.premier{
+h1{
 display: flex;
 justify-content: center;
 align-items: center;
+margin:0;
 }
-.deuxieme{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .troisieme{
     display: flex;
     justify-content: center;
@@ -95,19 +92,21 @@ align-items: center;
         align-items:center;
         border-radius: 0 0 10px 10px;
         height:70px ;
-        width: 400px;
+        width: 360Px;
         background-color: #fff;
-      
+        @media (max-width:800px) {
+            margin-bottom:30px;
+        }
     }
     .texte-restaurant-bloc-2{
         cursor: pointer;
         align-items:center;
         border-radius: 0 0 10px 10px;
         height:70px ;
-        width: 400px;
+        width: 360px;
         background-color:#fff;
         @media (max-width:800px) {
-            margin-bottom:20px;
+            margin-bottom:30px;
         }
     }
     .texte-restaurant-bloc-3{
@@ -115,10 +114,10 @@ align-items: center;
         align-items:center;
         border-radius: 0 0 10px 10px;
         height:70px ;
-        width:400px;
+        width:360px;
         background-color:#fff ;
         @media (max-width:800px) {
-            margin-bottom:20px;
+            margin-bottom:30px;
         }
     }
     .texte-restaurant-bloc-4{
@@ -127,10 +126,10 @@ align-items: center;
         align-items:center;
         border-radius: 0 0 10px 10px;
         height:70px ;
-        width: 400px;
+        width: 360px;
         background-color:#fff;
         @media (max-width:800px) {
-            margin-bottom:20px;
+            margin-bottom:30px;
         }
     }
    .ohmyfood-1{
@@ -164,7 +163,8 @@ align-items: center;
     gap: 10px; 
     background-color: #F3F3F3;
     text-align: center;
-    padding:2rem ;
+    padding-left:2rem ;
+    padding-right: 2rem;
     
 }
 .text1{
@@ -181,11 +181,25 @@ align-items: center;
     background-color:ƒF2F2F2;
     height:200px ;
     margin-bottom:20px ;
-    padding:2rem;
+    padding-left:1rem;
+    padding-right :1rem; 
     
    }
    .papa{
-    padding:0rem 1rem;
+    padding: 1rem;
+   }
+   .resto{
+    padding-top: 2rem;
+    padding-bottom:2rem ;
+    padding-left: 2px;
+    padding-right:60% ;
+    
+   }
+   .fonctio{
+    padding-top: 2rem;
+    padding-bottom:2rem ;
+    padding-left: 25px;
+    padding-right:60% ;
    }
    .search {
     
@@ -267,7 +281,7 @@ align-items: center;
     padding-left:6%;
     margin-top:0px ;
   }
-  h3{
+  .util{
     
     justify-content: center;
     align-items: center;
@@ -467,7 +481,7 @@ span.new{
     position:absolute;
    border-radius:0,125rem;
    top:1rem;
-   left:20rem ;
+   left:275px ;
    padding:7px;
    border-radius:0,125rem ;
 }
@@ -477,7 +491,7 @@ span.news{
     position:absolute;
    border-radius:0,125rem;
    top:1rem;
-   left:20rem ;
+   left:275px ;
    padding:7px ;
    border-radius:0,125rem ;
 }   
@@ -516,4 +530,28 @@ span.news{
 .fa-3x{
     color:$primaire;
     
+}
+section.belleville{
+    margin-bottom:7rem ;
+    background-color: $fondgris;
+    
+    justify-content: center;
+    align-items: center;
+}
+section.fonctionnement{
+background-color: white;
+margin-left:0 ;
+margin-right:0;
+
+justify-content: center;
+align-items: center;
+}
+section.restaurant{
+background-color: $fondgris;
+
+justify-content: center;
+align-items: center;
+}
+@media (max-width:400px) {
+  
 }
