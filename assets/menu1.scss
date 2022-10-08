@@ -7,17 +7,21 @@ body{
 .logo{
     background-color: #fff;
     text-align:center ;
-    padding:2rem 1rem 1rem; 
-    position:relative;
-}
-.ohmyfood{
     
-    width:160px ;
+    position:relative;
+    
+}
+h1{
+    margin-top:0px ;
+}
+h1{
+    
+    
     position:relative ;
   }
   .gogo{
       position:absolute;
-      left:50px;
+      bottom:50px;
   }
   
 .image-menu-1{
@@ -88,7 +92,7 @@ h3.menu1-dessert{
 }
 h2.palette{
     font-family:Shrikhand;
-    
+    padding-top:2rem ;
 }
 
 h4{
@@ -355,13 +359,12 @@ margin-bottom:0px;
   place-items:center ;
  
 }
+
 .coeur1{
     position:absolute;
-    
     justify-content:center;
     align-items: center;
-    padding-right:20px ;
-    padding-top:20px;
+   
 }
 .coeur2{
     z-index:1;
