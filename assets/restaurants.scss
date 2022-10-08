@@ -99,7 +99,7 @@ margin:0;
         }
     }
     .texte-restaurant-bloc-2{
-        cursor: pointer;
+        
         align-items:center;
         border-radius: 0 0 10px 10px;
         height:70px ;
@@ -110,7 +110,7 @@ margin:0;
         }
     }
     .texte-restaurant-bloc-3{
-        cursor: pointer;
+        
         align-items:center;
         border-radius: 0 0 10px 10px;
         height:70px ;
@@ -122,7 +122,7 @@ margin:0;
     }
     .texte-restaurant-bloc-4{
         
-        cursor: pointer;
+        
         align-items:center;
         border-radius: 0 0 10px 10px;
         height:70px ;
@@ -327,21 +327,26 @@ color: transparent;
     position:absolute;
     justify-content: center;
     align-items: center;
-    padding-right:20px ;
+    padding-right:15px ;
     padding-top:20px;
+    
 }
 .coeur2{
     z-index:1;
     color:white;
     justify-content: center;
     align-items: center;
-    padding-right:20px ;
+    padding-right:15px ;
     padding-top:20px;
    
 }
 .coeur:hover{
     .coeur2{
         color:#ff7cf8;
+        
+    }
+    .coeur1{
+        color:transparent;
     }
 }
 
@@ -448,25 +453,29 @@ i.fa{
     padding:10px ;
 }
 .mot1{
+    
     padding-left:15px ;
     padding-top: 15px; 
     color:black ;
-    
+    cursor: pointer;
 }
 .mot2{
     padding-left:15px ;
     padding-top: 15px; 
     color:black ;
+    cursor: pointer;
 }
 .mot3{
     padding-left:15px ;
     padding-top: 15px;
     color:black ;
+    cursor: pointer;
 }
 .mot4{
     padding-left:15px ;
     padding-top: 15px;
     color:black;
+    cursor: pointer;
 }
 
 li::marker{

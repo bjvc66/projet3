@@ -107,7 +107,6 @@ h1 {
 }
 
 .texte-restaurant-bloc-2 {
-  cursor: pointer;
   align-items: center;
   border-radius: 0 0 10px 10px;
   height: 70px;
@@ -121,7 +120,6 @@ h1 {
 }
 
 .texte-restaurant-bloc-3 {
-  cursor: pointer;
   align-items: center;
   border-radius: 0 0 10px 10px;
   height: 70px;
@@ -135,7 +133,6 @@ h1 {
 }
 
 .texte-restaurant-bloc-4 {
-  cursor: pointer;
   align-items: center;
   border-radius: 0 0 10px 10px;
   height: 70px;
@@ -337,7 +334,7 @@ li ::marker {
   position: absolute;
   justify-content: center;
   align-items: center;
-  padding-right: 20px;
+  padding-right: 15px;
   padding-top: 20px;
 }
 
@@ -346,12 +343,15 @@ li ::marker {
   color: white;
   justify-content: center;
   align-items: center;
-  padding-right: 20px;
+  padding-right: 15px;
   padding-top: 20px;
 }
 
 .coeur:hover .coeur2 {
   color: #ff7cf8;
+}
+.coeur:hover .coeur1 {
+  color: transparent;
 }
 
 .chiffre {
@@ -470,24 +470,28 @@ i.fa {
   padding-left: 15px;
   padding-top: 15px;
   color: black;
+  cursor: pointer;
 }
 
 .mot2 {
   padding-left: 15px;
   padding-top: 15px;
   color: black;
+  cursor: pointer;
 }
 
 .mot3 {
   padding-left: 15px;
   padding-top: 15px;
   color: black;
+  cursor: pointer;
 }
 
 .mot4 {
   padding-left: 15px;
   padding-top: 15px;
   color: black;
+  cursor: pointer;
 }
 
 li::marker {
