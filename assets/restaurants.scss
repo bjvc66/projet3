@@ -18,6 +18,9 @@ box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
 position: relative;
 
  }
+ h2.ohmyfood{
+    padding-top: 40px;
+ }
 .html{
     width:100%;
     margin:0px ;
@@ -32,7 +35,7 @@ h1{
 display: flex;
 justify-content: center;
 align-items: center;
-margin:0;
+
 }
 
 .troisieme{
@@ -206,12 +209,12 @@ margin:0;
     display: flex;
     justify-content: center;
     align-items: center;
-   width:220px ;
+   width:auto;
    margin-bottom:20px ;
    background-color: #686868;
    color: #fff;
    background-image: linear-gradient(0deg,$primaire,$secondaire);
-   padding: 0.75rem 1.5rem;
+   padding: 0px 24px;
    border-radius:100px;
    cursor:pointer;
    filter:brightness(1);
@@ -426,6 +429,7 @@ color: transparent;
     padding-top: 15px;
 }
 .cube-1{
+  
    display: flex;
     justify-content: space-around;
     align-items: center;
@@ -437,8 +441,10 @@ color: transparent;
  @media (max-width:800px) {
     margin-bottom:0px ;
 }
- gap:1rem ;
+ 
  margin-bottom:80px ;
+ padding-right:20px ;
+ padding-left: 20px;
 }
 .cube-2{
     display: flex;
@@ -448,6 +454,8 @@ color: transparent;
         flex-direction: column;  
       }   
       margin-bottom:10px ; 
+      padding-right:20px ;
+      padding-left: 20px;
 }
 i.fa{
     padding:10px ;
