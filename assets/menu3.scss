@@ -4,410 +4,415 @@ page du menu3 "ohmyfood"
 avec lien vers la page d'acceuil
 des animations et affichable sur i phone 6 7 8
 */
-body{
-    background-color: #F2F2F2;
-    margin:0px;
-    font-family: Roboto, sans-serif;
-    }
-   .logo{
-       background-color: #fff;
-       text-align:center ;
-       padding:2rem 1rem 1rem;
-       position:relative;
-   }
-   .gogo{
-    position:absolute;
-    left:50px;
+
+.gogo {
+    position: absolute;
+    left: 50px;
 }
-   .ohmyfood{
-       width:160px ;
-       position:relative ;
-     }
-     
-     a.mail{
-        color:white;
-     }   
-     .coeur1{
-        position:absolute;
-        justify-content: center;
-        align-items: center;
-        padding-right:20px ;
-        padding-top:20px;
-    }
-    .coeur2{
-        z-index:1;
-        color:white;
-        justify-content: center;
-        align-items: center;
-        padding-right:20px ;
-        padding-top:20px;
-       
-    }
-    .coeur:hover{
-        .coeur2{
-            color:#ff7cf8;
-        }
-    }
-   .image-menu-3{
-       background-image:url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg) ;
-       background-size:cover ;
-       background-position:center ;
-       width:100% ;
-       height:300px ;
-      
-   }
-   .flexo-3{
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       padding: 1rem;
-       margin-top:-2rem ;
-       border-radius:20px 20px 0 0;
-       background-color:$fondgris;
-       margin-bottom:0px ;
-   }
-   
-       
-   
-   h3{
-       position:relative;
-       text-transform: uppercase;
-       padding-bottom: 0,25rem;
-       font-weight: 400;
-       margin-top:0px ;
-   }
-h3.menu3-entree{
-    margin-top:20px ;
+
+.ohmyfood {
+    width: 160px;
+    position: relative;
 }
-   h3.menu3-plat{
-margin-top: 20px;
-   }
-   h3.menu3-dessert{
-margin-top:20px ;
-   }
-   .trait-1{
-       content: "";
-       width: 3rem;
-       height: 0.25rem;
-       background-color:$tertiaire;
-       position: absolute;
-       margin-left:1rem ;
-   }
-   .trait-2{
-       content: "";
-       width: 3rem;
-       height: 0.25rem;
-       background-color:$tertiaire;
-       position: absolute;
-       margin-left:1rem; 
-   }
-   .trait-3{
-       content: "";
-       width: 3rem;
-       height: 0.25rem;
-       background-color:$tertiaire;
-       position: absolute;
-       margin-left:1rem; 
-   }
-   .coeurs{
-       margin:0px;
-   }
-   section{
-       width:100%;
+
+.coeur1 {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.coeur2 {
+    z-index: 1;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    padding-top: 20px;
+
+}
+
+.coeur:hover {
+    .coeur2 {
+        color: #ff7cf8;
     }
-   h4{
-   margin-bottom:0px; 
-   
-   }
-   .menu3__entree-1{
-       height:55px ;
-       background-color:white ;
-       border-radius:15px 15px 15px 15px ; 
-      margin-top:3rem ;
-      margin-left:1rem;
-      margin-right:1rem ;
-      cursor:pointer;
-      box-shadow:10px 5px 5px #a9af90;
-      overflow: hidden;
-      &:hover{
-        .true{
-            margin-right:0px;
+}
+
+.image-menu-3 {
+    background-image: url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+
+}
+
+.flexo-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-top: -2rem;
+    border-radius: 20px 20px 0 0;
+    background-color: $fondgris;
+    margin-bottom: 0px;
+}
+
+h3.menu3-entree {
+    margin-top: 20px;
+}
+
+h3.menu3-plat {
+    margin-top: 20px;
+}
+
+h3.menu3-dessert {
+    margin-top: 20px;
+}
+
+.trait-1 {
+    content: "";
+    width: 3rem;
+    height: 0.25rem;
+    background-color: $tertiaire;
+    position: absolute;
+    margin-left: 1rem;
+}
+
+.trait-2 {
+    content: "";
+    width: 3rem;
+    height: 0.25rem;
+    background-color: $tertiaire;
+    position: absolute;
+    margin-left: 1rem;
+}
+
+.trait-3 {
+    content: "";
+    width: 3rem;
+    height: 0.25rem;
+    background-color: $tertiaire;
+    position: absolute;
+    margin-left: 1rem;
+}
+
+.coeurs {
+    margin: 0px;
+}
+
+section {
+    width: 100%;
+}
+
+h4 {
+    margin-bottom: 0px;
+
+}
+
+.menu3__entree-1 {
+    height: 55px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    box-shadow: 10px 5px 5px #a9af90;
+    overflow: hidden;
+
+    &:hover {
+        .true {
+            margin-right: 0px;
         }
-      }
-   }
-   .menu3__entree-2{
-       height:55px ;
-       background-color:white ;
-       border-radius:15px 15px 15px 15px ; 
-       box-shadow:10px 5px 5px #a9af90;
-       margin-top:3rem ;
-       margin-left:1rem;
-       margin-right:1rem ;
-       cursor:pointer;
-       overflow: hidden;
-      &:hover{
-        .true{
-            margin-right:0px;
+    }
+}
+
+.menu3__entree-2 {
+    height: 55px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 5px 5px #a9af90;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    overflow: hidden;
+
+    &:hover {
+        .true {
+            margin-right: 0px;
         }
-      }
-   }
-   .menu3__entree-3{
-       height:55px ;
-       background-color:white ;
-       border-radius:15px 15px 15px 15px ; 
-       box-shadow:10px 5px 5px #a9af90;
-       margin-top:3rem ;
-       margin-left:1rem;
-       margin-right:1rem ;
-       cursor:pointer;
-       overflow: hidden;
-       &:hover{
-         .true{
-             margin-right:0px;
-         }
-       }
-   }
-   .menu3__plat-1{
-       height:55px ;
-       background-color:white ; 
-       border-radius:15px 15px 15px 15px ; 
-        box-shadow:10px 5px 5px #a9af90;
-        margin-top:3rem ;
-        margin-left:1rem;
-        margin-right:1rem ;
-        cursor:pointer;
-        overflow: hidden;
-        &:hover{
-          .true{
-              margin-right:0px;
-          }
+    }
+}
+
+.menu3__entree-3 {
+    height: 55px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 5px 5px #a9af90;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    overflow: hidden;
+
+    &:hover {
+        .true {
+            margin-right: 0px;
         }
-   }
-   .menu3__plat-2{
-       height:55px ;
-       background-color:white ;
-       border-radius:15px 15px 15px 15px ; 
-       box-shadow:10px 5px 5px #a9af90;
-       margin-top:3rem ;
-        margin-left:1rem;
-        margin-right:1rem ;
-        cursor:pointer;
-        overflow: hidden;
-        &:hover{
-            .true{
-                margin-right:0px;
-            }
-          }
-   }
-   .menu3__plat-3{
-       height:55px ;
-       background-color:white ;
-       border-radius:15px 15px 15px 15px ; 
-       box-shadow:10px 5px 5px #a9af90;
-       margin-top:3rem ;
-       margin-left:1rem;
-       margin-right:1rem ;
-       cursor:pointer;
-       overflow: hidden;
-       &:hover{
-        .true{
-            margin-right:0px;
+    }
+}
+
+.menu3__plat-1 {
+    height: 55px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 5px 5px #a9af90;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    overflow: hidden;
+
+    &:hover {
+        .true {
+            margin-right: 0px;
         }
-      }
-   }
-   .menu3__dessert-1{
-       height:55px ;
-       background-color:white ;
-       border-radius:15px 15px 15px 15px ; 
-       box-shadow:10px 5px 5px #a9af90;
-       margin-top:3rem ;
-       margin-left:1rem;
-       margin-right:1rem ;
-       cursor:pointer;
-       overflow: hidden;
-       &:hover{
-        .true{
-            margin-right:0px;
+    }
+}
+
+.menu3__plat-2 {
+    height: 55px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 5px 5px #a9af90;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    overflow: hidden;
+
+    &:hover {
+        .true {
+            margin-right: 0px;
         }
-      }
-   }
-   .menu3__dessert-2{
-       height:55px ;
-       background-color:white ;
-       border-radius:15px 15px 15px 15px ;
-       box-shadow:10px 5px 5px #a9af90; 
-       margin-top:3rem ;
-       margin-left:1rem;
-       margin-right:1rem ;
-       overflow: hidden;
-       cursor:pointer;
-       &:hover{
-        .true{
-            margin-right:0px;
+    }
+}
+
+.menu3__plat-3 {
+    height: 55px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 5px 5px #a9af90;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    overflow: hidden;
+
+    &:hover {
+        .true {
+            margin-right: 0px;
         }
-      }
-   }
-   .menu3__dessert-3{
-       height:55px ;
-       background-color:white ;
-       border-radius:15px 15px 15px 15px ; 
-       box-shadow:10px 5px 5px #a9af90;
-       margin-top:3rem ;
-       margin-left:1rem;
-       margin-right:1rem ;
-       cursor:pointer;
-       overflow: hidden;
-       &:hover{
-        .true{
-            margin-right:0px;
+    }
+}
+
+.menu3__dessert-1 {
+    height: 55px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 5px 5px #a9af90;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    overflow: hidden;
+
+    &:hover {
+        .true {
+            margin-right: 0px;
         }
-      } 
-   }
-   
-   .menu3__fixe{
-       display: flex;
-       justify-content:space-between;
-       align-items: center;
-       height:55px ;
-       
-   }
-   .menu3__fixe-1{
-       padding:2px ;
-       display: flex;
-       justify-content:space-between;
-       align-items: center;
-       height:55px ;
-   }
-   .menu3__fixe-2{
-       display: flex;
-       justify-content:space-between;
-       align-items: center;
-       height:55px ; 
-   }
-   .menu3__fixe-3{
-       display: flex;
-       justify-content:space-between;
-       align-items: center;
-       height:55px ;
-       
-   }
-   .menu3__fixe-4{
-       display: flex;
-       justify-content:space-between;
-       align-items: center;
-       height:55px ;
-   }
-   .menu3__fixe-5{
-       display: flex;
-       justify-content:space-between;
-       align-items: center;
-       height:55px ;
-       
-   }
-   .menu3__fixe-6{
-       display: flex;
-       justify-content:space-between;
-       align-items: center;
-        height:55px ;
-   }
-   .menu3__fixe-7{
-       display: flex;
-       justify-content:space-between;
-       align-items: center;
-       height:55px ;
-            
-   }
-   .menu3__fixe-8{
-       display: flex;
-       justify-content:space-between;
-       align-items: center;
-        height:55px ;   
-   }
-   
-   
-   
-   .menu-info-1{
-       
-     justify-content: center;  
-     align-items: center;
-   }
-   .globalmenu-3{
-       display:grid;
-   }
-   .globalmenu-3{
-       grid-template-columns: repeat(3,1fr);
-       column-gap: 0,75rem;
-   }
-   .btn2{
+    }
+}
+
+.menu3__dessert-2 {
+    height: 55px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 5px 5px #a9af90;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+
+    &:hover {
+        .true {
+            margin-right: 0px;
+        }
+    }
+}
+
+.menu3__dessert-3 {
+    height: 55px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 5px 5px #a9af90;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    overflow: hidden;
+
+    &:hover {
+        .true {
+            margin-right: 0px;
+        }
+    }
+}
+
+.menu3__fixe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+
+}
+
+.menu3__fixe-1 {
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+
+.menu3__fixe-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+
+.menu3__fixe-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+
+}
+
+.menu3__fixe-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+
+.menu3__fixe-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+
+}
+
+.menu3__fixe-6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+
+.menu3__fixe-7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+
+}
+
+.menu3__fixe-8 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+
+
+
+.menu-info-1 {
+
+    justify-content: center;
+    align-items: center;
+}
+
+.globalmenu-3 {
+    display: grid;
+}
+
+.globalmenu-3 {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 0, 75rem;
+}
+
+.btn2 {
     display: flex;
     justify-content: center;
     align-items: center;
-   width:120px ;
-   margin-bottom:20px ;
-   background-color: #686868;
-   color: #fff;
-   background-image: linear-gradient(0deg,$primaire,$secondaire);
-   padding: 0.75rem 1.5rem;
-   border-radius:100px;
-   cursor:pointer;
-   /*transition-duration: .25s;
+    width: 120px;
+    margin-bottom: 20px;
+    background-color: #686868;
+    color: #fff;
+    background-image: linear-gradient(0deg, $primaire, $secondaire);
+    padding: 0.75rem 1.5rem;
+    border-radius: 100px;
+    cursor: pointer;
+    /*transition-duration: .25s;
    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);*/
 }
-.commander{
-  margin-top:25px ;
-  display:grid;
-  place-items:center ;
- 
-}
-   
-   h4{
-       padding:4px ;
-       margin-left:4px ;
-   }
-   p{
-       padding:4px;
-       margin-left:4px ;
-   }
-   p.prix{
-       padding: 8px;
-       
-      
-   }
-   .globalmenu-3{
-   @media (max-width:800px) {
-       display: flex;
-       flex-direction: column;  
-   }
-   }
-   .price{
-    font-weight: 900;
-    background-color:white ;
-    height:55px;
-    width: 55px;
-    display:flex;
-    align-items: flex-end;
-    justify-content:center;
-    
-    }
-    .true{
-    background-color:$tertiaire ;
-    width:55px ;
-    height:55px;
+
+.commander {
+    margin-top: 25px;
     display: grid;
-    place-items:center ;
-    border-radius:0 1rem 1rem 0 ;
+    place-items: center;
+
+}
+
+h4 {
+    padding: 4px;
+    margin-left: 4px;
+}
+
+p {
+    padding: 4px;
+    margin-left: 4px;
+}
+
+p.prix {
+    padding: 8px;
+
+
+}
+
+.globalmenu-3 {
+    @media (max-width:800px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+.true {
+    background-color: $tertiaire ;
+    width: 55px;
+    height: 55px;
+    display: grid;
+    place-items: center;
+    border-radius: 0 1rem 1rem 0;
     margin-right: -55px;
     transition: 1s;
-    }
-    .prix{
-        display:flex ;
-        justify-content: end;
-    }
-    .piment{
-        margin-bottom: 1rem;
-    }
-    .fa-circle-check{
-        background-color: white;
-        border-radius:50% ;
-        color:$tertiaire;
-    }
+}

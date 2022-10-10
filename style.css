@@ -599,9 +599,6 @@ des animations et affichable sur i phone 6 7 8
 /*fonctionalitees communes*/
 h1 {
   margin-top: 0px;
-}
-
-h1 {
   position: relative;
 }
 
@@ -615,9 +612,6 @@ h3 {
 
 h4 {
   margin-bottom: 0px;
-}
-
-h4 {
   padding: 4px;
   margin-left: 4px;
 }
@@ -1076,28 +1070,11 @@ page du menu2 "ohmyfood"
 avec lien vers la page d'acceuil
 des animations et affichable sur i phone 6 7 8
 */
-body {
-  background-color: #F2F2F2;
-  margin: 0px;
-  font-family: Roboto, sans-serif;
-}
-
-.logo {
-  background-color: #fff;
-  text-align: center;
-  padding: 2rem 1rem 1rem;
-  position: relative;
-}
-
-a.mail {
-  color: white;
-}
-
-.ohmyfood {
+h1 {
   font-family: Shrikhand;
 }
 
-h1 {
+.ohmyfood {
   font-family: Shrikhand;
 }
 
@@ -1128,14 +1105,6 @@ h1 {
   border-radius: 20px 20px 0 0;
   background-color: #F2F2F2;
   margin-bottom: 0px;
-}
-
-h3 {
-  position: relative;
-  text-transform: uppercase;
-  padding-bottom: 0, 25rem;
-  font-weight: 400;
-  margin-top: 0px;
 }
 
 h3.menu2-entree {
@@ -1485,16 +1454,6 @@ p.prix {
   }
 }
 
-.price {
-  font-weight: 900;
-  background-color: white;
-  height: 55px;
-  width: 55px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-}
-
 .true {
   background-color: #99E2D0;
   width: 55px;
@@ -1506,40 +1465,12 @@ p.prix {
   transition: 1s;
 }
 
-.prix {
-  display: flex;
-  justify-content: end;
-}
-
-.piment {
-  margin-bottom: 1rem;
-}
-
-.fa-circle-check {
-  background-color: white;
-  border-radius: 50%;
-  color: #99E2D0;
-}
-
 /*auteur:baron jacky
 url:Users/macbook/Documents/projets/projet_3_baron_jacky%203%203/menu3.html
 page du menu3 "ohmyfood"
 avec lien vers la page d'acceuil
 des animations et affichable sur i phone 6 7 8
 */
-body {
-  background-color: #F2F2F2;
-  margin: 0px;
-  font-family: Roboto, sans-serif;
-}
-
-.logo {
-  background-color: #fff;
-  text-align: center;
-  padding: 2rem 1rem 1rem;
-  position: relative;
-}
-
 .gogo {
   position: absolute;
   left: 50px;
@@ -1548,10 +1479,6 @@ body {
 .ohmyfood {
   width: 160px;
   position: relative;
-}
-
-a.mail {
-  color: white;
 }
 
 .coeur1 {
@@ -1592,14 +1519,6 @@ a.mail {
   border-radius: 20px 20px 0 0;
   background-color: #F2F2F2;
   margin-bottom: 0px;
-}
-
-h3 {
-  position: relative;
-  text-transform: uppercase;
-  padding-bottom: 0, 25rem;
-  font-weight: 400;
-  margin-top: 0px;
 }
 
 h3.menu3-entree {
@@ -1909,16 +1828,6 @@ p.prix {
   }
 }
 
-.price {
-  font-weight: 900;
-  background-color: white;
-  height: 55px;
-  width: 55px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-}
-
 .true {
   background-color: #99E2D0;
   width: 55px;
@@ -1930,33 +1839,12 @@ p.prix {
   transition: 1s;
 }
 
-.prix {
-  display: flex;
-  justify-content: end;
-}
-
-.piment {
-  margin-bottom: 1rem;
-}
-
-.fa-circle-check {
-  background-color: white;
-  border-radius: 50%;
-  color: #99E2D0;
-}
-
 /*auteur:baron jacky
 url:Users/macbook/Documents/projets/projet_3_baron_jacky%203%203/menu4.html
 page du menu4 "ohmyfood"
 avec lien vers la page d'acceuil
 des animations et affichable sur i phone 6 7 8
 */
-body {
-  background-color: #F2F2F2;
-  margin: 0px;
-  font-family: Roboto, sans-serif;
-}
-
 .logo {
   background-color: #fff;
   text-align: center;
@@ -1991,14 +1879,6 @@ body {
   border-radius: 20px 20px 0 0;
   background-color: #F2F2F2;
   margin-bottom: 0px;
-}
-
-h3 {
-  position: relative;
-  text-transform: uppercase;
-  padding-bottom: 0, 25rem;
-  font-weight: 400;
-  margin-top: 0px;
 }
 
 h3.menu4-entree {
@@ -2301,51 +2181,11 @@ p.prix {
   padding: 8px;
 }
 
-a.mail {
-  color: white;
-}
-
 @media (max-width: 800px) {
   .globalmenu-4 {
     display: flex;
     flex-direction: column;
   }
-}
-
-.price {
-  font-weight: 900;
-  background-color: white;
-  height: 55px;
-  width: 55px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-}
-
-.true {
-  background-color: #99E2D0;
-  width: 55px;
-  height: 55px;
-  display: grid;
-  place-items: center;
-  border-radius: 0 1rem 1rem 0;
-  margin-right: -55px;
-  transition: 1s;
-}
-
-.prix {
-  display: flex;
-  justify-content: end;
-}
-
-.piment {
-  margin-bottom: 1rem;
-}
-
-.fa-circle-check {
-  background-color: white;
-  border-radius: 50%;
-  color: #99E2D0;
 }
 
 /*# sourceMappingURL=style.css.map */

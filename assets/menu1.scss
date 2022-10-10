@@ -5,479 +5,525 @@ avec lien vers la page d'acceuil
 des animations et affichable sur i phone 6 7 8
 */
 /*fonctionalitees communes*/
-h1{
-    margin-top:0px ;
+h1 {
+    margin-top: 0px;
+    position: relative;
 }
-h1{
-    position:relative ;
-  }
-  h3{
-    position:relative;
+h3 {
+    position: relative;
     text-transform: uppercase;
-    padding-bottom: 0,25rem;
+    padding-bottom: 0, 25rem;
     font-weight: 400;
-    margin-top:0px ;
+    margin-top: 0px;
 }
-h4{
-    margin-bottom:0px; 
+
+h4 {
+    margin-bottom: 0px;
+    padding: 4px;
+    margin-left: 4px;
 }
-h4{
-    padding:4px ;
-    margin-left:4px ;
+p {
+    padding: 4px;
+    margin-left: 4px;
 }
-p{
-    padding:4px;
-    margin-left:4px ;
+
+body {
+    background-color: #F2F2F2;
+    margin: 0px;
+    font-family: Roboto, sans-serif;
 }
-body{
- background-color: #F2F2F2;
- margin:0px;
- font-family: Roboto, sans-serif;
- }
- /*haut de la page partie 1*/
- .logo{
-    display:flex ;
+
+/*haut de la page partie 1*/
+.logo {
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    text-align:center ;
-    position:relative;
+    text-align: center;
+    position: relative;
 }
-.gogo{
-     display:block;
-      
+
+.gogo {
+    display: block;
+
 }
-.image-menu-1{
-    background-image:url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg) ;
-    background-size:cover ;
-    background-position:center ;
-    width:100% ;
-    height:300px ;
-   
+
+.image-menu-1 {
+    background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+
 }
+
 /*haut de la page partie 2*/
-.flexo-1{
+.flexo-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    margin-top:-2rem ;
-    border-radius:20px 20px 0 0;
-    background-color:$fondgris;
-    margin-bottom:0px ;
+    margin-top: -2rem;
+    border-radius: 20px 20px 0 0;
+    background-color: $fondgris;
+    margin-bottom: 0px;
 }
-h2.palette{
-    font-family:Shrikhand;
-    padding-top:2rem ;
+
+h2.palette {
+    font-family: Shrikhand;
+    padding-top: 2rem;
 }
-.coeurs{
-    margin:0px;
+
+.coeurs {
+    margin: 0px;
 }
-.coeur1{
-    position:absolute;
-    justify-content:center;
-    align-items: center;
-   
-}
-.coeur2{
-    z-index:1;
-    color:white;
+
+.coeur1 {
+    position: absolute;
     justify-content: center;
     align-items: center;
-    padding-right:20px ;
-    padding-top:20px;
-   
+
 }
-.coeur:hover{
-    .coeur2{
-        color:#ff7cf8;
-        transition:1s ;
+
+.coeur2 {
+    z-index: 1;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    padding-top: 20px;
+
+}
+
+.coeur:hover {
+    .coeur2 {
+        color: #ff7cf8;
+        transition: 1s;
     }
 }
 
 /*la partie qui englobe "entree" "plat" et "dessert"*/
 
-.globalmenu-1{
-    display:grid;
+.globalmenu-1 {
+    display: grid;
 }
-.globalmenu-1{
-    grid-template-columns: repeat(3,1fr);
-    column-gap: 0,75rem;
+
+.globalmenu-1 {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 0, 75rem;
 }
-.globalmenu-1{
+
+.globalmenu-1 {
     @media (max-width:800px) {
         display: flex;
-        flex-direction: column; 
-         
+        flex-direction: column;
+
     }
-    }
+}
 
 /*la carte: les entrees*/
-h3.menu1-entree{
-    margin-top:20px ;
+h3.menu1-entree {
+    margin-top: 20px;
 }
-.trait-1{
+
+.trait-1 {
     content: "";
     width: 3rem;
     height: 0.25rem;
-    background-color:$tertiaire;
+    background-color: $tertiaire;
     position: absolute;
-    margin-left:1rem ;
+    margin-left: 1rem;
 }
-.menu1__entree-1{
-    height:55px ;
-    background-color:white ;
-    border-radius:15px 15px 15px 15px ; 
-    margin-top:3rem;
-    margin-left:1rem ;
-    margin-right:1rem;
-   box-shadow:10px 5px 5px #a9af90;
-   cursor: pointer;
-   overflow: hidden;
-  &:hover{
-    .true{
-        margin-right:0px;
-    }
-  }
-}
-.menu1__entree-2{
-    height:55px ;
-    background-color:white ;
-    border-radius:15px 15px 15px 15px ; 
-    box-shadow:10px 5px 5px #a9af90;
+
+.menu1__entree-1 {
+    height: 55px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    box-shadow: 10px 5px 5px #a9af90;
     cursor: pointer;
-    margin-top:3rem;
-    margin-left:1rem ;
-    margin-right:1rem;
     overflow: hidden;
-    &:hover{
-      .true{
-          margin-right:0px;
-      }
-    }
-}
-.menu1__entree-3{
-    height:55px ;
-    background-color:white ;
-    border-radius:15px 15px 15px 15px ; 
-    box-shadow:10px 5px 5px #a9af90;
-    cursor: pointer;
-    margin-top:3rem;
-    margin-left:1rem ;
-    margin-right:1rem;
-    overflow: hidden;
-    &:hover{
-      .true{
-          margin-right:0px;
-      }
+
+    &:hover {
+        .true {
+            margin-right: 0px;
+        }
     }
 }
 
-.menu1__fixe{
-    padding:2px ;
-    display:flex ;
+.menu1__entree-2 {
+    height: 55px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 5px 5px #a9af90;
+    cursor: pointer;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    overflow: hidden;
+
+    &:hover {
+        .true {
+            margin-right: 0px;
+        }
+    }
+}
+
+.menu1__entree-3 {
+    height: 55px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 5px 5px #a9af90;
+    cursor: pointer;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    overflow: hidden;
+
+    &:hover {
+        .true {
+            margin-right: 0px;
+        }
+    }
+}
+
+.menu1__fixe {
+    padding: 2px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    height:55px ;
+    height: 55px;
 }
 
-.menu1__fixe-1{
-    
+.menu1__fixe-1 {
+
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
-    height:55px ;
-}
-.menu1__fixe-2{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    height:55px ;
+    height: 55px;
 }
 
-.menu-info-1{
-    
-    justify-content: center;  
+.menu1__fixe-2 {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-  }
+    height: 55px;
+}
+
+.menu-info-1 {
+
+    justify-content: center;
+    align-items: center;
+}
 
 
 
 /*la carte:les plats*/
-h3.menu1-plat{
-    margin-top:20px ;
+h3.menu1-plat {
+    margin-top: 20px;
 }
-.trait-2{
+
+.trait-2 {
     content: "";
     width: 3rem;
     height: 0.25rem;
-    background-color:$tertiaire;
+    background-color: $tertiaire;
     position: absolute;
-    margin-left:1rem; 
+    margin-left: 1rem;
 }
-.menu1__plat-1{
-    height:55px ;
-    background-color:white ; 
-    border-radius:15px 15px 15px 15px ; 
-    box-shadow:10px 5px 5px #a9af90;
+
+.menu1__plat-1 {
+    height: 55px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 5px 5px #a9af90;
     cursor: pointer;
-    margin-top:3rem;
-    margin-left:1rem ;
-    margin-right:1rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     overflow: hidden;
-    &:hover{
-      .true{
-          margin-right:0px;
-      }
-    }
-}
-.menu1__plat-2{
-    height:55px ;
-    background-color:white ;
-    border-radius:15px 15px 15px 15px ; 
-    box-shadow:10px 5px 5px #a9af90;
-    cursor: pointer;
-    margin-top:3rem;
-    margin-left:1rem ;
-    margin-right:1rem;
-    overflow: hidden;
-    &:hover{
-      .true{
-          margin-right:0px;
-      }
-    }
-}
-.menu1__plat-3{
-    height:55px ;
-    background-color:white ;
-    border-radius:15px 15px 15px 15px ; 
-    box-shadow:10px 5px 5px #a9af90;
-    cursor: pointer;
-    margin-top:3rem;
-    margin-left:1rem ;
-    margin-right:1rem;
-    overflow: hidden;
-    &:hover{
-      .true{
-          margin-right:0px;
-      }
+
+    &:hover {
+        .true {
+            margin-right: 0px;
+        }
     }
 }
 
-.menu1__fixe-3{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    height:55px ;
-    
-    
-}
-.menu1__fixe-4{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    height:55px ;
-}
-.menu1__fixe-5{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    height:55px ;
+.menu1__plat-2 {
+    height: 55px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 5px 5px #a9af90;
+    cursor: pointer;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    overflow: hidden;
+
+    &:hover {
+        .true {
+            margin-right: 0px;
+        }
+    }
 }
 
-.menu-info-2{
-    
-    justify-content: center;  
+.menu1__plat-3 {
+    height: 55px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 5px 5px #a9af90;
+    cursor: pointer;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    overflow: hidden;
+
+    &:hover {
+        .true {
+            margin-right: 0px;
+        }
+    }
+}
+
+.menu1__fixe-3 {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-  }
+    height: 55px;
+
+
+}
+
+.menu1__fixe-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+
+.menu1__fixe-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+
+.menu-info-2 {
+
+    justify-content: center;
+    align-items: center;
+}
 
 /*la carte :les desserts*/
-h3.menu1-dessert{
-    margin-top:20px ;
+h3.menu1-dessert {
+    margin-top: 20px;
 }
-.trait-3{
+
+.trait-3 {
     content: "";
     width: 3rem;
     height: 0.25rem;
-    background-color:$tertiaire;
+    background-color: $tertiaire;
     position: absolute;
-    margin-left:1rem; 
+    margin-left: 1rem;
 }
 
-.menu1__dessert-1{
-    height:55px ;
-    background-color:white ;
-    border-radius:15px 15px 15px 15px ; 
-    box-shadow:10px 5px 5px #a9af90;
-    cursor: pointer; 
-    margin-top:3rem;
-    margin-left:1rem ;
-    margin-right:1rem;
-    overflow: hidden;
-    &:hover{
-      .true{
-          margin-right:0px;
-      }
-    }
-}
-.menu1__dessert-2{
-    height:55px ;
-    background-color:white ;
-    border-radius:15px 15px 15px 15px ;
-    box-shadow:10px 5px 5px #a9af90; 
+.menu1__dessert-1 {
+    height: 55px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 5px 5px #a9af90;
     cursor: pointer;
-    margin-top:3rem;
-    margin-left:1rem ;
-    margin-right:1rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     overflow: hidden;
-    &:hover{
-      .true{
-          margin-right:0px;
-      }
+
+    &:hover {
+        .true {
+            margin-right: 0px;
+        }
     }
 }
-.menu1__dessert-3{
-    height:55px ;
-    background-color:white ;
-    border-radius:15px 15px 15px 15px ; 
-    box-shadow:10px 5px 5px #a9af90; 
+
+.menu1__dessert-2 {
+    height: 55px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 5px 5px #a9af90;
     cursor: pointer;
-    margin-top:3rem;
-    margin-left:1rem ;
-    margin-right:1rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     overflow: hidden;
-    &:hover{
-      .true{
-          margin-right:0px;
-      }
+
+    &:hover {
+        .true {
+            margin-right: 0px;
+        }
+    }
+}
+
+.menu1__dessert-3 {
+    height: 55px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 5px 5px #a9af90;
+    cursor: pointer;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    overflow: hidden;
+
+    &:hover {
+        .true {
+            margin-right: 0px;
+        }
     }
 }
 
 
 
-.menu1__fixe-6{
+.menu1__fixe-6 {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
-    height:55px ;
+    height: 55px;
 }
 
-.menu1__fixe-7{
+.menu1__fixe-7 {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
-    height:55px ;
-         
+    height: 55px;
+
 }
-.menu1__fixe-8{
+
+.menu1__fixe-8 {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
-    height:55px ;   
+    height: 55px;
 }
-.menu-info-3{
-    
-    justify-content: center;  
+
+.menu-info-3 {
+
+    justify-content: center;
     align-items: center;
-  }
-  /*prix des menus*/
-  .price{
+}
+
+/*prix des menus*/
+.price {
     font-weight: 900;
-    background-color:white ;
-    height:55px;
+    background-color: white;
+    height: 55px;
     width: 55px;
-    display:flex;
+    display: flex;
     align-items: flex-end;
-    justify-content:center;
-    
-    }
-    .prix{
-        display:flex ;
-        justify-content: end;
-    }
+    justify-content: center;
+
+}
+
+.prix {
+    display: flex;
+    justify-content: end;
+}
+
 /*le bouton juste avant le footer*/
 
-.btn2{
+.btn2 {
     display: flex;
     justify-content: center;
     align-items: center;
-   width:120px ;
-   margin-bottom:20px ;
-   background-color: #686868;
-   color: #fff;
-   background-image: linear-gradient(0deg,$primaire,$secondaire);
-   padding: 0.75rem 1.5rem;
-   border-radius:100px;
-   cursor:pointer;
-   filter:brightness(1);
-   &:hover{
-    transition-duration: .25s;
-    filter:brightness(1.75);
-    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
-   }
-   
-   
+    width: 120px;
+    margin-bottom: 20px;
+    background-color: #686868;
+    color: #fff;
+    background-image: linear-gradient(0deg, $primaire, $secondaire);
+    padding: 0.75rem 1.5rem;
+    border-radius: 100px;
+    cursor: pointer;
+    filter: brightness(1);
+
+    &:hover {
+        transition-duration: .25s;
+        filter: brightness(1.75);
+        box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+    }
+
+
 }
-.commander{
-  margin-top:25px ;
-  display:grid;
-  place-items:center ;
- 
+
+.commander {
+    margin-top: 25px;
+    display: grid;
+    place-items: center;
+
 }
 
 /*le bas de page :le "footer"*/
 
-a.mail{
-    color:white;
- }   
+a.mail {
+    color: white;
+}
 
 /*composition des assiettes*/
-.piment{
+.piment {
     margin-bottom: 1rem;
 }
+
 /*petit rond dans le carre vert de l'animation "appear"*/
-.fa-circle-check{
+.fa-circle-check {
     background-color: white;
-    border-radius:50% ;
-    color:$tertiaire;
+    border-radius: 50%;
+    color: $tertiaire;
 }
-.true{
-    background-color:$tertiaire ;
-    width:55px ;
-    height:55px;
+
+.true {
+    background-color: $tertiaire ;
+    width: 55px;
+    height: 55px;
     display: grid;
-    place-items:center ;
-    border-radius:0 1rem 1rem 0 ;
+    place-items: center;
+    border-radius: 0 1rem 1rem 0;
     margin-right: -55px;
     transition: 1s;
-    }
+}
+
 /*animation apparition "appear" a l'ouverture de la page*/
-section{
-    animation:appear 3s;
+section {
+    animation: appear 3s;
     opacity: 0;
-   width:100%;
-   animation-fill-mode: forwards;
-}
-section:first-child{
-    animation-delay:2s ;
-}
-section:nth-child(2){
-    animation-delay:4s ;
-
-}
-section:last-child{
-    animation-delay:6s ;
-}
-@keyframes appear{
-0%{
-    transform: translateY(50%);
-    opacity: 0;
-}
-100%{
-    transform: translateY(0);
-    opacity:1;
+    width: 100%;
+    animation-fill-mode: forwards;
 }
 
+section:first-child {
+    animation-delay: 2s;
+}
+
+section:nth-child(2) {
+    animation-delay: 4s;
 
 }
 
+section:last-child {
+    animation-delay: 6s;
+}
+
+@keyframes appear {
+    0% {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+
+}
