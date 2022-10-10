@@ -635,14 +635,16 @@ body {
 
 /*haut de la page partie 1*/
 .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #fff;
   text-align: center;
   position: relative;
 }
 
 .gogo {
-  position: absolute;
-  bottom: 50px;
+  display: block;
 }
 
 .image-menu-1 {
