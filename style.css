@@ -617,6 +617,16 @@ h4 {
   margin-bottom: 0px;
 }
 
+h4 {
+  padding: 4px;
+  margin-left: 4px;
+}
+
+p {
+  padding: 4px;
+  margin-left: 4px;
+}
+
 body {
   background-color: #F2F2F2;
   margin: 0px;
@@ -682,6 +692,23 @@ h2.palette {
 .coeur:hover .coeur2 {
   color: #ff7cf8;
   transition: 1s;
+}
+
+/*la partie qui englobe "entree" "plat" et "dessert"*/
+.globalmenu-1 {
+  display: grid;
+}
+
+.globalmenu-1 {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 0, 75rem;
+}
+
+@media (max-width: 800px) {
+  .globalmenu-1 {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /*la carte: les entrees*/
@@ -765,6 +792,11 @@ h3.menu1-entree {
   height: 55px;
 }
 
+.menu-info-1 {
+  justify-content: center;
+  align-items: center;
+}
+
 /*la carte:les plats*/
 h3.menu1-plat {
   margin-top: 20px;
@@ -843,6 +875,11 @@ h3.menu1-plat {
   justify-content: space-between;
   align-items: center;
   height: 55px;
+}
+
+.menu-info-2 {
+  justify-content: center;
+  align-items: center;
 }
 
 /*la carte :les desserts*/
@@ -925,30 +962,28 @@ h3.menu1-dessert {
   height: 55px;
 }
 
-.menu-info-1 {
-  justify-content: center;
-  align-items: center;
-}
-
-.menu-info-2 {
-  justify-content: center;
-  align-items: center;
-}
-
 .menu-info-3 {
   justify-content: center;
   align-items: center;
 }
 
-.globalmenu-1 {
-  display: grid;
+/*prix des menus*/
+.price {
+  font-weight: 900;
+  background-color: white;
+  height: 55px;
+  width: 55px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
-.globalmenu-1 {
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 0, 75rem;
+.prix {
+  display: flex;
+  justify-content: end;
 }
 
+/*le bouton juste avant le footer*/
 .btn2 {
   display: flex;
   justify-content: center;
@@ -975,35 +1010,21 @@ h3.menu1-dessert {
   place-items: center;
 }
 
-h4 {
-  padding: 4px;
-  margin-left: 4px;
-}
-
-p {
-  padding: 4px;
-  margin-left: 4px;
-}
-
+/*le bas de page :le "footer"*/
 a.mail {
   color: white;
 }
 
-@media (max-width: 800px) {
-  .globalmenu-1 {
-    display: flex;
-    flex-direction: column;
-  }
+/*composition des assiettes*/
+.piment {
+  margin-bottom: 1rem;
 }
 
-.price {
-  font-weight: 900;
+/*petit rond dans le carre vert de l'animation "appear"*/
+.fa-circle-check {
   background-color: white;
-  height: 55px;
-  width: 55px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
+  border-radius: 50%;
+  color: #99E2D0;
 }
 
 .true {
@@ -1017,21 +1038,7 @@ a.mail {
   transition: 1s;
 }
 
-.prix {
-  display: flex;
-  justify-content: end;
-}
-
-.piment {
-  margin-bottom: 1rem;
-}
-
-.fa-circle-check {
-  background-color: white;
-  border-radius: 50%;
-  color: #99E2D0;
-}
-
+/*animation apparition "appear" a l'ouverture de la page*/
 section {
   animation: appear 3s;
   opacity: 0;
@@ -1061,17 +1068,6 @@ section:last-child {
     opacity: 1;
   }
 }
-/*
-@keyframes appear{
-    0%{
-        transform:scale(0);
-    }
-    100%{
-        transform: scale(1);
-    }
-}
-fin a voir lequel garder
-*/
 /*auteur:baron jacky
 url:Users/macbook/Documents/projets/projet_3_baron_jacky%203%203/menu2.html
 page du menu2 "ohmyfood"

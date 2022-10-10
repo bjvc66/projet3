@@ -21,6 +21,14 @@ h1{
 h4{
     margin-bottom:0px; 
 }
+h4{
+    padding:4px ;
+    margin-left:4px ;
+}
+p{
+    padding:4px;
+    margin-left:4px ;
+}
 body{
  background-color: #F2F2F2;
  margin:0px;
@@ -84,9 +92,22 @@ h2.palette{
     }
 }
 
+/*la partie qui englobe "entree" "plat" et "dessert"*/
 
-
-
+.globalmenu-1{
+    display:grid;
+}
+.globalmenu-1{
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 0,75rem;
+}
+.globalmenu-1{
+    @media (max-width:800px) {
+        display: flex;
+        flex-direction: column; 
+         
+    }
+    }
 
 /*la carte: les entrees*/
 h3.menu1-entree{
@@ -171,6 +192,13 @@ h3.menu1-entree{
     height:55px ;
 }
 
+.menu-info-1{
+    
+    justify-content: center;  
+    align-items: center;
+  }
+
+
 
 /*la carte:les plats*/
 h3.menu1-plat{
@@ -254,6 +282,11 @@ h3.menu1-plat{
     height:55px ;
 }
 
+.menu-info-2{
+    
+    justify-content: center;  
+    align-items: center;
+  }
 
 /*la carte :les desserts*/
 h3.menu1-dessert{
@@ -339,30 +372,27 @@ h3.menu1-dessert{
     align-items: center;
     height:55px ;   
 }
-.menu-info-1{
-    
-    justify-content: center;  
-    align-items: center;
-  }
-
-
-.menu-info-2{
-    
-  justify-content: center;  
-  align-items: center;
-}
 .menu-info-3{
     
     justify-content: center;  
     align-items: center;
   }
-.globalmenu-1{
-    display:grid;
-}
-.globalmenu-1{
-    grid-template-columns: repeat(3,1fr);
-    column-gap: 0,75rem;
-}
+  /*prix des menus*/
+  .price{
+    font-weight: 900;
+    background-color:white ;
+    height:55px;
+    width: 55px;
+    display:flex;
+    align-items: flex-end;
+    justify-content:center;
+    
+    }
+    .prix{
+        display:flex ;
+        justify-content: end;
+    }
+/*le bouton juste avant le footer*/
 
 .btn2{
     display: flex;
@@ -392,66 +422,33 @@ h3.menu1-dessert{
  
 }
 
+/*le bas de page :le "footer"*/
 
-
-
-h4{
-    padding:4px ;
-    margin-left:4px ;
-}
-p{
-    padding:4px;
-    margin-left:4px ;
-}
-
- a.mail{
+a.mail{
     color:white;
  }   
- 
 
-
-   
-
-.globalmenu-1{
-@media (max-width:800px) {
-    display: flex;
-    flex-direction: column; 
-     
-}
-}
-.price{
-font-weight: 900;
-background-color:white ;
-height:55px;
-width: 55px;
-display:flex;
-align-items: flex-end;
-justify-content:center;
-
-}
-.true{
-background-color:$tertiaire ;
-width:55px ;
-height:55px;
-display: grid;
-place-items:center ;
-border-radius:0 1rem 1rem 0 ;
-margin-right: -55px;
-transition: 1s;
-}
-.prix{
-    display:flex ;
-    justify-content: end;
-}
+/*composition des assiettes*/
 .piment{
     margin-bottom: 1rem;
 }
+/*petit rond dans le carre vert de l'animation "appear"*/
 .fa-circle-check{
     background-color: white;
     border-radius:50% ;
     color:$tertiaire;
 }
-
+.true{
+    background-color:$tertiaire ;
+    width:55px ;
+    height:55px;
+    display: grid;
+    place-items:center ;
+    border-radius:0 1rem 1rem 0 ;
+    margin-right: -55px;
+    transition: 1s;
+    }
+/*animation apparition "appear" a l'ouverture de la page*/
 section{
     animation:appear 3s;
     opacity: 0;
@@ -480,14 +477,4 @@ section:last-child{
 
 
 }
-/*
-@keyframes appear{
-    0%{
-        transform:scale(0);
-    }
-    100%{
-        transform: scale(1);
-    }
-}
-fin a voir lequel garder
-*/
+
