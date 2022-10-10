@@ -1,29 +1,41 @@
-
+/*auteur:baron jacky
+url:Users/macbook/Documents/projets/projet_3_baron_jacky%203%203/menu1.html
+page du menu1 "ohmyfood"
+avec lien vers la page d'acceuil
+des animations et affichable sur i phone 6 7 8
+*/
+/*fonctionalitees communes*/
+h1{
+    margin-top:0px ;
+}
+h1{
+    position:relative ;
+  }
+  h3{
+    position:relative;
+    text-transform: uppercase;
+    padding-bottom: 0,25rem;
+    font-weight: 400;
+    margin-top:0px ;
+}
+h4{
+    margin-bottom:0px; 
+}
 body{
  background-color: #F2F2F2;
  margin:0px;
  font-family: Roboto, sans-serif;
  }
-.logo{
+ /*haut de la page partie 1*/
+ .logo{
     background-color: #fff;
     text-align:center ;
-    
     position:relative;
-    
 }
-h1{
-    margin-top:0px ;
-}
-h1{
-    
-    
-    position:relative ;
-  }
-  .gogo{
+.gogo{
       position:absolute;
       bottom:50px;
-  }
-  
+}
 .image-menu-1{
     background-image:url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg) ;
     background-size:cover ;
@@ -32,6 +44,7 @@ h1{
     height:300px ;
    
 }
+/*haut de la page partie 2*/
 .flexo-1{
     display: flex;
     justify-content: space-between;
@@ -42,22 +55,41 @@ h1{
     background-color:$fondgris;
     margin-bottom:0px ;
 }
-
-
-h3{
-    position:relative;
-    text-transform: uppercase;
-    padding-bottom: 0,25rem;
-    font-weight: 400;
-    margin-top:0px ;
+h2.palette{
+    font-family:Shrikhand;
+    padding-top:2rem ;
 }
+.coeurs{
+    margin:0px;
+}
+.coeur1{
+    position:absolute;
+    justify-content:center;
+    align-items: center;
+   
+}
+.coeur2{
+    z-index:1;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    padding-right:20px ;
+    padding-top:20px;
+   
+}
+.coeur:hover{
+    .coeur2{
+        color:#ff7cf8;
+        transition:1s ;
+    }
+}
+
+
+
+
+
+/*la carte: les entrees*/
 h3.menu1-entree{
-    margin-top:20px ;
-}
-h3.menu1-plat{
-    margin-top:20px ;
-}
-h3.menu1-dessert{
     margin-top:20px ;
 }
 .trait-1{
@@ -67,37 +99,6 @@ h3.menu1-dessert{
     background-color:$tertiaire;
     position: absolute;
     margin-left:1rem ;
-}
-.trait-2{
-    content: "";
-    width: 3rem;
-    height: 0.25rem;
-    background-color:$tertiaire;
-    position: absolute;
-    margin-left:1rem; 
-}
-.trait-3{
-    content: "";
-    width: 3rem;
-    height: 0.25rem;
-    background-color:$tertiaire;
-    position: absolute;
-    margin-left:1rem; 
-}
-
-
-.coeurs{
-    margin:0px;
-    
-}
-h2.palette{
-    font-family:Shrikhand;
-    padding-top:2rem ;
-}
-
-h4{
-margin-bottom:0px; 
-
 }
 .menu1__entree-1{
     height:55px ;
@@ -147,6 +148,42 @@ margin-bottom:0px;
       }
     }
 }
+
+.menu1__fixe{
+    padding:2px ;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    height:55px ;
+}
+
+.menu1__fixe-1{
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height:55px ;
+}
+.menu1__fixe-2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height:55px ;
+}
+
+
+/*la carte:les plats*/
+h3.menu1-plat{
+    margin-top:20px ;
+}
+.trait-2{
+    content: "";
+    width: 3rem;
+    height: 0.25rem;
+    background-color:$tertiaire;
+    position: absolute;
+    margin-left:1rem; 
+}
 .menu1__plat-1{
     height:55px ;
     background-color:white ; 
@@ -195,6 +232,42 @@ margin-bottom:0px;
       }
     }
 }
+
+.menu1__fixe-3{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height:55px ;
+    
+    
+}
+.menu1__fixe-4{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height:55px ;
+}
+.menu1__fixe-5{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height:55px ;
+}
+
+
+/*la carte :les desserts*/
+h3.menu1-dessert{
+    margin-top:20px ;
+}
+.trait-3{
+    content: "";
+    width: 3rem;
+    height: 0.25rem;
+    background-color:$tertiaire;
+    position: absolute;
+    margin-left:1rem; 
+}
+
 .menu1__dessert-1{
     height:55px ;
     background-color:white ;
@@ -244,49 +317,8 @@ margin-bottom:0px;
     }
 }
 
-.menu1__fixe{
-    padding:2px ;
-    display:flex ;
-    justify-content: space-between;
-    align-items: center;
-    height:55px ;
-    
-    
-}
 
-.menu1__fixe-1{
-    
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    height:55px ;
-}
-.menu1__fixe-2{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    height:55px ;
-}
-.menu1__fixe-3{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    height:55px ;
-    
-    
-}
-.menu1__fixe-4{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    height:55px ;
-}
-.menu1__fixe-5{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    height:55px ;
-}
+
 .menu1__fixe-6{
     display: flex;
     justify-content:space-between;
@@ -360,27 +392,9 @@ margin-bottom:0px;
  
 }
 
-.coeur1{
-    position:absolute;
-    justify-content:center;
-    align-items: center;
-   
-}
-.coeur2{
-    z-index:1;
-    color:white;
-    justify-content: center;
-    align-items: center;
-    padding-right:20px ;
-    padding-top:20px;
-   
-}
-.coeur:hover{
-    .coeur2{
-        color:#ff7cf8;
-        transition:1s ;
-    }
-}
+
+
+
 h4{
     padding:4px ;
     margin-left:4px ;
