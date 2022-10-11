@@ -8,6 +8,7 @@ des animations et affichable sur i phone 6 7 8
 h1 {
     margin-top: 0px;
     position: relative;
+    font-family: Shrikhand;
 }
 h3 {
     position: relative;
@@ -34,6 +35,11 @@ body {
 }
 
 /*haut de la page partie 1*/
+.ohmyfood {
+    width: 160px;
+    position: relative;
+    font-family: Shrikhand;
+}
 .logo {
     display: flex;
     justify-content: center;
@@ -45,8 +51,15 @@ body {
 
 .gogo {
     display: block;
-
+    position: absolute;
+    left: 50px;
 }
+@media (max-width:500px) {
+    .gogo {
+        bottom: 50px;
+    }
+}
+/*les images differents menus*/
 
 .image-menu-1 {
     background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
@@ -57,8 +70,32 @@ body {
 
 }
 
+.image-menu-2 {
+    background-image: url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+
+}
+.image-menu-3 {
+    background-image: url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+
+}
+.image-menu-4 {
+    background-image: url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+
+}
 /*haut de la page partie 2*/
-.flexo-1 {
+.flexo {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -82,7 +119,8 @@ h2.palette {
     position: absolute;
     justify-content: center;
     align-items: center;
-
+    padding-right: 20px;
+    padding-top: 20px;
 }
 
 .coeur2 {
@@ -106,25 +144,16 @@ h2.palette {
 
 .globalmenu-1 {
     display: grid;
-}
-
-.globalmenu-1 {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 0, 75rem;
-}
-
-.globalmenu-1 {
     @media (max-width:800px) {
         display: flex;
         flex-direction: column;
 
     }
 }
-
 /*la carte: les entrees*/
-h3.menu1-entree {
-    margin-top: 20px;
-}
+
 
 .trait-1 {
     content: "";
@@ -221,9 +250,7 @@ h3.menu1-entree {
 
 
 /*la carte:les plats*/
-h3.menu1-plat {
-    margin-top: 20px;
-}
+
 
 .trait-2 {
     content: "";
@@ -318,7 +345,13 @@ h3.menu1-plat {
 }
 
 /*la carte :les desserts*/
-h3.menu1-dessert {
+h3.menu-entree {
+    margin-top: 20px;
+}
+h3.menu-plat {
+    margin-top: 20px;
+}
+h3.menu-dessert {
     margin-top: 20px;
 }
 

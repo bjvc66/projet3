@@ -4,112 +4,8 @@ page du menu2 "ohmyfood"
 avec lien vers la page d'acceuil
 des animations et affichable sur i phone 6 7 8
 */
-h1 {
-    font-family: Shrikhand;
-}
 
-.ohmyfood {
 
-    font-family: Shrikhand;
-}
-
-.gogo {
-    position: absolute;
-    left: 50px;
-}
-
-@media (max-width:500px) {
-    .gogo {
-        bottom: 50px;
-    }
-}
-
-.image-menu-2 {
-    background-image: url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 300px;
-
-}
-
-.flexo-2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    margin-top: -2rem;
-    border-radius: 20px 20px 0 0;
-    background-color: $fondgris;
-    margin-bottom: 0px;
-}
-
-h3.menu2-entree {
-    margin-top: 20px;
-}
-
-h3.menu2-plat {
-    margin-top: 20px;
-}
-
-h3.menu2-dessert {
-    margin-top: 20px;
-}
-
-.trait-1 {
-    content: "";
-    width: 3rem;
-    height: 0.25rem;
-    background-color: $tertiaire;
-    position: absolute;
-    margin-left: 1rem;
-}
-
-.trait-2 {
-    content: "";
-    width: 3rem;
-    height: 0.25rem;
-    background-color: $tertiaire;
-    position: absolute;
-    margin-left: 1rem;
-}
-
-.trait-3 {
-    content: "";
-    width: 3rem;
-    height: 0.25rem;
-    background-color: $tertiaire;
-    position: absolute;
-    margin-left: 1rem;
-}
-
-.coeurs {
-    margin: 0px;
-}
-
-.coeur1 {
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    padding-right: 20px;
-    padding-top: 20px;
-}
-
-.coeur2 {
-    z-index: 1;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    padding-right: 20px;
-    padding-top: 20px;
-
-}
-
-.coeur:hover {
-    .coeur2 {
-        color: #ff7cf8;
-    }
-}
 
 section {
 
@@ -384,6 +280,10 @@ h4 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 0, 75rem;
+    @media (max-width:800px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .btn2 {
@@ -424,14 +324,6 @@ p.prix {
 
 
 }
-
-.globalmenu-2 {
-    @media (max-width:800px) {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
 .true {
     background-color: $tertiaire ;
     width: 55px;
