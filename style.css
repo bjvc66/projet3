@@ -590,17 +590,16 @@ section.restaurant {
   align-items: center;
 }
 
-/*auteur:baron jacky
-Page scss du menu1 menu2 menu3 menu4"ohmyfood"
-Lien vers la page d'acceuil
-Animations 
-Affichable sur i phone 6 7 8
-*/
-/*fonctionalitees communes*/
+/*auteur:baron jacky*/
 h1 {
   margin-top: 0px;
   position: relative;
   font-family: Shrikhand;
+}
+
+h2.palette {
+  font-family: Shrikhand;
+  padding-top: 2rem;
 }
 
 h3 {
@@ -639,7 +638,7 @@ section {
   font-family: Shrikhand;
 }
 
-.logo {
+.header-logo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -649,14 +648,14 @@ section {
   padding: 2rem 1rem 1rem;
 }
 
-.gogo {
+.fleche-retour {
   display: block;
   position: absolute;
   left: 50px;
 }
 
 @media (max-width: 500px) {
-  .gogo {
+  .fleche-retour {
     bottom: 50px;
   }
 }
@@ -693,8 +692,8 @@ section {
   height: 300px;
 }
 
-/*haut de la page partie 2*/
-.flexo {
+/*haut de la page*/
+.menu-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -703,11 +702,6 @@ section {
   border-radius: 20px 20px 0 0;
   background-color: #F2F2F2;
   margin-bottom: 0px;
-}
-
-h2.palette {
-  font-family: Shrikhand;
-  padding-top: 2rem;
 }
 
 /*le coeur qui change d'aspect au passage de la souris*/
