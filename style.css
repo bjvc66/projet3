@@ -591,10 +591,10 @@ section.restaurant {
 }
 
 /*auteur:baron jacky
-url:Users/macbook/Documents/projets/projet_3_baron_jacky%203%203/menu1.html
-page du menu1 "ohmyfood"
-avec lien vers la page d'acceuil
-des animations et affichable sur i phone 6 7 8
+Page scss du menu1 menu2 menu3 menu4"ohmyfood"
+Lien vers la page d'acceuil
+Animations 
+Affichable sur i phone 6 7 8
 */
 /*fonctionalitees communes*/
 h1 {
@@ -628,6 +628,10 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+section {
+  width: 100%;
+}
+
 /*haut de la page partie 1*/
 .ohmyfood {
   width: 160px;
@@ -642,6 +646,7 @@ body {
   background-color: #fff;
   text-align: center;
   position: relative;
+  padding: 2rem 1rem 1rem;
 }
 
 .gogo {
@@ -655,7 +660,7 @@ body {
     bottom: 50px;
   }
 }
-/*les images differents menus*/
+/*les images des 4 differents menus*/
 .image-menu-1 {
   background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
   background-size: cover;
@@ -705,6 +710,7 @@ h2.palette {
   padding-top: 2rem;
 }
 
+/*le coeur qui change d'aspect au passage de la souris*/
 .coeurs {
   margin: 0px;
 }
@@ -731,21 +737,39 @@ h2.palette {
   transition: 1s;
 }
 
-/*la partie qui englobe "entree" "plat" et "dessert"*/
-.globalmenu-1 {
+/*la partie qui englobe les trois sections "entree" "plat" et "dessert"*/
+.globalmenu {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 0, 75rem;
 }
 @media (max-width: 800px) {
-  .globalmenu-1 {
+  .globalmenu {
     display: flex;
     flex-direction: column;
   }
 }
 
-/*la carte: les entrees*/
+/*les traits en dessous de "entree" "plat" et "dessert"*/
 .trait-1 {
+  content: "";
+  width: 3rem;
+  height: 0.25rem;
+  background-color: #99E2D0;
+  position: absolute;
+  margin-left: 1rem;
+}
+
+.trait-2 {
+  content: "";
+  width: 3rem;
+  height: 0.25rem;
+  background-color: #99E2D0;
+  position: absolute;
+  margin-left: 1rem;
+}
+
+.trait-3 {
   content: "";
   width: 3rem;
   height: 0.25rem;
@@ -827,15 +851,6 @@ h2.palette {
 }
 
 /*la carte:les plats*/
-.trait-2 {
-  content: "";
-  width: 3rem;
-  height: 0.25rem;
-  background-color: #99E2D0;
-  position: absolute;
-  margin-left: 1rem;
-}
-
 .menu1__plat-1 {
   height: 55px;
   background-color: white;
@@ -918,15 +933,6 @@ h3.menu-plat {
 
 h3.menu-dessert {
   margin-top: 20px;
-}
-
-.trait-3 {
-  content: "";
-  width: 3rem;
-  height: 0.25rem;
-  background-color: #99E2D0;
-  position: absolute;
-  margin-left: 1rem;
 }
 
 .menu1__dessert-1 {
@@ -1077,6 +1083,7 @@ section {
   opacity: 0;
   width: 100%;
   animation-fill-mode: forwards;
+  width: 100%;
 }
 
 section:first-child {
@@ -1101,20 +1108,6 @@ section:last-child {
     opacity: 1;
   }
 }
-/*auteur:baron jacky
-url:Users/macbook/Documents/projets/projet_3_baron_jacky%203%203/menu2.html
-page du menu2 "ohmyfood"
-avec lien vers la page d'acceuil
-des animations et affichable sur i phone 6 7 8
-*/
-section {
-  width: 100%;
-}
-
-h4 {
-  margin-bottom: 0px;
-}
-
 .menu2__entree-1 {
   height: 55px;
   background-color: white;
@@ -1341,45 +1334,6 @@ h4 {
   align-items: center;
 }
 
-.globalmenu-2 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 0, 75rem;
-}
-@media (max-width: 800px) {
-  .globalmenu-2 {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-.btn2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 120px;
-  margin-bottom: 20px;
-  background-color: #686868;
-  color: #fff;
-  background-image: linear-gradient(0deg, #9356DC, #FF79DA);
-  padding: 0.75rem 1.5rem;
-  border-radius: 100px;
-  cursor: pointer;
-  /*transition-duration: .25s;
-  box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);*/
-}
-
-.commander {
-  margin-top: 25px;
-  display: grid;
-  place-items: center;
-}
-
-h4 {
-  padding: 4px;
-  margin-left: 4px;
-}
-
 p {
   padding: 4px;
   margin-left: 4px;
@@ -1400,22 +1354,8 @@ p.prix {
   transition: 1s;
 }
 
-/*auteur:baron jacky
-url:Users/macbook/Documents/projets/projet_3_baron_jacky%203%203/menu3.html
-page du menu3 "ohmyfood"
-avec lien vers la page d'acceuil
-des animations et affichable sur i phone 6 7 8
-*/
 .coeurs {
   margin: 0px;
-}
-
-section {
-  width: 100%;
-}
-
-h4 {
-  margin-bottom: 0px;
 }
 
 .menu3__entree-1 {
@@ -1622,39 +1562,6 @@ h4 {
   align-items: center;
 }
 
-.globalmenu-3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 0, 75rem;
-}
-
-.btn2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 120px;
-  margin-bottom: 20px;
-  background-color: #686868;
-  color: #fff;
-  background-image: linear-gradient(0deg, #9356DC, #FF79DA);
-  padding: 0.75rem 1.5rem;
-  border-radius: 100px;
-  cursor: pointer;
-  /*transition-duration: .25s;
-  box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);*/
-}
-
-.commander {
-  margin-top: 25px;
-  display: grid;
-  place-items: center;
-}
-
-h4 {
-  padding: 4px;
-  margin-left: 4px;
-}
-
 p {
   padding: 4px;
   margin-left: 4px;
@@ -1662,34 +1569,6 @@ p {
 
 p.prix {
   padding: 8px;
-}
-
-@media (max-width: 800px) {
-  .globalmenu-3 {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-/*auteur:baron jacky
-url:Users/macbook/Documents/projets/projet_3_baron_jacky%203%203/menu4.html
-page du menu4 "ohmyfood"
-avec lien vers la page d'acceuil
-des animations et affichable sur i phone 6 7 8
-*/
-.logo {
-  background-color: #fff;
-  text-align: center;
-  padding: 2rem 1rem 1rem;
-  position: relative;
-}
-
-section {
-  width: 100%;
-}
-
-h4 {
-  margin-bottom: 0px;
 }
 
 .menu4__entree-1 {
@@ -1896,39 +1775,6 @@ h4 {
   align-items: center;
 }
 
-.globalmenu-4 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 0, 75rem;
-}
-
-.btn2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 120px;
-  margin-bottom: 20px;
-  background-color: #686868;
-  color: #fff;
-  background-image: linear-gradient(0deg, #9356DC, #FF79DA);
-  padding: 0.75rem 1.5rem;
-  border-radius: 100px;
-  cursor: pointer;
-  /*transition-duration: .25s;
-  box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);*/
-}
-
-.commander {
-  margin-top: 25px;
-  display: grid;
-  place-items: center;
-}
-
-h4 {
-  padding: 4px;
-  margin-left: 4px;
-}
-
 p {
   padding: 4px;
   margin-left: 4px;
@@ -1936,13 +1782,6 @@ p {
 
 p.prix {
   padding: 8px;
-}
-
-@media (max-width: 800px) {
-  .globalmenu-4 {
-    display: flex;
-    flex-direction: column;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */

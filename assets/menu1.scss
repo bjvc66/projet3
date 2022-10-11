@@ -1,8 +1,8 @@
 /*auteur:baron jacky
-url:Users/macbook/Documents/projets/projet_3_baron_jacky%203%203/menu1.html
-page du menu1 "ohmyfood"
-avec lien vers la page d'acceuil
-des animations et affichable sur i phone 6 7 8
+Page scss du menu1 menu2 menu3 menu4"ohmyfood"
+Lien vers la page d'acceuil
+Animations 
+Affichable sur i phone 6 7 8
 */
 /*fonctionalitees communes*/
 h1 {
@@ -33,7 +33,9 @@ body {
     margin: 0px;
     font-family: Roboto, sans-serif;
 }
-
+section {
+    width: 100%;
+}
 /*haut de la page partie 1*/
 .ohmyfood {
     width: 160px;
@@ -47,6 +49,7 @@ body {
     background-color: #fff;
     text-align: center;
     position: relative;
+    padding: 2rem 1rem 1rem;
 }
 
 .gogo {
@@ -59,7 +62,7 @@ body {
         bottom: 50px;
     }
 }
-/*les images differents menus*/
+/*les images des 4 differents menus*/
 
 .image-menu-1 {
     background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
@@ -110,7 +113,7 @@ h2.palette {
     font-family: Shrikhand;
     padding-top: 2rem;
 }
-
+/*le coeur qui change d'aspect au passage de la souris*/
 .coeurs {
     margin: 0px;
 }
@@ -140,9 +143,9 @@ h2.palette {
     }
 }
 
-/*la partie qui englobe "entree" "plat" et "dessert"*/
+/*la partie qui englobe les trois sections "entree" "plat" et "dessert"*/
 
-.globalmenu-1 {
+.globalmenu {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 0, 75rem;
@@ -152,10 +155,25 @@ h2.palette {
 
     }
 }
-/*la carte: les entrees*/
-
+/*les traits en dessous de "entree" "plat" et "dessert"*/
 
 .trait-1 {
+    content: "";
+    width: 3rem;
+    height: 0.25rem;
+    background-color: $tertiaire;
+    position: absolute;
+    margin-left: 1rem;
+}
+.trait-2 {
+    content: "";
+    width: 3rem;
+    height: 0.25rem;
+    background-color: $tertiaire;
+    position: absolute;
+    margin-left: 1rem;
+}
+.trait-3 {
     content: "";
     width: 3rem;
     height: 0.25rem;
@@ -252,14 +270,7 @@ h2.palette {
 /*la carte:les plats*/
 
 
-.trait-2 {
-    content: "";
-    width: 3rem;
-    height: 0.25rem;
-    background-color: $tertiaire;
-    position: absolute;
-    margin-left: 1rem;
-}
+
 
 .menu1__plat-1 {
     height: 55px;
@@ -355,14 +366,7 @@ h3.menu-dessert {
     margin-top: 20px;
 }
 
-.trait-3 {
-    content: "";
-    width: 3rem;
-    height: 0.25rem;
-    background-color: $tertiaire;
-    position: absolute;
-    margin-left: 1rem;
-}
+
 
 .menu1__dessert-1 {
     height: 55px;
@@ -532,6 +536,7 @@ section {
     opacity: 0;
     width: 100%;
     animation-fill-mode: forwards;
+    width: 100%;
 }
 
 section:first-child {
