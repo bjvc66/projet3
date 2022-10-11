@@ -181,8 +181,8 @@ h2.palette {
     position: absolute;
     margin-left: 1rem;
 }
-
-.menu1__entree-1 {
+/*les entrees du menu*/
+.menu__entree-1 {
     height: 55px;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
@@ -200,7 +200,7 @@ h2.palette {
     }
 }
 
-.menu1__entree-2 {
+.menu__entree-2 {
     height: 55px;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
@@ -218,7 +218,7 @@ h2.palette {
     }
 }
 
-.menu1__entree-3 {
+.menu__entree-3 {
     height: 55px;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
@@ -235,29 +235,24 @@ h2.palette {
         }
     }
 }
-
-.menu1__fixe {
-    padding: 2px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.menu__entree-4 {
     height: 55px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 5px 5px #a9af90;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    overflow: hidden;
+
+    &:hover {
+        .true {
+            margin-right: 0px;
+        }
+    }
 }
 
-.menu1__fixe-1 {
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 55px;
-}
-
-.menu1__fixe-2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 55px;
-}
 
 .menu-info-1 {
 
@@ -267,12 +262,9 @@ h2.palette {
 
 
 
-/*la carte:les plats*/
+/*les plats du menu*/
 
-
-
-
-.menu1__plat-1 {
+.menu__plat-1 {
     height: 55px;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
@@ -290,7 +282,7 @@ h2.palette {
     }
 }
 
-.menu1__plat-2 {
+.menu__plat-2 {
     height: 55px;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
@@ -308,7 +300,7 @@ h2.palette {
     }
 }
 
-.menu1__plat-3 {
+.menu__plat-3 {
     height: 55px;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
@@ -326,23 +318,9 @@ h2.palette {
     }
 }
 
-.menu1__fixe-3 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 55px;
 
 
-}
-
-.menu1__fixe-4 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 55px;
-}
-
-.menu1__fixe-5 {
+.menu__composition-tarif {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -366,9 +344,36 @@ h3.menu-dessert {
     margin-top: 20px;
 }
 
+/*les desserts du menu*/
 
+.menu__dessert-1 {
+    height: 55px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 5px 5px #a9af90;
+    cursor: pointer;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    overflow: hidden;
 
-.menu1__dessert-1 {
+    &:hover {
+        .true {
+            margin-right: 0px;
+        }
+    }
+}
+.true {
+    background-color: $tertiaire ;
+    width: 55px;
+    height: 55px;
+    display: grid;
+    place-items: center;
+    border-radius: 0 1rem 1rem 0;
+    margin-right: -55px;
+    transition: 1s;
+}
+.menu__dessert-2 {
     height: 55px;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
@@ -386,25 +391,7 @@ h3.menu-dessert {
     }
 }
 
-.menu1__dessert-2 {
-    height: 55px;
-    background-color: white;
-    border-radius: 15px 15px 15px 15px;
-    box-shadow: 10px 5px 5px #a9af90;
-    cursor: pointer;
-    margin-top: 3rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    overflow: hidden;
-
-    &:hover {
-        .true {
-            margin-right: 0px;
-        }
-    }
-}
-
-.menu1__dessert-3 {
+.menu__dessert-3 {
     height: 55px;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
@@ -424,27 +411,6 @@ h3.menu-dessert {
 
 
 
-.menu1__fixe-6 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 55px;
-}
-
-.menu1__fixe-7 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 55px;
-
-}
-
-.menu1__fixe-8 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 55px;
-}
 
 .menu-info-3 {
 
