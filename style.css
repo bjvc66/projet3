@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*auteur:baron jacky
 url:Users/macbook/Documents/projets/projet_3_baron_jacky%203%203/index.html
 page d'acceuil restaurant "ohmyfood"
@@ -19,14 +18,11 @@ body {
   color: #fff;
 }
 
-.logo-ohmyfood-1 {
-  padding: 1rem;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
-  position: relative;
-}
-
-h2.ohmyfood {
+.footer-title {
   padding-top: 40px;
+  font-family: shrikhand;
+  font-size: x-large;
+  padding-left: 6%;
 }
 
 .html {
@@ -42,10 +38,12 @@ a.mail {
   color: white;
 }
 
-h1 {
+h1.acceuil {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
+  margin: 0;
 }
 
 .troisieme {
@@ -106,8 +104,13 @@ h1 {
   align-items: center;
   border-radius: 0 0 10px 10px;
   height: 70px;
-  width: 360Px;
+  width: 100%;
   background-color: #fff;
+}
+.texte-restaurant-bloc-1 .text-position {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 @media (max-width: 800px) {
   .texte-restaurant-bloc-1 {
@@ -119,8 +122,13 @@ h1 {
   align-items: center;
   border-radius: 0 0 10px 10px;
   height: 70px;
-  width: 360px;
+  width: 100%;
   background-color: #fff;
+}
+.texte-restaurant-bloc-2 .text-position {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 @media (max-width: 800px) {
   .texte-restaurant-bloc-2 {
@@ -132,8 +140,13 @@ h1 {
   align-items: center;
   border-radius: 0 0 10px 10px;
   height: 70px;
-  width: 360px;
+  width: 100%;
   background-color: #fff;
+}
+.texte-restaurant-bloc-3 .text-position {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 @media (max-width: 800px) {
   .texte-restaurant-bloc-3 {
@@ -145,8 +158,13 @@ h1 {
   align-items: center;
   border-radius: 0 0 10px 10px;
   height: 70px;
-  width: 360px;
+  width: 100%;
   background-color: #fff;
+}
+.texte-restaurant-bloc-4 .text-position {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 @media (max-width: 800px) {
   .texte-restaurant-bloc-4 {
@@ -174,60 +192,44 @@ h1 {
 .ohmyfood-2 {
   width: 25%;
   color: white;
-  font-family: Shrikhand, "cursive";
+  font-family: Shrikhand;
 }
 
-.loupe {
+.localisation {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   background-color: #F3F3F3;
   text-align: center;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.text1 {
-  margin-top: 2rem;
-}
-
-.text2 {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-}
-
-.pass {
-  background-color: ƒF2F2F2;
-  height: 200px;
-  margin-bottom: 20px;
-  padding-right: 1rem;
-}
-
-.papa {
   padding: 1rem;
 }
 
-.resto {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2px;
-  padding-right: 60%;
+p.sous-titre-acceuil {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
-.fonctio {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 25px;
-  padding-right: 60%;
+.card {
+  padding: 1rem;
+}
+
+cards {
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+.operations {
+  padding: 1rem;
 }
 
 .search {
+  height: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: auto;
-  margin-bottom: 20px;
   background-color: #686868;
   color: #fff;
   background-image: linear-gradient(0deg, #9356DC, #FF79DA);
@@ -245,9 +247,7 @@ h1 {
 .button {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 5rem;
+  margin-bottom: 7rem;
 }
 
 p {
@@ -256,17 +256,17 @@ p {
   margin: 0px;
 }
 
-.toto ol {
+.operations ol {
   display: flex;
   padding: 1rem 0rem;
   gap: 2rem;
 }
 @media (max-width: 800px) {
-  .toto ol {
+  .operations ol {
     flex-direction: column;
   }
 }
-.toto li {
+.operations li {
   border-radius: 1rem;
   background-color: #F2F2F2;
   padding: 1rem 2rem;
@@ -289,30 +289,25 @@ footer {
   height: 225px;
 }
 
-h2 {
-  padding-left: 6%;
-  margin-top: 0px;
+h2.acceuil {
+  text-align: center;
+  margin-top: 2rem;
 }
 
-.util {
-  justify-content: center;
-  align-items: center;
-}
-
-.ph-1 {
+.footer-1 {
   padding-left: 5%;
 }
 
-.ph-2 {
+.footer-2 {
   padding-left: 5%;
 }
 
-.ph-3 {
+.footer-3 {
   padding-left: 6%;
   padding-top: 10px;
 }
 
-.ph-4 {
+.footer-4 {
   padding-left: 6%;
   padding-top: 10px;
   cursor: pointer;
@@ -326,15 +321,15 @@ li ::marker {
   color: transparent;
 }
 
-.roro {
+.operation-1 {
   position: relative;
 }
 
-.riri {
+.operation-2 {
   position: relative;
 }
 
-.ruru {
+.operation-3 {
   position: relative;
 }
 
@@ -406,30 +401,6 @@ li ::marker {
 
 .menu {
   background-color: #F2F2F2;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.titi {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.tyty {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.tata {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.tutu {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -509,8 +480,9 @@ li::marker {
   color: transparent;
 }
 
-h3 {
-  margin-left: 10px;
+h3.acceuil {
+  font-family: shrikhand;
+  padding: 1rem;
 }
 
 span.new {
@@ -519,18 +491,7 @@ span.new {
   position: absolute;
   border-radius: 0, 125rem;
   top: 1rem;
-  left: 275px;
-  padding: 7px;
-  border-radius: 0, 125rem;
-}
-
-span.news {
-  background-color: #99E2D0;
-  color: #3e9cbf;
-  position: absolute;
-  border-radius: 0, 125rem;
-  top: 1rem;
-  left: 275px;
+  right: 2rem;
   padding: 7px;
   border-radius: 0, 125rem;
 }
@@ -567,27 +528,6 @@ span.news {
 
 .fa-3x {
   color: #9356DC;
-}
-
-section.belleville {
-  margin-bottom: 7rem;
-  background-color: #F2F2F2;
-  justify-content: center;
-  align-items: center;
-}
-
-section.fonctionnement {
-  background-color: white;
-  margin-left: 0;
-  margin-right: 0;
-  justify-content: center;
-  align-items: center;
-}
-
-section.restaurant {
-  background-color: #F2F2F2;
-  justify-content: center;
-  align-items: center;
 }
 
 /*auteur:baron jacky open-classeroom*/
