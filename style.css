@@ -5,7 +5,6 @@ cartes restaurant avec liens vers les menus
 avec des animations et affichable sur i phone 6 7 8
 */
 body {
-  background-color: #15DEA5;
   font-family: "Roboto", sans-serif;
 }
 
@@ -39,10 +38,12 @@ a.mail {
 }
 
 h1.acceuil {
+  background-color: #FFF;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 2rem;
+  padding-bottom: 1rem;
   margin: 0;
 }
 
@@ -195,7 +196,18 @@ h1.acceuil {
   font-family: Shrikhand;
 }
 
-.localisation {
+.localisation-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #F3F3F3;
+  text-align: center;
+  padding: 1rem;
+  background-color: #C2C3C7;
+}
+
+.localisation-2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -220,7 +232,7 @@ cards {
   grid-template-rows: 50% 50%;
 }
 
-.operations {
+.acceuil-3 {
   padding: 1rem;
 }
 
@@ -258,7 +270,7 @@ p {
 
 .operations ol {
   display: flex;
-  padding: 1rem 0rem;
+  padding: 1rem 1rem;
   gap: 2rem;
 }
 @media (max-width: 800px) {
