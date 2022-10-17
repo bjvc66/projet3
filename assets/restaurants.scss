@@ -22,7 +22,7 @@ body{
  .footer-title{
     padding-top: 40px;
     font-family:shrikhand ;
-    font-size: x-large;
+    font-size: large;
     padding-left:6%;
  }
 .html{
@@ -40,9 +40,9 @@ h1.acceuil{
 display: flex;
 justify-content: center;
 align-items: center;
-padding:2rem;
-padding-bottom: 1rem;
-margin:0;
+padding:1rem;
+padding-bottom:0 px;
+margin:0px;
 }
 
 .troisieme{
@@ -109,9 +109,7 @@ margin:0;
         height:70px ;
         width: 100%;
         background-color: #fff;
-        @media (max-width:800px) {
-            margin-bottom:30px;
-        }
+       
     }
     .texte-restaurant-bloc-2{
         .text-position{
@@ -124,9 +122,7 @@ margin:0;
         height:70px ;
         width: 100%;
         background-color:#fff;
-        @media (max-width:800px) {
-            margin-bottom:30px;
-        }
+       
     }
     .texte-restaurant-bloc-3{
         .text-position{
@@ -139,9 +135,7 @@ margin:0;
         height:70px ;
         width:100%;
         background-color:#fff ;
-        @media (max-width:800px) {
-            margin-bottom:30px;
-        }
+       
     }
     .texte-restaurant-bloc-4{
         .text-position{
@@ -156,7 +150,7 @@ margin:0;
         width: 100%;
         background-color:#fff;
         @media (max-width:800px) {
-            margin-bottom:30px;
+            margin-bottom:50px;
         }
     }
    .ohmyfood-1{
@@ -188,11 +182,11 @@ margin:0;
     justify-content: center;
     align-items: center ;
     gap: 10px; 
-    background-color: #F3F3F3;
+    background-color: #F2F2F2;
     text-align: center;
     padding:1rem ;
-    background-color: #C2C3C7;
     
+    margin-bottom: 1rem;
 }
 .localisation-2{
     display: flex;
@@ -201,27 +195,27 @@ margin:0;
     gap: 10px; 
     background-color: #F3F3F3;
     text-align: center;
-    padding:1rem ;
-    
+   
     
 }
     
    
 
  p.sous-titre-acceuil{
-    margin-top:1rem;
+    
     margin-bottom:2rem ;
     text-align: center;
-   
+    opacity:calc(50%);
+    font-size: large;
  }
  .card{
     padding:1rem;
     
  } 
- cards{
+ .cards{
     display:grid;
-    grid-template-rows:50% 50% ;
-
+    grid-template-rows:1fr 1fr;
+grid-template-columns: 1fr 1fr;
     
 }
    .acceuil-3{
@@ -229,7 +223,7 @@ margin:0;
    }
   
    .search {
-    height:45px ;
+    height:50px ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -253,7 +247,7 @@ margin:0;
 .button{
     display: flex;
     justify-content: center;
-    margin-bottom:7rem ;
+    margin-bottom:5rem ;
    }
    p{
     
@@ -276,7 +270,7 @@ margin:0;
         padding:1rem 2rem;
         
         flex-grow: 1;
-        height:20px ;
+        height:30px ;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -303,6 +297,7 @@ margin:0;
     text-align: center;
     margin-top:2rem ;
   }
+ 
  .footer-1{
 padding-left:5% ;
  }
@@ -487,9 +482,11 @@ i.fa{
 li::marker{
 color:transparent;
 }
-h3.acceuil{
-font-family:shrikhand ;
+.subtitle{
+text-transform:none;
+padding-bottom: 0;
 padding:1rem;
+font-weight: bold;
 }
 span.new{
     background-color :$tertiaire;
@@ -538,4 +535,9 @@ span.new{
     color:$primaire;
     
 }
-
+@media screen and (max-width:768px) {
+ .cards{
+    display: flex;
+    flex-direction: column;
+ }   
+}
