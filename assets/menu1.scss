@@ -17,8 +17,9 @@ h3 {
     margin-top: 0px;
 }
 h4 {
-    margin-bottom: 0px;
-    padding: 4px;
+    margin-top: 2px;
+    margin-bottom:2px ;
+     padding: 4px;
     margin-left: 4px;
 }
 
@@ -61,8 +62,8 @@ section {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    margin-top: -2rem;
-    border-radius: 20px 20px 0 0;
+    margin-top: -3rem;
+    border-radius: 50px 50px 0 0;
     background-color: $fondgris;
     margin-bottom: 0px;
 }
@@ -171,9 +172,11 @@ section {
 /*les entrees du menu et leurs infos*/
 h3.menu-entree {
     margin-top: 20px;
+    opacity:60% ;
+    font-size: 1rem;
 }
 .menu__entree-1 {
-    height: 55px;
+    height: 4rem;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     margin-top: 3rem;
@@ -189,7 +192,7 @@ h3.menu-entree {
     }
 }
 .menu__entree-2 {
-    height: 55px;
+    height: 4rem;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -205,7 +208,7 @@ h3.menu-entree {
     }
 }
 .menu__entree-3 {
-    height: 55px;
+    height:4rem;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -221,7 +224,7 @@ h3.menu-entree {
     }
 }
 .menu__entree-4 {
-    height: 55px;
+    height: 4rem;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -243,9 +246,11 @@ h3.menu-entree {
 /*les plats du menu et leurs infos*/
 h3.menu-plat {
     margin-top: 20px;
+    opacity: 60%;
+    font-size:1rem ;
 }
 .menu__plat-1 {
-    height: 55px;
+    height: 4rem;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -261,7 +266,7 @@ h3.menu-plat {
     }
 }
 .menu__plat-2 {
-    height: 55px;
+    height: 4rem;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -277,7 +282,7 @@ h3.menu-plat {
     }
 }
 .menu__plat-3 {
-    height: 55px;
+    height: 4rem;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -304,9 +309,11 @@ h3.menu-plat {
 /*les desserts du menu et leurs infos*/
 h3.menu-dessert {
     margin-top: 20px;
+    opacity: 60%;
+    font-size:1rem;
 }
 .menu__dessert-1 {
-    height: 55px;
+    height: 4rem;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -322,7 +329,7 @@ h3.menu-dessert {
     }
 }
 .menu__dessert-2 {
-    height: 55px;
+    height: 4rem;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -338,7 +345,7 @@ h3.menu-dessert {
     }
 }
 .menu__dessert-3 {
-    height: 55px;
+    height: 4rem;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -362,16 +369,16 @@ h3.menu-dessert {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 55px;
+    
 }
 .true {
     background-color: $tertiaire ;
-    width: 55px;
-    height: 55px;
+    width: 4rem;
+    height: 4rem;
     display: grid;
     place-items: center;
     border-radius: 0 1rem 1rem 0;
-    margin-right: -55px;
+    margin-right: -4rem;
     transition: 1s;
 }
 .menu__composition-tarif div:first-child{
@@ -381,10 +388,11 @@ h3.menu-dessert {
     white-space:nowrap ; 
 }
 .menu-text {
-    margin-bottom: 1rem;
+    
     text-overflow: ellipsis;
     overflow: hidden;
     white-space:nowrap ;
+    margin-left:6px ;
 }
 /*logo du items*/
 .fa-circle-check {
@@ -393,13 +401,14 @@ h3.menu-dessert {
     color: $tertiaire;
 }
 .price {
-    font-weight: 900;
+    
     background-color: white;
-    height: 55px;
-    width: 55px;
+    
+    padding:4px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    
 }
 p.prix {
     padding: 8px;
@@ -407,13 +416,15 @@ p.prix {
 .prix {
     display: flex;
     justify-content: end;
+    
 }
 /*le bouton juste avant le footer*/
 .btn2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120px;
+    width: 150px;
+    height: 28px;
     margin-bottom: 20px;
     background-color: #686868;
     color: #fff;
