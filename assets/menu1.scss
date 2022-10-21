@@ -366,7 +366,7 @@ h3.menu-dessert {
 }
 /*pour tous les menus*/
 .menu__composition-tarif {
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
     
@@ -375,11 +375,12 @@ h3.menu-dessert {
     background-color: $tertiaire ;
     width: 4rem;
     height: 4rem;
-    display: grid;
+    display:grid;
     place-items: center;
     border-radius: 0 1rem 1rem 0;
     margin-right: -4rem;
     transition: 1s;
+    
 }
 .menu__composition-tarif div:first-child{
     
@@ -405,7 +406,7 @@ h3.menu-dessert {
     background-color: white;
     
     padding:4px;
-    display: flex;
+    display:flex;
     align-items: flex-end;
     justify-content: center;
     
