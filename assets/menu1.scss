@@ -189,6 +189,7 @@ h3.menu-entree {
         .true {
             margin-right: 0px;
         }
+       
     }
 }
 .menu__entree-2 {
@@ -251,6 +252,7 @@ h3.menu-plat {
 }
 .menu__plat-1 {
     height: 4rem;
+
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -369,19 +371,23 @@ h3.menu-dessert {
     display:flex;
     justify-content: space-between;
     align-items: center;
+    position:relative;
     
 }
 .true {
     background-color: $tertiaire ;
     width: 4rem;
     height: 4rem;
-    display:grid;
+    display:flex;
     place-items: center;
     border-radius: 0 1rem 1rem 0;
     margin-right: -4rem;
     transition: 1s;
-    
+    justify-content: center;
+    align-items: center;
+    position:absolute;
 }
+
 .menu__composition-tarif div:first-child{
     
     text-overflow: ellipsis;
@@ -400,24 +406,26 @@ h3.menu-dessert {
     background-color: white;
     border-radius: 50%;
     color: $tertiaire;
+    
 }
 .price {
     
     background-color: white;
-    
     padding:4px;
     display:flex;
-    align-items: flex-end;
+    align-items:center;
     justify-content: center;
-    
+    margin-top:80%;
+     
 }
 p.prix {
     padding: 8px;
+    
 }
 .prix {
-    display: flex;
+    display:flex;
     justify-content: end;
-    
+   
 }
 /*le bouton juste avant le footer*/
 .btn2 {
