@@ -28,8 +28,16 @@ body {
     margin: 0px;
     font-family: Roboto, sans-serif;
 }
-section {
-    width: 100%;
+ section{
+    width: 20rem;
+ }
+ @media (max-width:800px) {
+    section {
+        width:auto;
+    }
+    html{
+        width:100%;
+    }
 }
 /*haut de la page */
 .ohmyfood {
@@ -177,6 +185,7 @@ h3.menu-entree {
 }
 .menu__entree-1 {
     height: 4rem;
+    width: auto;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     margin-top: 3rem;
@@ -194,6 +203,7 @@ h3.menu-entree {
 }
 .menu__entree-2 {
     height: 4rem;
+    width: auto;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -210,6 +220,7 @@ h3.menu-entree {
 }
 .menu__entree-3 {
     height:4rem;
+    width: auto;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -226,6 +237,7 @@ h3.menu-entree {
 }
 .menu__entree-4 {
     height: 4rem;
+    width: auto;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -251,8 +263,9 @@ h3.menu-plat {
     font-size:1rem ;
 }
 .menu__plat-1 {
+    
     height: 4rem;
-
+    width:auto;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -269,6 +282,7 @@ h3.menu-plat {
 }
 .menu__plat-2 {
     height: 4rem;
+    width:auto;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -285,6 +299,7 @@ h3.menu-plat {
 }
 .menu__plat-3 {
     height: 4rem;
+    width:auto;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -316,6 +331,7 @@ h3.menu-dessert {
 }
 .menu__dessert-1 {
     height: 4rem;
+    width: auto;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -332,6 +348,7 @@ h3.menu-dessert {
 }
 .menu__dessert-2 {
     height: 4rem;
+    width:auto;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -348,6 +365,7 @@ h3.menu-dessert {
 }
 .menu__dessert-3 {
     height: 4rem;
+    width:auto;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -401,6 +419,13 @@ h3.menu-dessert {
     white-space:nowrap ;
     margin-left:6px ;
 }
+h4{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap ;
+    margin-left:6px ;
+} 
+
 /*logo du items*/
 .fa-circle-check {
     background-color: white;
@@ -413,10 +438,10 @@ h3.menu-dessert {
     background-color: white;
     padding:4px;
     display:flex;
-    align-items:center;
-    justify-content: center;
+    align-items:flex-end;
     margin-top:80%;
-     
+    
+    
 }
 p.prix {
     padding: 8px;
@@ -425,6 +450,7 @@ p.prix {
 .prix {
     display:flex;
     justify-content: end;
+   
    
 }
 /*le bouton juste avant le footer*/
@@ -458,7 +484,10 @@ p.prix {
 a.mail {
     color: white;
 }
-
+main{
+    margin:0 ;
+    box-sizing:border-box;
+}
 
 
 
