@@ -290,8 +290,7 @@ grid-template-columns: 1fr 1fr;
     & li {
         border-radius:1rem ;
         background-color:#F2F2F2;
-        padding:1rem 2rem;
-        
+        padding:1rem 1rem;
         flex-grow: 1;
         height:30px ;
         display: flex;
@@ -475,7 +474,8 @@ color: transparent;
       padding-right:20px ;
       padding-left: 20px;
 }
-i.fa{
+
+.fa-list-ul:before {
     padding:10px ;
 }
 .mot1{

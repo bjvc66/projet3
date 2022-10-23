@@ -28,9 +28,9 @@ body {
     margin: 0px;
     font-family: Roboto, sans-serif;
 }
- section{
-    width: 20rem;
- }
+ 
+   
+ 
  @media (max-width:800px) {
     section {
         width:auto;
@@ -75,6 +75,7 @@ body {
     background-color: $fondgris;
     margin-bottom: 0px;
 }
+
 /*les images des 4 differents menus*/
 .image-menu-1 {
     background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
@@ -178,17 +179,25 @@ body {
     margin-left: 1rem;
 }
 /*les entrees du menu et leurs infos*/
+.entrees{
+    width:20rem;
+    padding-left:2rem ;
+    
+    
+}
 h3.menu-entree {
+    margin-bottom:5px ;
     margin-top: 20px;
     opacity:60% ;
     font-size: 1rem;
+    padding-left:1rem ;
 }
 .menu__entree-1 {
     height: 4rem;
     width: auto;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
-    margin-top: 3rem;
+    margin-top: 25px;
     margin-left: 1rem;
     margin-right: 1rem;
     box-shadow: 10px 5px 5px #a9af90;
@@ -257,10 +266,16 @@ h3.menu-entree {
     align-items: center;
 }
 /*les plats du menu et leurs infos*/
+.plats{
+    width: 20rem;
+    padding-left:2rem ;
+}
 h3.menu-plat {
     margin-top: 20px;
+    margin-bottom:5px ;
     opacity: 60%;
     font-size:1rem ;
+    padding-left:1rem ;
 }
 .menu__plat-1 {
     
@@ -270,7 +285,7 @@ h3.menu-plat {
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
     cursor: pointer;
-    margin-top: 3rem;
+    margin-top:25px;
     margin-left: 1rem;
     margin-right: 1rem;
     overflow: hidden;
@@ -324,10 +339,16 @@ h3.menu-plat {
 
 
 /*les desserts du menu et leurs infos*/
+.desserts{
+    width:20rem;
+    padding-left:2rem ;
+}
 h3.menu-dessert {
     margin-top: 20px;
+    margin-bottom:5px ;
     opacity: 60%;
     font-size:1rem;
+    padding-left:1rem ;
 }
 .menu__dessert-1 {
     height: 4rem;
@@ -336,7 +357,7 @@ h3.menu-dessert {
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
     cursor: pointer;
-    margin-top: 3rem;
+    margin-top:25px;
     margin-left: 1rem;
     margin-right: 1rem;
     overflow: hidden;
