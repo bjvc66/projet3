@@ -599,14 +599,6 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-@media (max-width: 800px) {
-  section {
-    width: auto;
-  }
-  html {
-    width: 100%;
-  }
-}
 /*haut de la page */
 .ohmyfood {
   width: 160px;
@@ -725,15 +717,10 @@ body {
 
 /*la partie qui englobe les trois sections "entree" "plat" et "dessert"*/
 .globalmenu {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 0, 75rem;
-}
-@media (max-width: 800px) {
-  .globalmenu {
-    display: flex;
-    flex-direction: column;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 /*les traits en dessous de "entree" "plat" et "dessert"*/
@@ -766,8 +753,7 @@ body {
 
 /*les entrees du menu et leurs infos*/
 .entrees {
-  width: 20rem;
-  padding-left: 2rem;
+  width: 32%;
 }
 
 h3.menu-entree {
@@ -849,8 +835,7 @@ h3.menu-entree {
 
 /*les plats du menu et leurs infos*/
 .plats {
-  width: 20rem;
-  padding-left: 2rem;
+  width: 32%;
 }
 
 h3.menu-plat {
@@ -916,8 +901,7 @@ h3.menu-plat {
 
 /*les desserts du menu et leurs infos*/
 .desserts {
-  width: 20rem;
-  padding-left: 2rem;
+  width: 32%;
 }
 
 h3.menu-dessert {
@@ -1034,7 +1018,6 @@ h4 {
   padding: 4px;
   display: flex;
   align-items: flex-end;
-  margin-top: 80%;
 }
 
 p.prix {
@@ -1084,7 +1067,7 @@ main {
   box-sizing: border-box;
 }
 
-section {
+.entrees section, .plats section, .desserts section {
   animation: appear 3s;
   opacity: 0;
   width: 100%;
@@ -1092,15 +1075,15 @@ section {
   width: 100%;
 }
 
-section:first-child {
+.entrees section {
   animation-delay: 2s;
 }
 
-section:nth-child(2) {
+.plats section {
   animation-delay: 4s;
 }
 
-section:last-child {
+.desserts section {
   animation-delay: 6s;
 }
 
@@ -1112,6 +1095,20 @@ section:last-child {
   100% {
     transform: translateY(0);
     opacity: 1;
+  }
+}
+@media (max-width: 800px) {
+  section {
+    width: auto;
+  }
+  .globalmenu {
+    flex-direction: column;
+  }
+  html {
+    width: 100%;
+  }
+  .entrees, .plats, .desserts {
+    width: 100%;
   }
 }
 
