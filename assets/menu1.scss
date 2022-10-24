@@ -420,11 +420,11 @@ h3.menu-dessert {
     display:flex;
     place-items: center;
     border-radius: 0 1rem 1rem 0;
-    margin-right: -4rem;
+    margin-right:-4rem ;
     transition: 1s;
     justify-content: center;
     align-items: center;
-    position:absolute;
+    
 }
 
 .menu__composition-tarif div:first-child{
@@ -512,7 +512,7 @@ main{
 
 
 
-/*pour l'apparition "appear" a l'ouverture de la page
+
 section {
     animation: appear 3s;
     opacity: 0;
@@ -538,4 +538,4 @@ section:last-child {
         transform: translateY(0);
         opacity: 1;
     }
-}*/
+}

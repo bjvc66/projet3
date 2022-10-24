@@ -1000,7 +1000,6 @@ h3.menu-dessert {
   transition: 1s;
   justify-content: center;
   align-items: center;
-  position: absolute;
 }
 
 .menu__composition-tarif div:first-child {
@@ -1085,32 +1084,35 @@ main {
   box-sizing: border-box;
 }
 
-/*pour l'apparition "appear" a l'ouverture de la page
 section {
-    animation: appear 3s;
-    opacity: 0;
-    width: 100%;
-    animation-fill-mode: forwards;
-    width: 100%;
+  animation: appear 3s;
+  opacity: 0;
+  width: 100%;
+  animation-fill-mode: forwards;
+  width: 100%;
 }
+
 section:first-child {
-    animation-delay: 2s;
+  animation-delay: 2s;
 }
+
 section:nth-child(2) {
-    animation-delay: 4s;
+  animation-delay: 4s;
 }
+
 section:last-child {
-    animation-delay: 6s;
+  animation-delay: 6s;
 }
+
 @keyframes appear {
-    0% {
-        transform: translateY(50%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}*/
+  0% {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
