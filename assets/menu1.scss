@@ -53,11 +53,7 @@ body {
     left: 50px;
     bottom:45px;
 }
-@media (max-width:500px) {
-    .fleche-retour {
-        bottom: 45px;
-    }
-}
+
 .menu-title {
     display: flex;
     justify-content: space-between;
@@ -120,7 +116,8 @@ body {
 .coeur:hover {
     .coeur2 {
         color: #ff7cf8;
-        transition: 1s;
+        transition: 2s;
+        
     }
 }
 .texte-restaurant-bloc-1{
@@ -139,7 +136,7 @@ body {
 .globalmenu {
    display: flex;
    justify-content: space-between;
-   align-items: center;
+   align-items:flex-start;
    flex-wrap: wrap;
 
 }
@@ -178,7 +175,7 @@ body {
 }
 h3.menu-entree {
     margin-bottom:5px ;
-    margin-top: 20px;
+    margin-top: 35px;
     opacity:60% ;
     font-size: 1rem;
     padding-left:1rem ;
@@ -262,7 +259,7 @@ h3.menu-entree {
     width:32% ;
 }
 h3.menu-plat {
-    margin-top: 20px;
+    margin-top: 35px;
     margin-bottom:5px ;
     opacity: 60%;
     font-size:1rem ;
@@ -335,7 +332,7 @@ h3.menu-plat {
     width:32% ;
 }
 h3.menu-dessert {
-    margin-top: 20px;
+    margin-top: 35px;
     margin-bottom:5px ;
     opacity: 60%;
     font-size:1rem;
@@ -429,13 +426,13 @@ h3.menu-dessert {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space:nowrap ;
-    margin-left:6px ;
+    margin-left:10px;
 }
 h4{
     text-overflow: ellipsis;
     overflow: hidden;
     white-space:nowrap ;
-    margin-left:6px ;
+    margin-left:6px;
 } 
 
 /*logo du items*/
@@ -472,7 +469,6 @@ p.prix {
     align-items: center;
     width: 150px;
     height: 28px;
-    margin-bottom: 20px;
     background-color: #686868;
     color: #fff;
     background-image: linear-gradient(0deg, $primaire, $secondaire);
@@ -483,13 +479,16 @@ p.prix {
     &:hover {
         transition-duration: .25s;
         filter: brightness(1.75);
-        box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+        box-shadow: 5px 5px grey;
     }
 }
 .commander {
-    margin-top: 25px;
+    margin-top: 3rem;
+    margin-bottom:5rem ;
+    align-items: center;
+    justify-content: center;
     display: grid;
-    place-items: center;
+    
 }
 
 /*dans le "footer"*/
@@ -545,5 +544,10 @@ main{
     .entrees,.plats,.desserts{
         width:100%;
         
+    }
+}
+@media (max-width:500px) {
+    .fleche-retour {
+        bottom: 45px;
     }
 }
