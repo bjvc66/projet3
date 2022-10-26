@@ -358,6 +358,10 @@ li ::marker {
   position: relative;
 }
 
+li.operation-2 {
+  padding-left: 0;
+}
+
 .coeur1 {
   position: absolute;
   justify-content: center;

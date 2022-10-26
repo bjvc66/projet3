@@ -73,6 +73,7 @@ margin:0px;
     justify-content: center;
     align-items: center;
 }
+
 .image-1{                                                                              
     background-image:url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
     background-size: cover;
@@ -362,7 +363,9 @@ color: transparent;
     position: relative;
    
 }
-
+li.operation-2{
+    padding-left:0 ;
+}
 .coeur1{
     position:absolute;
     justify-content: center;
