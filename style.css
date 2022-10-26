@@ -766,7 +766,7 @@ h3.menu-entree {
   width: auto;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
-  margin-top: 25px;
+  margin-top: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
   box-shadow: 10px 5px 5px #a9af90;
@@ -784,7 +784,7 @@ h3.menu-entree {
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
   cursor: pointer;
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
   overflow: hidden;
@@ -800,7 +800,7 @@ h3.menu-entree {
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
   cursor: pointer;
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
   overflow: hidden;
@@ -815,7 +815,7 @@ h3.menu-entree {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
   cursor: pointer;
@@ -850,7 +850,7 @@ h3.menu-plat {
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
   cursor: pointer;
-  margin-top: 25px;
+  margin-top: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
   overflow: hidden;
@@ -866,7 +866,7 @@ h3.menu-plat {
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
   cursor: pointer;
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
   overflow: hidden;
@@ -882,7 +882,7 @@ h3.menu-plat {
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
   cursor: pointer;
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
   overflow: hidden;
@@ -916,7 +916,7 @@ h3.menu-dessert {
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
   cursor: pointer;
-  margin-top: 25px;
+  margin-top: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
   overflow: hidden;
@@ -932,7 +932,7 @@ h3.menu-dessert {
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
   cursor: pointer;
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
   overflow: hidden;
@@ -948,7 +948,7 @@ h3.menu-dessert {
   border-radius: 15px 15px 15px 15px;
   box-shadow: 10px 5px 5px #a9af90;
   cursor: pointer;
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
   overflow: hidden;
@@ -1066,7 +1066,7 @@ main {
 }
 
 .entrees section, .plats section, .desserts section {
-  animation: appear 3s;
+  animation: appear 2s;
   opacity: 0;
   width: 100%;
   animation-fill-mode: forwards;
@@ -1074,15 +1074,15 @@ main {
 }
 
 .entrees section {
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 .plats section {
-  animation-delay: 4s;
+  animation-delay: 3s;
 }
 
 .desserts section {
-  animation-delay: 6s;
+  animation-delay: 5s;
 }
 
 @keyframes appear {
