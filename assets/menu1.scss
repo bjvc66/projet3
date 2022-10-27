@@ -195,7 +195,9 @@ h3.menu-entree {
         .true {
             margin-right: 0px;
         }
-       
+       i{
+        animation:quarterspin 1s ease-in-out;
+       }
     }
 }
 .menu__entree-2 {
@@ -213,6 +215,9 @@ h3.menu-entree {
         .true {
             margin-right: 0px;
         }
+        i{
+            animation:quarterspin 1s ease-in-out;
+           }
     }
 }
 .menu__entree-3 {
@@ -230,6 +235,9 @@ h3.menu-entree {
         .true {
             margin-right: 0px;
         }
+        i{
+            animation:quarterspin 1s ease-in-out;
+           }
     }
 }
 .menu__entree-4 {
@@ -247,6 +255,9 @@ h3.menu-entree {
         .true {
             margin-right: 0px;
         }
+        i{
+            animation:quarterspin 1s ease-in-out;
+           }
     }
 }
 .menu-info-1 {
@@ -281,6 +292,9 @@ h3.menu-plat {
         .true {
             margin-right: 0px;
         }
+        i{
+            animation:quarterspin 1s ease-in-out;
+           }
     }
 }
 .menu__plat-2 {
@@ -298,6 +312,9 @@ h3.menu-plat {
         .true {
             margin-right: 0px;
         }
+        i{
+            animation:quarterspin 1s ease-in-out;
+           }
     }
 }
 .menu__plat-3 {
@@ -315,6 +332,9 @@ h3.menu-plat {
         .true {
             margin-right: 0px;
         }
+        i{
+            animation:quarterspin 1s ease-in-out;
+           }
     }
 }
 .menu-info-2 {
@@ -353,6 +373,9 @@ h3.menu-dessert {
         .true {
             margin-right: 0px;
         }
+        i{
+            animation:quarterspin 1s ease-in-out;
+           }
     }
 }
 .menu__dessert-2 {
@@ -370,6 +393,9 @@ h3.menu-dessert {
         .true {
             margin-right: 0px;
         }
+        i{
+            animation:quarterspin 1s ease-in-out;
+           }
     }
 }
 .menu__dessert-3 {
@@ -387,6 +413,9 @@ h3.menu-dessert {
         .true {
             margin-right: 0px;
         }
+        i{
+            animation:quarterspin 1s ease-in-out;
+           }
     }
 }
 .menu-info-3 {
@@ -394,7 +423,9 @@ h3.menu-dessert {
     align-items: center;
 }
 /*pour tous les menus*/
-.menu__composition-tarif {
+.menu__composition-tarif1,.menu__composition-tarif2,.menu__composition-tarif3,.menu__composition-tarif4,.menu__composition-tarif5,
+.menu__composition-tarif6,.menu__composition-tarif7,.menu__composition-tarif8,.menu__composition-tarif9,
+.menu__composition-tarif10{
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -415,7 +446,10 @@ h3.menu-dessert {
     
 }
 
-.menu__composition-tarif div:first-child{
+.menu__composition-tarif1 div:first-child,.menu__composition-tarif2 div:first-child,.menu__composition-tarif3 div:first-child,
+.menu__composition-tarif4 div:first-child,.menu__composition-tarif5 div:first-child,
+.menu__composition-tarif6 div:first-child,.menu__composition-tarif7 div:first-child,.menu__composition-tarif8 div:first-child,
+.menu__composition-tarif9 div:first-child,.menu__composition-tarif10 div:first-child{
     
     text-overflow: ellipsis;
     overflow: hidden;
@@ -440,7 +474,7 @@ h4{
     background-color: white;
     border-radius: 50%;
     color: $tertiaire;
-    
+   
 }
 .price {
     
@@ -529,6 +563,17 @@ main{
         opacity: 1;
     }
 }
+
+ @keyframes quarterspin{
+    0%{
+        transform: rotate(-270deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+ }   
+
+
 @media (max-width:800px) {
     section {
         width:auto;
