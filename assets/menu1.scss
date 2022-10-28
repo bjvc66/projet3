@@ -138,7 +138,8 @@ body {
    justify-content: space-between;
    align-items:flex-start;
    flex-wrap: wrap;
-
+    padding-left:5px;
+    padding-right: 5px;
 }
 /*les traits en dessous de "entree" "plat" et "dessert"*/
 .trait-1 {
@@ -544,6 +545,7 @@ main{
     animation-fill-mode: forwards;
     width: 100%;
 }
+
 .entrees section{
     animation-delay: 1s;
 }
@@ -588,8 +590,8 @@ main{
 
     }
     .entrees,.plats,.desserts{
-        width:100%;
-        
+        width:94%;
+    
     }
 }
 @media (max-width:500px) {
