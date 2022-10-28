@@ -822,7 +822,7 @@ h3.menu-entree {
   animation: quarterspin 1s ease-in-out;
 }
 
-.menu__entree-4 {
+.menu__entree-3-2 {
   height: 4rem;
   width: auto;
   background-color: white;
@@ -834,10 +834,10 @@ h3.menu-entree {
   cursor: pointer;
   overflow: hidden;
 }
-.menu__entree-4:hover .true {
+.menu__entree-3-2:hover .true {
   margin-right: 0px;
 }
-.menu__entree-4:hover i {
+.menu__entree-3-2:hover i {
   animation: quarterspin 1s ease-in-out;
 }
 
@@ -999,7 +999,7 @@ h3.menu-dessert {
 /*pour tous les menus*/
 .menu__composition-tarif1, .menu__composition-tarif2, .menu__composition-tarif3, .menu__composition-tarif4, .menu__composition-tarif5,
 .menu__composition-tarif6, .menu__composition-tarif7, .menu__composition-tarif8, .menu__composition-tarif9,
-.menu__composition-tarif10 {
+.menu__composition-tarif3-2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1022,7 +1022,7 @@ h3.menu-dessert {
 .menu__composition-tarif1 div:first-child, .menu__composition-tarif2 div:first-child, .menu__composition-tarif3 div:first-child,
 .menu__composition-tarif4 div:first-child, .menu__composition-tarif5 div:first-child,
 .menu__composition-tarif6 div:first-child, .menu__composition-tarif7 div:first-child, .menu__composition-tarif8 div:first-child,
-.menu__composition-tarif9 div:first-child, .menu__composition-tarif10 div:first-child {
+.menu__composition-tarif9 div:first-child, .menu__composition-tarif3-2 div:first-child {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
@@ -1104,26 +1104,24 @@ main {
   box-sizing: border-box;
 }
 
-.entrees section, .plats section, .desserts section {
-  animation: appear 2s;
-  opacity: 0;
-  width: 100%;
-  animation-fill-mode: forwards;
-  width: 100%;
+/*
+.entrees section,.plats section,.desserts section{
+    animation: appear 2s;
+    opacity: 0;
+    width: 100%;
+    animation-fill-mode: forwards;
+    width: 100%;
 }
-
-.entrees section {
-  animation-delay: 1s;
+.entrees section{
+    animation-delay: 1s;
 }
-
 .plats section {
-  animation-delay: 3s;
+    animation-delay: 3s;
 }
-
 .desserts section {
-  animation-delay: 5s;
+    animation-delay: 5s;
 }
-
+*/
 @keyframes appear {
   0% {
     transform: translateY(50%);
@@ -1159,6 +1157,80 @@ main {
 @media (max-width: 500px) {
   .fleche-retour {
     bottom: 45px;
+  }
+}
+.menu__entree-1, .menu__entree-2, .menu__entree-3, .menu__entree-3-2 {
+  animation: appear 1s;
+  opacity: 0;
+  width: 100%;
+  animation-fill-mode: forwards;
+  width: 100%;
+}
+
+.menu__entree-1 {
+  animation-delay: 1500ms;
+}
+
+.menu__entree-2 {
+  animation-delay: 1800ms;
+}
+
+.menu__entree-3 {
+  animation-delay: 2s;
+}
+
+.menu__entree-3-2 {
+  animation-delay: 2100ms;
+}
+
+.menu__plat-1, .menu__plat-2, .menu__plat-3 {
+  animation: appear 2200ms;
+  opacity: 0;
+  width: 100%;
+  animation-fill-mode: forwards;
+  width: 100%;
+}
+
+.menu__plat-1 {
+  animation-delay: 2400ms;
+}
+
+.menu__plat-2 {
+  animation-delay: 2900ms;
+}
+
+.menu__plat-3 {
+  animation-delay: 3300ms;
+}
+
+.menu__dessert-1, .menu__dessert-2, .menu__dessert-3 {
+  animation: appear 3200ms;
+  opacity: 0;
+  width: 100%;
+  animation-fill-mode: forwards;
+  width: 100%;
+}
+
+.menu__dessert-1 {
+  animation-delay: 3900ms;
+}
+
+.menu__dessert-2 {
+  animation-delay: 4500ms;
+}
+
+.menu__dessert-3 {
+  animation-delay: 4900ms;
+}
+
+@keyframes appear {
+  0% {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
   }
 }
 
