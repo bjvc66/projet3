@@ -1,14 +1,15 @@
 /*auteur:baron jacky open-classeroom*/
-/*fonctions communes*/
 h1 {
     margin-top: 0px;
     position: relative;
     font-family: Shrikhand;
 }
+
 h2.palette {
     font-family: Shrikhand;
     padding-top: 2rem;
 }
+
 h3 {
     position: relative;
     text-transform: uppercase;
@@ -16,10 +17,11 @@ h3 {
     font-weight: 400;
     margin-top: 0px;
 }
+
 h4 {
     margin-top: 2px;
-    margin-bottom:2px ;
-     padding: 4px;
+    margin-bottom: 2px;
+    padding: 4px;
     margin-left: 4px;
 }
 
@@ -28,16 +30,19 @@ body {
     margin: 0px;
     font-family: Roboto, sans-serif;
 }
- 
-   
- 
- 
+
+main {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 /*haut de la page */
 .ohmyfood {
     width: 160px;
     position: relative;
     font-family: Shrikhand;
 }
+
 .header-logo {
     display: flex;
     justify-content: center;
@@ -47,11 +52,12 @@ body {
     position: relative;
     padding: 2rem 1rem 1rem;
 }
+
 .fleche-retour {
     display: block;
     position: absolute;
     left: 50px;
-    bottom:45px;
+    bottom: 45px;
 }
 
 .menu-title {
@@ -65,7 +71,7 @@ body {
     margin-bottom: 0px;
 }
 
-/*les images des 4 differents menus*/
+/*les images*/
 .image-menu-1 {
     background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
     background-size: cover;
@@ -73,6 +79,7 @@ body {
     width: 100%;
     height: 300px;
 }
+
 .image-menu-2 {
     background-image: url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
     background-size: cover;
@@ -80,6 +87,7 @@ body {
     width: 100%;
     height: 300px;
 }
+
 .image-menu-3 {
     background-image: url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
     background-size: cover;
@@ -87,6 +95,7 @@ body {
     width: 100%;
     height: 300px;
 }
+
 .image-menu-4 {
     background-image: url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
     background-size: cover;
@@ -94,10 +103,12 @@ body {
     width: 100%;
     height: 300px;
 }
-/*le coeur qui change d'aspect au passage de la souris*/
+
+/*le coeur*/
 .coeurs {
     margin: 0px;
 }
+
 .coeur1 {
     position: absolute;
     justify-content: center;
@@ -105,6 +116,7 @@ body {
     padding-right: 20px;
     padding-top: 20px;
 }
+
 .coeur2 {
     z-index: 1;
     color: white;
@@ -113,35 +125,25 @@ body {
     padding-right: 20px;
     padding-top: 20px;
 }
+
 .coeur:hover {
     .coeur2 {
         color: #ff7cf8;
         transition: 2s;
-        
+
     }
 }
-.texte-restaurant-bloc-1{
-    cursor:pointer;
-}
-.texte-restaurant-bloc-2{
-    cursor:pointer;
-}
-.texte-restaurant-bloc-3{
-    cursor:pointer;
-}
-.texte-restaurant-bloc-4{
-    cursor:pointer;
-}
-/*la partie qui englobe les trois sections "entree" "plat" et "dessert"*/
+
+/*les menus*/
 .globalmenu {
-   display: flex;
-   justify-content: space-between;
-   align-items:flex-start;
-   flex-wrap: wrap;
-    padding-left:5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-left: 5px;
     padding-right: 5px;
 }
-/*les traits en dessous de "entree" "plat" et "dessert"*/
+
 .trait-1 {
     content: "";
     width: 3rem;
@@ -150,6 +152,7 @@ body {
     position: absolute;
     margin-left: 1rem;
 }
+
 .trait-2 {
     content: "";
     width: 3rem;
@@ -158,6 +161,7 @@ body {
     position: absolute;
     margin-left: 1rem;
 }
+
 .trait-3 {
     content: "";
     width: 3rem;
@@ -166,41 +170,59 @@ body {
     position: absolute;
     margin-left: 1rem;
 }
-/*les entrees du menu et leurs infos*/
-.entrees{
-    
-    width:32% ;
-    
-    
-    
+
+.texte-restaurant-bloc-1 {
+    cursor: pointer;
 }
+
+.texte-restaurant-bloc-2 {
+    cursor: pointer;
+}
+
+.texte-restaurant-bloc-3 {
+    cursor: pointer;
+}
+
+.texte-restaurant-bloc-4 {
+    cursor: pointer;
+}
+
+/*les entrees*/
+.entrees {
+    width: 32%;
+}
+
 h3.menu-entree {
-    margin-bottom:5px ;
+    margin-bottom: 5px;
     margin-top: 35px;
-    opacity:60% ;
+    opacity: 60%;
     font-size: 1rem;
-    padding-left:1rem ;
+    padding-left: 1rem;
 }
+
 .menu__entree-1 {
     height: 4rem;
     width: auto;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
-    margin-top:2rem;
+    margin-top: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
     box-shadow: 10px 5px 5px #a9af90;
     cursor: pointer;
     overflow: hidden;
+
     &:hover {
         .true {
             margin-right: 0px;
         }
-       i{
-        animation:quarterspin 1s ease-in-out;
-       }
+
+        i {
+            animation: quarterspin 1s ease-in-out;
+        }
     }
 }
+
 .menu__entree-2 {
     height: 4rem;
     width: auto;
@@ -212,17 +234,20 @@ h3.menu-entree {
     margin-left: 1rem;
     margin-right: 1rem;
     overflow: hidden;
+
     &:hover {
         .true {
             margin-right: 0px;
         }
-        i{
-            animation:quarterspin 1s ease-in-out;
-           }
+
+        i {
+            animation: quarterspin 1s ease-in-out;
+        }
     }
 }
+
 .menu__entree-3 {
-    height:4rem;
+    height: 4rem;
     width: auto;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
@@ -232,15 +257,18 @@ h3.menu-entree {
     margin-left: 1rem;
     margin-right: 1rem;
     overflow: hidden;
+
     &:hover {
         .true {
             margin-right: 0px;
         }
-        i{
-            animation:quarterspin 1s ease-in-out;
-           }
+
+        i {
+            animation: quarterspin 1s ease-in-out;
+        }
     }
 }
+
 .menu__entree-3-2 {
     height: 4rem;
     width: auto;
@@ -252,55 +280,62 @@ h3.menu-entree {
     margin-right: 1rem;
     cursor: pointer;
     overflow: hidden;
+
     &:hover {
         .true {
             margin-right: 0px;
         }
-        i{
-            animation:quarterspin 1s ease-in-out;
-           }
+
+        i {
+            animation: quarterspin 1s ease-in-out;
+        }
     }
 }
+
 .menu-info-1 {
     justify-content: center;
     align-items: center;
 }
-/*les plats du menu et leurs infos*/
-.plats{
-    
-    width:32% ;
+
+/*les plats*/
+.plats {
+    width: 32%;
 }
+
 h3.menu-plat {
     margin-top: 35px;
-    margin-bottom:5px ;
+    margin-bottom: 5px;
     opacity: 60%;
-    font-size:1rem ;
-    padding-left:1rem ;
+    font-size: 1rem;
+    padding-left: 1rem;
 }
+
 .menu__plat-1 {
-    
     height: 4rem;
-    width:auto;
+    width: auto;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
     cursor: pointer;
-    margin-top:2rem;
+    margin-top: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
     overflow: hidden;
+
     &:hover {
         .true {
             margin-right: 0px;
         }
-        i{
-            animation:quarterspin 1s ease-in-out;
-           }
+
+        i {
+            animation: quarterspin 1s ease-in-out;
+        }
     }
 }
+
 .menu__plat-2 {
     height: 4rem;
-    width:auto;
+    width: auto;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -309,18 +344,21 @@ h3.menu-plat {
     margin-left: 1rem;
     margin-right: 1rem;
     overflow: hidden;
+
     &:hover {
         .true {
             margin-right: 0px;
         }
-        i{
-            animation:quarterspin 1s ease-in-out;
-           }
+
+        i {
+            animation: quarterspin 1s ease-in-out;
+        }
     }
 }
+
 .menu__plat-3 {
     height: 4rem;
-    width:auto;
+    width: auto;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -329,36 +367,36 @@ h3.menu-plat {
     margin-left: 1rem;
     margin-right: 1rem;
     overflow: hidden;
+
     &:hover {
         .true {
             margin-right: 0px;
         }
-        i{
-            animation:quarterspin 1s ease-in-out;
-           }
+
+        i {
+            animation: quarterspin 1s ease-in-out;
+        }
     }
 }
+
 .menu-info-2 {
     justify-content: center;
     align-items: center;
 }
 
-
-
-
-
-/*les desserts du menu et leurs infos*/
-.desserts{
-    
-    width:32% ;
+/*les desserts*/
+.desserts {
+    width: 32%;
 }
+
 h3.menu-dessert {
     margin-top: 35px;
-    margin-bottom:5px ;
+    margin-bottom: 5px;
     opacity: 60%;
-    font-size:1rem;
-    padding-left:1rem ;
+    font-size: 1rem;
+    padding-left: 1rem;
 }
+
 .menu__dessert-1 {
     height: 4rem;
     width: auto;
@@ -366,22 +404,25 @@ h3.menu-dessert {
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
     cursor: pointer;
-    margin-top:2rem;
+    margin-top: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
     overflow: hidden;
+
     &:hover {
         .true {
             margin-right: 0px;
         }
-        i{
-            animation:quarterspin 1s ease-in-out;
-           }
+
+        i {
+            animation: quarterspin 1s ease-in-out;
+        }
     }
 }
+
 .menu__dessert-2 {
     height: 4rem;
-    width:auto;
+    width: auto;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -390,18 +431,21 @@ h3.menu-dessert {
     margin-left: 1rem;
     margin-right: 1rem;
     overflow: hidden;
+
     &:hover {
         .true {
             margin-right: 0px;
         }
-        i{
-            animation:quarterspin 1s ease-in-out;
-           }
+
+        i {
+            animation: quarterspin 1s ease-in-out;
+        }
     }
 }
+
 .menu__dessert-3 {
     height: 4rem;
-    width:auto;
+    width: auto;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -410,94 +454,106 @@ h3.menu-dessert {
     margin-left: 1rem;
     margin-right: 1rem;
     overflow: hidden;
+
     &:hover {
         .true {
             margin-right: 0px;
         }
-        i{
-            animation:quarterspin 1s ease-in-out;
-           }
+
+        i {
+            animation: quarterspin 1s ease-in-out;
+        }
     }
 }
+
 .menu-info-3 {
     justify-content: center;
     align-items: center;
 }
-/*pour tous les menus*/
-.menu__composition-tarif1,.menu__composition-tarif2,.menu__composition-tarif3,.menu__composition-tarif4,.menu__composition-tarif5,
-.menu__composition-tarif6,.menu__composition-tarif7,.menu__composition-tarif8,.menu__composition-tarif9,
-.menu__composition-tarif3-2{
-    display:flex;
+
+/*pour les animations menu*/
+.menu__composition-tarif1,
+.menu__composition-tarif2,
+.menu__composition-tarif3,
+.menu__composition-tarif4,
+.menu__composition-tarif5,
+.menu__composition-tarif6,
+.menu__composition-tarif7,
+.menu__composition-tarif8,
+.menu__composition-tarif9,
+.menu__composition-tarif3-2 {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    position:relative;
-    
+    position: relative;
 }
+
 .true {
     background-color: $tertiaire ;
     width: 4rem;
     height: 4rem;
-    display:flex;
+    display: flex;
     place-items: center;
     border-radius: 0 1rem 1rem 0;
-    margin-right:-4rem ;
+    margin-right: -4rem;
     transition: 1s;
     justify-content: center;
     align-items: center;
-    
 }
 
-.menu__composition-tarif1 div:first-child,.menu__composition-tarif2 div:first-child,.menu__composition-tarif3 div:first-child,
-.menu__composition-tarif4 div:first-child,.menu__composition-tarif5 div:first-child,
-.menu__composition-tarif6 div:first-child,.menu__composition-tarif7 div:first-child,.menu__composition-tarif8 div:first-child,
-.menu__composition-tarif9 div:first-child,.menu__composition-tarif3-2 div:first-child{
-    
+.menu__composition-tarif1 div:first-child,
+.menu__composition-tarif2 div:first-child,
+.menu__composition-tarif3 div:first-child,
+.menu__composition-tarif4 div:first-child,
+.menu__composition-tarif5 div:first-child,
+.menu__composition-tarif6 div:first-child,
+.menu__composition-tarif7 div:first-child,
+.menu__composition-tarif8 div:first-child,
+.menu__composition-tarif9 div:first-child,
+.menu__composition-tarif3-2 div:first-child {
     text-overflow: ellipsis;
     overflow: hidden;
-    white-space:nowrap ; 
+    white-space: nowrap;
 }
+
 .menu-text {
-    
     text-overflow: ellipsis;
     overflow: hidden;
-    white-space:nowrap ;
-    margin-left:10px;
+    white-space: nowrap;
+    margin-left: 10px;
 }
-h4{
+
+h4 {
     text-overflow: ellipsis;
     overflow: hidden;
-    white-space:nowrap ;
-    margin-left:6px;
-} 
+    white-space: nowrap;
+    margin-left: 6px;
+}
 
-/*logo du items*/
+/*items*/
 .fa-circle-check {
     background-color: white;
     border-radius: 50%;
     color: $tertiaire;
-   
 }
+
 .price {
-    
     background-color: white;
-    padding:4px;
-    display:flex;
-    align-items:flex-end;
-    
-    
-    
+    padding: 4px;
+    display: flex;
+    align-items: flex-end;
 }
+
 p.prix {
     padding: 8px;
-    
 }
+
 .prix {
-    display:flex;
+    display: flex;
     justify-content: end;
-   
-   
 }
-/*le bouton juste avant le footer*/
+
+/*le bouton*/
 .btn2 {
     display: flex;
     justify-content: center;
@@ -511,155 +567,154 @@ p.prix {
     border-radius: 100px;
     cursor: pointer;
     filter: brightness(1);
+
     &:hover {
         transition-duration: .25s;
         filter: brightness(1.75);
         box-shadow: 5px 5px grey;
     }
 }
+
 .commander {
     margin-top: 3rem;
-    margin-bottom:5rem ;
+    margin-bottom: 5rem;
     align-items: center;
     justify-content: center;
     display: grid;
-    
 }
 
-/*dans le "footer"*/
+/*le "footer"*/
 a.mail {
     color: white;
 }
-main{
-    margin:0 ;
-    box-sizing:border-box;
-}
 
-
-
-/*
-.entrees section,.plats section,.desserts section{
-    animation: appear 2s;
-    opacity: 0;
-    width: 100%;
-    animation-fill-mode: forwards;
-    width: 100%;
-}
-
-.entrees section{
-    animation-delay: 1s;
-}
-.plats section {
-    animation-delay: 3s;
-}
-.desserts section {
-    animation-delay: 5s;
-}
-*/
 @keyframes appear {
     0% {
         transform: translateY(50%);
         opacity: 0;
     }
+
     100% {
         transform: translateY(0);
         opacity: 1;
     }
 }
 
- @keyframes quarterspin{
-    0%{
+@keyframes quarterspin {
+    0% {
         transform: rotate(-270deg);
     }
-    100%{
+
+    100% {
         transform: rotate(0);
     }
- }   
-
-
-@media (max-width:800px) {
-    section {
-        width:auto;
-
-    }
-    .globalmenu{
-        flex-direction: column;
-    }
-    html{
-        width:100%;
-
-    }
-    .entrees,.plats,.desserts{
-        width:94%;
-    
-    }
 }
-@media (max-width:500px) {
-    .fleche-retour {
-        bottom: 45px;
-    }
-}
-.menu__entree-1,.menu__entree-2,.menu__entree-3,.menu__entree-3-2{
+
+.menu__entree-1,
+.menu__entree-2,
+.menu__entree-3,
+.menu__entree-3-2 {
     animation: appear 1s;
     opacity: 0;
     width: 100%;
     animation-fill-mode: forwards;
     width: 100%;
 }
-.menu__entree-1{
+
+.menu__entree-1 {
     animation-delay: 1500ms;
 }
-.menu__entree-2{
+
+.menu__entree-2 {
     animation-delay: 1800ms;
 }
-.menu__entree-3{
+
+.menu__entree-3 {
     animation-delay: 2s;
 }
-.menu__entree-3-2{
+
+.menu__entree-3-2 {
     animation-delay: 2100ms;
 }
-.menu__plat-1,.menu__plat-2,.menu__plat-3{
+
+.menu__plat-1,
+.menu__plat-2,
+.menu__plat-3 {
     animation: appear 2200ms;
     opacity: 0;
     width: 100%;
     animation-fill-mode: forwards;
     width: 100%;
 }
-.menu__plat-1{
+
+.menu__plat-1 {
     animation-delay: 2400ms;
 }
-.menu__plat-2{
+
+.menu__plat-2 {
     animation-delay: 2900ms;
 }
-.menu__plat-3{
+
+.menu__plat-3 {
     animation-delay: 3300ms;
 }
 
-.menu__dessert-1,.menu__dessert-2,.menu__dessert-3{
+.menu__dessert-1,
+.menu__dessert-2,
+.menu__dessert-3 {
     animation: appear 3200ms;
     opacity: 0;
     width: 100%;
     animation-fill-mode: forwards;
     width: 100%;
 }
-.menu__dessert-1{
+
+.menu__dessert-1 {
     animation-delay: 3900ms;
 }
-.menu__dessert-2{
+
+.menu__dessert-2 {
     animation-delay: 4500ms;
 }
-.menu__dessert-3{
+
+.menu__dessert-3 {
     animation-delay: 4900ms;
 }
-
 
 @keyframes appear {
     0% {
         transform: translateY(50%);
         opacity: 0;
     }
+
     100% {
         transform: translateY(0);
         opacity: 1;
+    }
+}
+
+@media (max-width:800px) {
+    section {
+        width: auto;
+    }
+
+    .globalmenu {
+        flex-direction: column;
+    }
+
+    html {
+        width: 100%;
+    }
+
+    .entrees,
+    .plats,
+    .desserts {
+        width: 94%;
+    }
+}
+
+@media (max-width:500px) {
+    .fleche-retour {
+        bottom: 45px;
     }
 }

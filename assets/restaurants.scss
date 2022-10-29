@@ -4,439 +4,489 @@ page d'acceuil restaurant "ohmyfood"
 cartes restaurant avec liens vers les menus
 avec des animations et affichable sur i phone 6 7 8
 */
-body{
+body {
 
-    font-family: 'Roboto' , sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 }
-.localisation-1{
+
+.localisation-1 {
     background-color: #686868;
 }
-i.fa-solid.fa-store{
-    color:$primaire;
-}
-i.fa.fa-mobile{
-    opacity:50%;
-}
-i.fa.fa-list-ul{
-    opacity:50%;
-}
-i.fa-solid.fa-location-dot{
-    opacity:80%; 
-}
-.btn {
-  padding: 1.5rem;
-  background: #15DEA5;
-  cursor: pointer;
-  border-radius: 100rem;
-  font-size: 1.5rem;
-  color: #fff;
+
+i.fa-solid.fa-store {
+    color: $primaire;
 }
 
- .footer-title{
+i.fa.fa-mobile {
+    opacity: 50%;
+}
+
+i.fa.fa-list-ul {
+    opacity: 50%;
+}
+
+i.fa-solid.fa-location-dot {
+    opacity: 80%;
+}
+
+.btn {
+    padding: 1.5rem;
+    background: #15DEA5;
+    cursor: pointer;
+    border-radius: 100rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.footer-title {
     padding-top: 40px;
     padding-left: 20px;
-    padding-bottom:20px;
-    font-family:shrikhand ;
+    padding-bottom: 20px;
+    font-family: shrikhand;
     font-size: large;
-    
- }
-.html{
-    width:100%;
-    margin:0px ;
+
 }
-a{
+
+.html {
+    width: 100%;
+    margin: 0px;
+}
+
+a {
     text-decoration: none;
 }
-a.mail{
-    color:white;
- }   
-h1.acceuil{
-   
+
+a.mail {
+    color: white;
+}
+
+h1.acceuil {
+
     background-color: #FFF;
-display: flex;
-justify-content: center;
-align-items: center;
-padding:1rem;
-padding-bottom:0 px;
-margin:0px;
-
-}
-
-.troisieme{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
+    padding-bottom: 0 px;
+    margin: 0px;
+
 }
-.quatrieme{
+
+.troisieme {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.image-1{                                                                              
-    background-image:url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
-    background-size: cover;
-    background-position:center;
-    height:192px;
-    width: 100%;
-    border-radius:15px 15px 0 0 ;
-    position:relative;
-    cursor:pointer ;
-    
+.quatrieme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.image-2{                                                                              
-    background-image:url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+
+.image-1 {
+    background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
     background-size: cover;
-    background-position:center;
-    height:192px;
+    background-position: center;
+    height: 192px;
     width: 100%;
-    border-radius:15px 15px 0 0 ;
-    position:relative;
-    cursor:pointer ;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+    cursor: pointer;
+
 }
-    .image-3{                                                                            
-        background-image:url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
-        background-size: cover;
-        background-position:center;
-        height:192px;
-        width:100%;
-        border-radius:15px 15px 0 0 ;
-        cursor:pointer ;
-       
+
+.image-2 {
+    background-image: url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 192px;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.image-3 {
+    background-image: url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 192px;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+
+}
+
+.image-4 {
+    background-image: url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 192px;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+
+
+.texte-restaurant-bloc-1 {
+    .text-position {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
-    .image-4{                                                                            
-        background-image:url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
-        background-size: cover;
-        background-position:center;
-        height:192px;
-        width: 100%;
-        border-radius:15px 15px 0 0 ;
-        cursor:pointer ;
-    }
-   
-    
-    .texte-restaurant-bloc-1{
-        .text-position{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        align-items:center;
-        border-radius: 0 0 10px 10px;
-        height:70px ;
-        width: 100%;
-        background-color: #fff;
-       
-    }
-    .texte-restaurant-bloc-2{
-        .text-position{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        align-items:center;
-        border-radius: 0 0 10px 10px;
-        height:70px ;
-        width: 100%;
-        background-color:#fff;
-       
-    }
-    .texte-restaurant-bloc-3{
-        .text-position{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        align-items:center;
-        border-radius: 0 0 10px 10px;
-        height:70px ;
-        width:100%;
-        background-color:#fff ;
-       
-    }
-    .texte-restaurant-bloc-4{
-        .text-position{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        align-items:center;
-        border-radius: 0 0 10px 10px;
-        height:70px ;
-        width: 100%;
-        background-color:#fff;
-        @media (max-width:800px) {
-            margin-bottom:50px;
-        }
-    }
-   .ohmyfood-1{
-    padding-left:5px ;
-    padding-top:5px ;
-   
-   } 
-   .ohmyfood-1{
-    
-   padding:15px ;
-   width:160px ;
-   
-   }
-   
-   .logo-ohmyfood-1{
+
+    align-items:center;
+    border-radius: 0 0 10px 10px;
+    height:70px;
+    width: 100%;
     background-color: #fff;
-    text-align:center ;
-    padding:2rem 1rem 1rem; 
-    position:relative;
-   } 
-   .ohmyfood-2{
-    width:25% ;
-    color:white ;
-    font-family: Shrikhand;
-    
+
 }
-.localisation-1{
+
+.texte-restaurant-bloc-2 {
+    .text-position {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    align-items:center;
+    border-radius: 0 0 10px 10px;
+    height:70px;
+    width: 100%;
+    background-color:#fff;
+
+}
+
+.texte-restaurant-bloc-3 {
+    .text-position {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    align-items:center;
+    border-radius: 0 0 10px 10px;
+    height:70px;
+    width:100%;
+    background-color:#fff;
+
+}
+
+.texte-restaurant-bloc-4 {
+    .text-position {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    align-items:center;
+    border-radius: 0 0 10px 10px;
+    height:70px;
+    width: 100%;
+    background-color:#fff;
+
+    @media (max-width:800px) {
+        margin-bottom: 50px;
+    }
+}
+
+.ohmyfood-1 {
+    padding-left: 5px;
+    padding-top: 5px;
+
+}
+
+.ohmyfood-1 {
+
+    padding: 15px;
+    width: 160px;
+
+}
+
+.logo-ohmyfood-1 {
+    background-color: #fff;
+    text-align: center;
+    padding: 2rem 1rem 1rem;
+    position: relative;
+}
+
+.ohmyfood-2 {
+    width: 25%;
+    color: white;
+    font-family: Shrikhand;
+
+}
+
+.localisation-1 {
     display: flex;
     justify-content: center;
-    align-items: center ;
-    gap: 10px; 
-    background-color:#eaeaea;
+    align-items: center;
+    gap: 10px;
+    background-color: #eaeaea;
     text-align: center;
-    padding:1rem ;
-    
+    padding: 1rem;
+
     margin-bottom: 1rem;
 }
-.localisation-2{
+
+.localisation-2 {
     display: flex;
     justify-content: center;
-    align-items: center ;
-    gap: 10px; 
+    align-items: center;
+    gap: 10px;
     background-color: #F3F3F3;
     text-align: center;
-   
-    
+
+
 }
-.secteur{
-    opacity:80% ;
+
+.secteur {
+    opacity: 80%;
     margin-left: 0;
-    padding-left:0 ;
-}    
-   
+    padding-left: 0;
+}
 
- p.sous-titre-acceuil{
-    
-    margin-bottom:2rem ;
+
+p.sous-titre-acceuil {
+
+    margin-bottom: 2rem;
     text-align: center;
-    opacity:calc(50%);
+    opacity: calc(50%);
     font-size: large;
- }
- .card{
-    padding:1rem;
-    
- } 
- .cards{
-    display:grid;
-    grid-template-rows:1fr 1fr;
-grid-template-columns: 1fr 1fr;
-    
 }
 
-
-   .acceuil-3{
+.card {
     padding: 1rem;
-   }
-  
-   .search {
-    height:50px ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   width:auto;
-   
-   background-color: #686868;
-   color: #fff;
-   background-image: linear-gradient(0deg,$primaire,$secondaire);
-   padding: 0px 24px;
-   border-radius:100px;
-   cursor:pointer;
-   filter:brightness(1);
-   &:hover{
-    transition-duration: .25s;
-    filter:brightness(1.75);
-    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
-   }
-   
-   
-}
-.button{
-    display: flex;
-    justify-content: center;
-    padding-bottom:6rem ;
-   }
 
-   p{
-    
+}
+
+.cards {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+.acceuil-3 {
+    padding: 1rem;
+}
+
+.search {
+    height: 50px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin:0px;
-   }
-   .operations{
+    width: auto;
+
+    background-color: #686868;
+    color: #fff;
+    background-image: linear-gradient(0deg, $primaire, $secondaire);
+    padding: 0px 24px;
+    border-radius: 100px;
+    cursor: pointer;
+    filter: brightness(1);
+
+    &:hover {
+        transition-duration: .25s;
+        filter: brightness(1.75);
+        box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+    }
+
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 6rem;
+}
+
+p {
+
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.operations {
     & ol {
         display: flex;
-         @media (max-width:800px) {
-           flex-direction: column; 
+
+        @media (max-width:800px) {
+            flex-direction: column;
         }
-         padding:1rem 1rem ;
+
+        padding:1rem 1rem;
         gap:2rem;
     }
+
     & li {
-        border-radius:1rem ;
-        background-color:#F2F2F2;
-        padding:1rem 1rem;
+        border-radius: 1rem;
+        background-color: #F2F2F2;
+        padding: 1rem 1rem;
         flex-grow: 1;
-        height:30px ;
+        height: 30px;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        box-shadow:0px 5px 5px 5px #D5D9E0 ;
-        
+        box-shadow: 0px 5px 5px 5px #D5D9E0;
+
     }
-   }
-   
-   main{
-    
-    background-color:#F3F3F3 ;
-   } 
-   
-  
-   
-  
-  footer{
-    background-color:$foot;
-    color:white;
-    height:225px;
-   
-  }
- 
-  h2.acceuil{
-    text-align: center;
-    margin-top:2rem ;
-    
-  }
- 
- .footer-1{
-padding-left:20px ;
-padding-bottom:10px ;
- }
- .footer-2{
-    padding-left:20px;
-    padding-bottom:10px ;
-    
- }
-.footer-3{
-    padding-left:20px;
-    padding-bottom:10px ;
 }
-.footer-4{
-    padding-left:20px;
-    
+
+main {
+
+    background-color: #F3F3F3;
+}
+
+
+
+
+footer {
+    background-color: $foot;
+    color: white;
+    height: 225px;
+
+}
+
+h2.acceuil {
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+.footer-1 {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.footer-2 {
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+
+.footer-3 {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.footer-4 {
+    padding-left: 20px;
+
     cursor: pointer;
 }
-i fas{
-    margin-right:1rem;
-    
+
+i fas {
+    margin-right: 1rem;
+
 }
-li ::marker{
-color: transparent;
+
+li ::marker {
+    color: transparent;
 }
-.operation-1{
+
+.operation-1 {
     position: relative;
 
 }
-.operation-2{
-    position:relative;
 
-   
-}
-.operation-3{
+.operation-2 {
     position: relative;
-   
-}
-li.operation-2{
-    padding-left:0 ;
-}
-.coeur1{
-    position:absolute;
-    justify-content: center;
-    align-items: center;
-    padding-right:15px ;
-    padding-top:20px;
-    
-}
-.coeur2{
-    z-index:1;
-    color:white;
-    justify-content: center;
-    align-items: center;
-    padding-right:15px ;
-    padding-top:20px;
-   
-}
-.coeur:hover{
-    .coeur2{
-        color:#ff7cf8;
-        
-    }
-    .coeur1{
-        color:transparent;
-    }
-}
 
 
+}
 
-.chiffre{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:white;
-    background-color:$primaire;
-    position:absolute ;
-    left:-15px;
-    top:calc(50% - 10px);
-    width:25px;
-    height:25px;
-    border-radius:50% ;
+.operation-3 {
+    position: relative;
+
 }
-.chiffre2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:white;
-    background-color:$primaire;
-    position:absolute;
-    left:-15px;
-    top:calc(50% - 10px);
-    width:25px;
-    height:25px;
-    border-radius:50% ;
+
+li.operation-2 {
+    padding-left: 0;
 }
-.chiffre3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:white;
-    background-color:$primaire;
+
+.coeur1 {
     position: absolute;
-    left:-15px;
-    top:calc(50% - 10px);
-    width:25px;
-    height:25px;
-    border-radius:50% ;
-    
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+    padding-top: 20px;
+
 }
-.menu{
-    background-color:#F2F2F2 ;
+
+.coeur2 {
+    z-index: 1;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+    padding-top: 20px;
+
+}
+
+.coeur:hover {
+    .coeur2 {
+        color: #ff7cf8;
+
+    }
+
+    .coeur1 {
+        color: transparent;
+    }
+}
+
+
+
+.chiffre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: $primaire;
+    position: absolute;
+    left: -15px;
+    top: calc(50% - 10px);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.chiffre2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: $primaire;
+    position: absolute;
+    left: -15px;
+    top: calc(50% - 10px);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.chiffre3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: $primaire;
+    position: absolute;
+    left: -15px;
+    top: calc(50% - 10px);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+}
+
+.menu {
+    background-color: #F2F2F2;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -447,133 +497,148 @@ li.operation-2{
 
 
 
-.log{
+.log {
     padding-left: 15px;
     padding-top: 15px;
 }
-.cube-1{
-  
-   display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-@media(max-width:850px) {
-  flex-direction: column;
-  
 
- }
- @media (max-width:800px) {
-    margin-bottom:0px ;
-}
- 
- margin-bottom:80px ;
- padding-right:20px ;
- padding-left: 20px;
-}
-.cube-2{
+.cube-1 {
+
     display: flex;
     justify-content: space-around;
-    align-items: center;  
+    align-items: center;
+
     @media(max-width:850px) {
-        flex-direction: column;  
-      }   
-      margin-bottom:10px ; 
-      padding-right:20px ;
-      padding-left: 20px;
+        flex-direction: column;
+
+
+    }
+
+    @media (max-width:800px) {
+        margin-bottom: 0px;
+    }
+
+    margin-bottom:80px;
+    padding-right:20px;
+    padding-left: 20px;
+}
+
+.cube-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    @media(max-width:850px) {
+        flex-direction: column;
+    }
+
+    margin-bottom:10px;
+    padding-right:20px;
+    padding-left: 20px;
 }
 
 .fa-list-ul:before {
-    padding:10px ;
+    padding: 10px;
 }
-.mot1{
-    
-    padding-left:15px ;
-    padding-top: 15px; 
-    color:black ;
-    cursor: pointer;
-}
-.mot2{
-    padding-left:15px ;
-    padding-top: 15px; 
-    color:black ;
-    cursor: pointer;
-}
-.mot3{
-    padding-left:15px ;
+
+.mot1 {
+
+    padding-left: 15px;
     padding-top: 15px;
-    color:black ;
-    cursor: pointer;
-}
-.mot4{
-    padding-left:15px ;
-    padding-top: 15px;
-    color:black;
+    color: black;
     cursor: pointer;
 }
 
-li::marker{
-color:transparent;
+.mot2 {
+    padding-left: 15px;
+    padding-top: 15px;
+    color: black;
+    cursor: pointer;
 }
-.subtitle{
-text-transform:none;
-padding-bottom: 0;
-padding:1rem;
-font-weight: bold;
+
+.mot3 {
+    padding-left: 15px;
+    padding-top: 15px;
+    color: black;
+    cursor: pointer;
+}
+
+.mot4 {
+    padding-left: 15px;
+    padding-top: 15px;
+    color: black;
+    cursor: pointer;
+}
+
+li::marker {
+    color: transparent;
+}
+
+.subtitle {
+    text-transform: none;
+    padding-bottom: 0;
+    padding: 1rem;
+    font-weight: bold;
 
 }
-h3.subtitle{
+
+h3.subtitle {
     font-size: x-large;
 }
-span.new{
-    background-color :$tertiaire;
-    color:$blues;
-    position:absolute;
-   border-radius:0,125rem;
-   top:1rem;
-   right:2rem ;
-   padding:7px;
-   border-radius:0,125rem ;
+
+span.new {
+    background-color: $tertiaire;
+    color: $blues;
+    position: absolute;
+    border-radius: 0, 125rem;
+    top: 1rem;
+    right: 2rem;
+    padding: 7px;
+    border-radius: 0, 125rem;
 }
 
 
 
-.move{
-    position:fixed;
-    display:grid;
-    place-items:center;
-    background-color:#FFF;
-    height:100vh;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    inset:0rem;
-    z-index:1;
-    opacity:0,9;
+.move {
+    position: fixed;
+    display: grid;
+    place-items: center;
+    background-color: #FFF;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    inset: 0rem;
+    z-index: 1;
+    opacity: 0, 9;
 }
 
-@keyframes dissapears{
+@keyframes dissapears {
     0% {
-        transform:scale(1);
+        transform: scale(1);
     }
-    100%{
-        transform:scale(0);
+
+    100% {
+        transform: scale(0);
     }
 }
 
-.move{
-    animation:dissapears 200ms;
-    animation-fill-mode:forwards;
-    transform-origin:top ;
-    animation-delay:5s;
+.move {
+    animation: dissapears 200ms;
+    animation-fill-mode: forwards;
+    transform-origin: top;
+    animation-delay: 5s;
 }
-.fa-3x{
-    color:$primaire;
-    
+
+.fa-3x {
+    color: $primaire;
+
 }
+
 @media screen and (max-width:768px) {
- .cards{
-    display: flex;
-    flex-direction: column;
- }   
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
 }
