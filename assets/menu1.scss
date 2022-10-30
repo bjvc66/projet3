@@ -138,10 +138,10 @@ main {
 .globalmenu {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items:flex-start;
     flex-wrap: wrap;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left:5px ;
+    padding-right: 25px;
 }
 
 .trait-1 {
@@ -188,8 +188,8 @@ main {
 }
 
 /*les entrees*/
-.entrees {
-    width: 32%;
+.entrees{
+    width:30% ;
 }
 
 h3.menu-entree {
@@ -298,8 +298,8 @@ h3.menu-entree {
 }
 
 /*les plats*/
-.plats {
-    width: 32%;
+.plats{
+    width:30% ;
 }
 
 h3.menu-plat {
@@ -386,7 +386,7 @@ h3.menu-plat {
 
 /*les desserts*/
 .desserts {
-    width: 32%;
+    width: 30%;
 }
 
 h3.menu-dessert {
@@ -486,6 +486,7 @@ h3.menu-dessert {
     justify-content: space-between;
     align-items: center;
     position: relative;
+    
 }
 
 .true {
