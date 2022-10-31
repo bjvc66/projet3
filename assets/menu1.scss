@@ -142,6 +142,10 @@ main {
     flex-wrap: wrap;
     padding-left:5px ;
     padding-right: 25px;
+    flex-direction: column;
+}
+.entrees,.plats,.desserts{
+ width:100%;   
 }
 
 .trait-1 {
@@ -188,9 +192,6 @@ main {
 }
 
 /*les entrees*/
-.entrees{
-    width:30% ;
-}
 
 h3.menu-entree {
     margin-bottom: 5px;
@@ -298,9 +299,7 @@ h3.menu-entree {
 }
 
 /*les plats*/
-.plats{
-    width:30% ;
-}
+
 
 h3.menu-plat {
     margin-top: 35px;
@@ -385,9 +384,7 @@ h3.menu-plat {
 }
 
 /*les desserts*/
-.desserts {
-    width: 30%;
-}
+
 
 h3.menu-dessert {
     margin-top: 35px;
@@ -399,7 +396,7 @@ h3.menu-dessert {
 
 .menu__dessert-1 {
     height: 4rem;
-    width: auto;
+    width: 100%;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -422,7 +419,7 @@ h3.menu-dessert {
 
 .menu__dessert-2 {
     height: 4rem;
-    width: auto;
+    width: 100%;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -445,7 +442,7 @@ h3.menu-dessert {
 
 .menu__dessert-3 {
     height: 4rem;
-    width: auto;
+    width: 100%;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 10px 5px 5px #a9af90;
@@ -693,29 +690,11 @@ a.mail {
         opacity: 1;
     }
 }
-
-@media (max-width:800px) {
-    section {
-        width: auto;
+@media screen and (min-width:800px) {
+    .globalmenu{
+        flex-direction: row;
     }
-
-    .globalmenu {
-        flex-direction: column;
-    }
-
-    html {
-        width: 100%;
-    }
-
-    .entrees,
-    .plats,
-    .desserts {
-        width: 94%;
-    }
-}
-
-@media (max-width:500px) {
-    .fleche-retour {
-        bottom: 45px;
+    .entrees,.plats,.desserts{
+        width:30%;
     }
 }
