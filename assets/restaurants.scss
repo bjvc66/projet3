@@ -133,7 +133,6 @@ h1.acceuil {
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    padding-bottom: 0 px;
     margin: 0px;
 
 }
@@ -264,11 +263,6 @@ li.operation-2 {
 .operations {
     & ol {
         display: flex;
-
-        @media (max-width:800px) {
-            flex-direction: column;
-        }
-
         padding:1rem 1rem;
         gap:2rem;
     }
@@ -293,12 +287,7 @@ li.operation-2 {
 
 }
 
-.cards {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
 
-}
 
 .coeur1 {
     position: absolute;
@@ -358,11 +347,11 @@ span.new {
     background-color: $tertiaire;
     color: $blues;
     position: absolute;
-    border-radius: 0, 125rem;
+    border-radius:2px;
     top: 1rem;
     right: 2rem;
     padding: 7px;
-    border-radius: 0, 125rem;
+    border-radius:2px;
 }
 
 .image-3 {
@@ -444,9 +433,6 @@ span.new {
     width: 100%;
     background-color:#fff;
 
-    @media (max-width:800px) {
-        margin-bottom: 50px;
-    }
 }
 
 .secteur {
@@ -483,18 +469,6 @@ span.new {
     color: black;
     cursor: pointer;
 }
-
-
-/*la section du haut de page*/
-
-/*
-.menu {
-    background-color: #F2F2F2;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-*/
 
 /*footer*/
 .footer-title {
@@ -539,9 +513,45 @@ a.mail {
     cursor: pointer;
 }
 
-@media screen and (max-width:768px) {
+
     .cards {
         display: flex;
         flex-direction: column;
     }
-}
+
+
+.operations {
+    & ol {
+        
+            flex-direction: column;
+        }
+
+    }   
+   @media screen and (min-width:768px) {
+    .operations{
+       & ol {     
+        flex-direction: row;
+       }
+    }
+        }
+        @media screen and (min-width:768px) {
+            .globalmenu{
+                flex-direction: row;
+            }
+            .entrees,.plats,.desserts{
+                width:30%;
+            }
+        }
+        @media  screen and (min-width:768px) {
+            .cards{
+                
+                    display: grid;
+                    grid-template-rows: 1fr 1fr;
+                    grid-template-columns: 1fr 1fr;
+                
+                }   
+            }
+       
+    
+    
+
