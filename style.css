@@ -509,7 +509,7 @@ h1 {
 h3 {
   position: relative;
   text-transform: uppercase;
-  padding-bottom: 0, 25rem;
+  padding-bottom: 2px;
   font-weight: 400;
   margin-top: 0px;
 }
@@ -715,7 +715,7 @@ h3.menu-entree {
 }
 
 .menu__entree-2 {
-  height: 4rem;
+  height: 5rem;
   width: auto;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
@@ -734,7 +734,7 @@ h3.menu-entree {
 }
 
 .menu__entree-3 {
-  height: 4rem;
+  height: 5rem;
   width: auto;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
@@ -753,7 +753,7 @@ h3.menu-entree {
 }
 
 .menu__entree-3-2 {
-  height: 4rem;
+  height: 5rem;
   width: auto;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
@@ -786,7 +786,7 @@ h3.menu-plat {
 }
 
 .menu__plat-1 {
-  height: 4rem;
+  height: 5rem;
   width: auto;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
@@ -805,7 +805,7 @@ h3.menu-plat {
 }
 
 .menu__plat-2 {
-  height: 4rem;
+  height: 5rem;
   width: auto;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
@@ -824,7 +824,7 @@ h3.menu-plat {
 }
 
 .menu__plat-3 {
-  height: 4rem;
+  height: 5rem;
   width: auto;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
@@ -857,7 +857,7 @@ h3.menu-dessert {
 }
 
 .menu__dessert-1 {
-  height: 4rem;
+  height: 5rem;
   width: 100%;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
@@ -876,7 +876,7 @@ h3.menu-dessert {
 }
 
 .menu__dessert-2 {
-  height: 4rem;
+  height: 5rem;
   width: 100%;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
@@ -895,7 +895,7 @@ h3.menu-dessert {
 }
 
 .menu__dessert-3 {
-  height: 4rem;
+  height: 5rem;
   width: 100%;
   background-color: white;
   border-radius: 15px 15px 15px 15px;
@@ -911,6 +911,10 @@ h3.menu-dessert {
 }
 .menu__dessert-3:hover i {
   animation: quarterspin 1s ease-in-out;
+}
+
+.titre-texte {
+  padding-bottom: 20px;
 }
 
 .menu-info-3 {
@@ -938,7 +942,7 @@ h3.menu-dessert {
 .true {
   background-color: #99E2D0;
   width: 4rem;
-  height: 4rem;
+  height: 5rem;
   display: flex;
   place-items: center;
   border-radius: 0 1rem 1rem 0;
@@ -986,7 +990,7 @@ h4 {
 
 .price {
   background-color: white;
-  padding: 4px;
+  padding: 5px;
   display: flex;
   align-items: flex-end;
 }
@@ -998,6 +1002,7 @@ p.prix {
 .prix {
   display: flex;
   justify-content: end;
+  padding-bottom: 40px;
 }
 
 /*le bouton*/
