@@ -8,7 +8,7 @@ h1 {
 
 .palette {
     font-family: Shrikhand;
-    padding-top: 3rem;
+    padding-top:5px ;
     
 }
 
@@ -468,7 +468,7 @@ h3.menu-dessert {
     }
 }
 .titre-texte{
-    padding-bottom:20px ;
+    padding-bottom:30px ;
 }
 
 .menu-info-3 {
@@ -546,7 +546,7 @@ h4 {
 
 .price {
     background-color: white;
-    padding: 5px;
+    padding: 10px;
     display: flex;
     align-items: flex-end;
 }
@@ -566,8 +566,8 @@ p.prix {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    height: 28px;
+    width: 180px;
+    height: 35px;
     background-color: #686868;
     color: #fff;
     background-image: linear-gradient(0deg, $primaire, $secondaire);
