@@ -280,7 +280,7 @@ li.operation-2 {
   background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
   background-size: cover;
   background-position: bottom;
-  height: 220px;
+  height: 180px;
   width: 100%;
   border-radius: 15px 15px 0 0;
   position: relative;
@@ -290,8 +290,8 @@ li.operation-2 {
 .image-2 {
   background-image: url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
   background-size: cover;
-  background-position-y: -200px;
-  height: 220px;
+  background-position-y: -150px;
+  height: 180px;
   width: 100%;
   border-radius: 15px 15px 0 0;
   position: relative;
@@ -302,29 +302,27 @@ span.new {
   background-color: #99E2D0;
   color: #3e9cbf;
   position: absolute;
-  border-radius: 2px;
-  top: 17px;
-  right: 20px;
+  border-radius: 3px;
+  top: 15px;
+  right: 15px;
   padding: 7px;
   border-radius: 2px;
-  width: 90px;
-  height: 22px;
+  width: 70px;
+  height: 20px;
 }
 
 .neu {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80px;
-  font-size: large;
-  font-weight: bold;
+  width: 60px;
 }
 
 .image-3 {
   background-image: url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
   background-size: cover;
   background-position: bottom;
-  height: 230px;
+  height: 180px;
   width: 100%;
   border-radius: 15px 15px 0 0;
   cursor: pointer;
@@ -334,7 +332,7 @@ span.new {
   background-image: url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
   background-size: cover;
   background-position: bottom;
-  height: 230px;
+  height: 180px;
   width: 100%;
   border-radius: 15px 15px 0 0;
   cursor: pointer;
