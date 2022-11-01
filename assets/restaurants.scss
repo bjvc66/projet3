@@ -52,6 +52,7 @@ body {
 
     font-family: 'Roboto', sans-serif;
 
+
 }
 
 main {
@@ -134,13 +135,14 @@ h1.acceuil {
     align-items: center;
     padding: 1rem;
     margin: 0px;
+    
 
 }
 
 h2.acceuil {
     text-align: center;
     margin-top: 2rem;
-
+font-weight: 100;
 }
 
 p.sous-titre-acceuil {
@@ -156,12 +158,13 @@ p.sous-titre-acceuil {
     text-transform: none;
     padding-bottom: 0;
     padding: 1rem;
-    font-weight: bold;
+    font-weight:bold;
 
 }
 
 h3.subtitle {
     font-size: x-large;
+    
 }
 
 .search {
@@ -322,9 +325,10 @@ li.operation-2 {
 
 .image-1 {
     background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 192px;
+    background-size:cover;
+    
+    background-position:bottom;
+    height:220px;
     width: 100%;
     border-radius: 15px 15px 0 0;
     position: relative;
@@ -335,8 +339,8 @@ li.operation-2 {
 .image-2 {
     background-image: url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
     background-size: cover;
-    background-position: center;
-    height: 192px;
+    background-position-y:-200px ;
+    height: 220px;
     width: 100%;
     border-radius: 15px 15px 0 0;
     position: relative;
@@ -348,17 +352,26 @@ span.new {
     color: $blues;
     position: absolute;
     border-radius:2px;
-    top: 1rem;
-    right: 2rem;
+    top:17px;
+    right: 20px;
     padding: 7px;
     border-radius:2px;
+    width:90px ;
+    height:22px;
 }
-
+.neu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:80px;
+    font-size: large;
+    font-weight:bold ;
+}
 .image-3 {
     background-image: url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
     background-size: cover;
-    background-position: center;
-    height: 192px;
+    background-position:bottom;
+    height: 225px;
     width: 100%;
     border-radius: 15px 15px 0 0;
     cursor: pointer;
@@ -368,8 +381,8 @@ span.new {
 .image-4 {
     background-image: url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
     background-size: cover;
-    background-position: center;
-    height: 192px;
+    background-position:bottom;
+    height: 225px;
     width: 100%;
     border-radius: 15px 15px 0 0;
     cursor: pointer;
